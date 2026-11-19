@@ -3,8 +3,10 @@
 const app = {
   db: null,
   progress: {
-    setStats: {},       // { [setId]: { attempts: 0, bestScore10: 0, lastScore10: 0, lastCorrect: 0, total: 40 } }
-    wrongQuestionIds: [] // array of question IDs user got wrong
+    setStats: {},         // { [setId]: { attempts: 0, bestScore10: 0, lastScore10: 0, lastCorrect: 0, total: 40 } }
+    wrongQuestionIds: [], // array of question IDs user got wrong
+    inProgressSessions: {}, // { [setId]: { questionIds, currentIndex, userAnswers, updatedAt } }
+    lastActiveSetId: null
   },
 
   // Active Quiz Session
@@ -20,7 +22,6 @@ const app = {
     await this.loadProgress();
     this.setupKeyboardShortcuts();
     this.populateBankSetFilter();
-    this.renderDashboard();
 
     document.getElementById('btn-home-logo').addEventListener('click', () => {
       this.showDashboard();
@@ -33,6 +34,13 @@ const app = {
       this.shuffleOptions = e.target.checked;
       localStorage.setItem('tn_shuffle_options', String(this.shuffleOptions));
     });
+
+    // If user was right in the middle of a quiz when they refreshed or accidentally closed the tab, restore it immediately!
+    if (this.progress.lastActiveSetId && this.progress.inProgressSessions[this.progress.lastActiveSetId]) {
+      this.resumeSavedSession(this.progress.lastActiveSetId);
+    } else {
+      this.renderDashboard();
+    }
   },
 
   async loadDatabase() {
@@ -54,13 +62,14 @@ const app = {
       const local = localStorage.getItem('tn_user_progress');
       if (local) {
         this.progress = JSON.parse(local);
-      }
-      const res = await fetch('/api/progress');
-      if (res.ok) {
-        const serverProg = await res.json();
-        if (serverProg && serverProg.setStats && Object.keys(serverProg.setStats).length > 0) {
-          this.progress = serverProg;
-          localStorage.setItem('tn_user_progress', JSON.stringify(this.progress));
+      } else {
+        const res = await fetch('/api/progress');
+        if (res.ok) {
+          const serverProg = await res.json();
+          if (serverProg && serverProg.setStats && Object.keys(serverProg.setStats).length > 0) {
+            this.progress = serverProg;
+            localStorage.setItem('tn_user_progress', JSON.stringify(this.progress));
+          }
         }
       }
     } catch (e) {
@@ -68,6 +77,7 @@ const app = {
     }
     if (!this.progress.setStats) this.progress.setStats = {};
     if (!Array.isArray(this.progress.wrongQuestionIds)) this.progress.wrongQuestionIds = [];
+    if (!this.progress.inProgressSessions) this.progress.inProgressSessions = {};
     this.updateHeaderBadges();
   },
 
@@ -83,6 +93,59 @@ const app = {
     } catch (e) {
       // Ignore if static host
     }
+  },
+
+  // Save current active quiz session state so refreshing or closing tab never loses progress!
+  saveCurrentQuizSession() {
+    if (!this.activeSet || !this.quizQuestions || this.quizQuestions.length === 0) return;
+    const setId = this.activeSet.id;
+    this.progress.inProgressSessions[setId] = {
+      setMeta: {
+        id: this.activeSet.id,
+        number: this.activeSet.number,
+        title: this.activeSet.title,
+        badge: this.activeSet.badge
+      },
+      questionIds: this.quizQuestions.map(q => q.id),
+      currentIndex: this.currentIndex,
+      userAnswers: this.userAnswers,
+      updatedAt: Date.now()
+    };
+    this.progress.lastActiveSetId = setId;
+    this.saveProgress();
+  },
+
+  clearSavedQuizSession(setId) {
+    if (setId && this.progress.inProgressSessions && this.progress.inProgressSessions[setId]) {
+      delete this.progress.inProgressSessions[setId];
+    }
+    if (this.progress.lastActiveSetId === setId) {
+      this.progress.lastActiveSetId = null;
+    }
+    this.saveProgress();
+  },
+
+  resumeSavedSession(setId) {
+    const saved = this.progress.inProgressSessions[setId];
+    if (!saved || !saved.questionIds || saved.questionIds.length === 0) {
+      this.showDashboard();
+      return;
+    }
+
+    const foundSet = this.db.sets.find(s => s.id === setId) || saved.setMeta;
+    if (!foundSet) {
+      this.showDashboard();
+      return;
+    }
+
+    this.activeSet = foundSet;
+    this.quizQuestions = saved.questionIds.map(id => this.db.questions[id]).filter(Boolean);
+    this.currentIndex = Math.min(saved.currentIndex || 0, this.quizQuestions.length - 1);
+    this.userAnswers = saved.userAnswers || {};
+    this.progress.lastActiveSetId = setId;
+    this.saveProgress();
+
+    this.openQuizView();
   },
 
   updateHeaderBadges() {
@@ -133,6 +196,10 @@ const app = {
   },
 
   showDashboard() {
+    // User explicitly returned to dashboard, so don't force auto-redirect on reload,
+    // but keep their inProgressSessions[setId] intact so they can click "Tiếp tục làm" anytime!
+    this.progress.lastActiveSetId = null;
+    this.saveProgress();
     this.setActiveNav('nav-sets');
     this.renderDashboard();
     this.switchView('view-dashboard');
@@ -145,7 +212,15 @@ const app = {
 
     grid.innerHTML = this.db.sets.map(set => {
       const st = this.progress.setStats[set.id];
+      const savedSession = this.progress.inProgressSessions && this.progress.inProgressSessions[set.id];
       const questions = set.questionIds.map(id => this.db.questions[id]).filter(Boolean);
+
+      // Count how many questions answered in saved session
+      let answeredInSession = 0;
+      if (savedSession && savedSession.userAnswers) {
+        answeredInSession = Object.values(savedSession.userAnswers).filter(a => a && a.answered).length;
+      }
+      const hasResume = savedSession && answeredInSession > 0 && answeredInSession < set.questionIds.length;
 
       // Count topics inside this fixed set
       const topicCounts = {};
@@ -167,6 +242,33 @@ const app = {
           <span>Cao nhất: <strong style="color: var(--success)">${st.bestScore10.toFixed(1)}/10</strong> (${st.bestCorrect}/${st.total} câu)</span>
         `;
       }
+      if (hasResume) {
+        statsHtml = `
+          <span style="color: var(--warning); font-weight: 700;">⏳ Đang làm dở: ${answeredInSession}/${set.questionIds.length} câu</span>
+          <span>${st && st.attempts > 0 ? `Cao nhất: <b>${st.bestScore10.toFixed(1)}/10</b>` : `<strong>${set.questionIds.length} câu</strong>`}</span>
+        `;
+      }
+
+      const actionsHtml = hasResume
+        ? `
+          <button class="btn-start-set" style="background: var(--success);" onclick="app.resumeSavedSession('${set.id}')" title="Làm tiếp từ câu ${answeredInSession + 1} đang làm dở">
+            ▶️ Làm Tiếp (${answeredInSession}/${set.questionIds.length})
+          </button>
+          <button class="btn-preview-set" onclick="app.startFixedSet('${set.id}', true)" title="Xáo lại câu hỏi và làm mới từ câu 1">
+            🔀 Làm Mới
+          </button>
+          <button class="btn-preview-set" onclick="app.openSetPreview('${set.id}')" title="Xem danh sách 40 câu cố định của đề này">
+            👁️
+          </button>
+        `
+        : `
+          <button class="btn-start-set" onclick="app.startFixedSet('${set.id}')">
+            🔀 Vào Làm Đề (Xáo Câu)
+          </button>
+          <button class="btn-preview-set" onclick="app.openSetPreview('${set.id}')" title="Xem danh sách 40 câu cố định của đề này">
+            👁️ Xem Đề
+          </button>
+        `;
 
       return `
         <article class="set-card">
@@ -183,12 +285,7 @@ const app = {
           <div>
             <div class="set-stats-bar">${statsHtml}</div>
             <div class="set-card-actions">
-              <button class="btn-start-set" onclick="app.startFixedSet('${set.id}')">
-                🔀 Vào Làm Đề (Xáo Câu)
-              </button>
-              <button class="btn-preview-set" onclick="app.openSetPreview('${set.id}')" title="Xem danh sách 40 câu cố định của đề này">
-                👁️ Xem Đề
-              </button>
+              ${actionsHtml}
             </div>
           </div>
         </article>
@@ -198,9 +295,21 @@ const app = {
 
   // Start one of the 10 fixed exam sets
   // Always keeps the exact fixed question set of that exam, and shuffles question order every time user clicks!
-  startFixedSet(setId) {
+  startFixedSet(setId, confirmResetIfInProgress = false) {
     const foundSet = this.db.sets.find(s => s.id === setId);
     if (!foundSet) return;
+
+    if (confirmResetIfInProgress) {
+      const saved = this.progress.inProgressSessions[setId];
+      const answeredCount = saved && saved.userAnswers
+        ? Object.values(saved.userAnswers).filter(a => a && a.answered).length
+        : 0;
+      if (answeredCount > 0) {
+        if (!confirm(`Bạn đang làm dở ${answeredCount}/${foundSet.questionIds.length} câu ở đề này. Bạn có muốn xáo câu làm mới lại từ câu 1 không?`)) {
+          return;
+        }
+      }
+    }
 
     this.closeSetPreview();
     this.activeSet = foundSet;
@@ -214,6 +323,7 @@ const app = {
     this.currentIndex = 0;
     this.userAnswers = {};
 
+    this.saveCurrentQuizSession();
     this.openQuizView();
   },
 
@@ -236,6 +346,7 @@ const app = {
     this.quizQuestions = this.shuffleArray(questions);
     this.currentIndex = 0;
     this.userAnswers = {};
+    this.saveCurrentQuizSession();
     this.setActiveNav('nav-wrong');
     this.openQuizView();
   },
@@ -382,7 +493,7 @@ const app = {
       btnNext.textContent = (this.currentIndex === total - 1)
         ? '🏁 Hoàn thành & Xem kết quả →'
         : 'Câu tiếp theo (Enter) →';
-      hintText.innerHTML = '✨ Đã mở khóa! Nhấn <b>Câu tiếp theo</b> hoặc phím <b>Enter / Mũi tên phải</b> để qua câu mới.';
+      hintText.innerHTML = '✨ Đã lưu tự động! Nhấn <b>Câu tiếp theo</b> hoặc phím <b>Enter / Mũi tên phải</b> để qua câu mới.';
     } else {
       expBox.classList.add('hidden');
       // Strictly enforce: must finish current question before moving to a new one
@@ -412,13 +523,12 @@ const app = {
     const wrongIdx = this.progress.wrongQuestionIds.indexOf(q.id);
     if (!isCorrect && wrongIdx === -1) {
       this.progress.wrongQuestionIds.push(q.id);
-      this.saveProgress();
     } else if (isCorrect && this.activeSet && this.activeSet.id === 'wrong_review' && wrongIdx !== -1) {
       // Remove from wrong list if mastered in Wrong Review mode
       this.progress.wrongQuestionIds.splice(wrongIdx, 1);
-      this.saveProgress();
     }
 
+    this.saveCurrentQuizSession();
     this.renderCurrentQuestion();
   },
 
@@ -430,6 +540,7 @@ const app = {
 
     if (this.currentIndex < this.quizQuestions.length - 1) {
       this.currentIndex++;
+      this.saveCurrentQuizSession();
       this.renderCurrentQuestion();
     } else {
       this.finishQuiz();
@@ -439,6 +550,7 @@ const app = {
   prevQuestion() {
     if (this.currentIndex > 0) {
       this.currentIndex--;
+      this.saveCurrentQuizSession();
       this.renderCurrentQuestion();
     }
   },
@@ -457,6 +569,7 @@ const app = {
 
     if (targetIndex <= firstUnanswered && targetIndex < this.quizQuestions.length) {
       this.currentIndex = targetIndex;
+      this.saveCurrentQuizSession();
       this.renderCurrentQuestion();
     }
   },
@@ -520,6 +633,11 @@ const app = {
 
     const score10 = total > 0 ? Number(((correct / total) * 10).toFixed(2)) : 0;
     const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+    // Clear in-progress session for this set because it's now completed!
+    if (this.activeSet) {
+      this.clearSavedQuizSession(this.activeSet.id);
+    }
 
     // Save set stats if this is one of the 10 fixed sets
     if (this.activeSet && this.activeSet.id.startsWith('de_')) {
@@ -632,13 +750,14 @@ const app = {
   restartCurrentQuiz(reshuffle = true) {
     if (!this.activeSet) return;
     if (this.activeSet.id.startsWith('de_')) {
-      this.startFixedSet(this.activeSet.id);
+      this.startFixedSet(this.activeSet.id, false);
     } else {
       if (reshuffle) {
         this.quizQuestions = this.shuffleArray(this.quizQuestions);
       }
       this.currentIndex = 0;
       this.userAnswers = {};
+      this.saveCurrentQuizSession();
       this.openQuizView();
     }
   },
@@ -659,16 +778,13 @@ const app = {
     this.quizQuestions = this.shuffleArray(wrongQuestions);
     this.currentIndex = 0;
     this.userAnswers = {};
+    this.saveCurrentQuizSession();
     this.openQuizView();
   },
 
   confirmExitQuiz() {
-    const answeredCount = Object.values(this.userAnswers).filter(a => a && a.answered).length;
-    if (answeredCount > 0 && answeredCount < this.quizQuestions.length) {
-      if (!confirm(`Bạn đã làm được ${answeredCount}/${this.quizQuestions.length} câu. Bạn có chắc muốn thoát ra danh sách 10 bộ đề không?`)) {
-        return;
-      }
-    }
+    // Save current state before returning to dashboard so user can resume anytime!
+    this.saveCurrentQuizSession();
     this.showDashboard();
   },
 
@@ -724,6 +840,8 @@ const app = {
   },
 
   showQuestionBank() {
+    this.progress.lastActiveSetId = null;
+    this.saveProgress();
     this.setActiveNav('nav-bank');
     this.renderQuestionBank();
     this.switchView('view-bank');
@@ -778,10 +896,15 @@ const app = {
   },
 
   async resetAllProgress() {
-    if (!confirm('Bạn có chắc muốn xóa toàn bộ lịch sử điểm số và danh sách câu sai để làm lại từ đầu không?')) {
+    if (!confirm('Bạn có chắc muốn xóa toàn bộ lịch sử điểm số, tiến độ đang làm dở và danh sách câu sai để làm lại từ đầu không?')) {
       return;
     }
-    this.progress = { setStats: {}, wrongQuestionIds: [], history: [] };
+    this.progress = {
+      setStats: {},
+      wrongQuestionIds: [],
+      inProgressSessions: {},
+      lastActiveSetId: null
+    };
     await this.saveProgress();
     this.renderDashboard();
   },
