@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ôn Thi Trắc Nghiệm Tin Học - 10 Bộ Đề Cố Định</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Top Header -->
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="brand" id="btn-home-logo" title="Về trang chủ danh sách 10 bộ đề">
+        <div class="brand-icon">💻</div>
+        <div>
+          <h1 class="brand-title">Trắc Nghiệm Tin Học</h1>
+          <p class="brand-subtitle">3 Ca Thi Gốc (120 Câu) • Chia 10 Bộ Đề Cố Định • Giải Thích Lý Thuyết Chi Tiết</p>
+        </div>
+      </div>
+
+      <nav class="header-actions">
+        <button class="nav-btn active" id="nav-sets" onclick="app.showDashboard()">
+          <span>📚</span> 10 Bộ Đề Cố Định
+        </button>
+        <button class="nav-btn" id="nav-wrong" onclick="app.startWrongReview()">
+          <span>🔥</span> Câu Hay Sai <span class="badge-pill" id="wrong-count-badge">0</span>
+        </button>
+        <button class="nav-btn" id="nav-bank" onclick="app.showQuestionBank()">
+          <span>🔍</span> Tra Cứu 120 Câu
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- VIEW 1: DASHBOARD (10 BỘ ĐỀ CỐ ĐỊNH) -->
+    <section id="view-dashboard" class="view-section">
+      <!-- Hero Summary Banner -->
+      <div class="hero-card">
+        <div class="hero-left">
+          <div class="hero-tag">✨ Chế độ học thông minh • Chuẩn đáp án gốc 100%</div>
+          <h2>Hệ Thống Luyện Thi 10 Bộ Đề Cố Định</h2>
+          <p>
+            Toàn bộ <strong>120 câu hỏi</strong> từ 3 file đề gốc (<code>2512.Ca1.pdf</code>, <code>2512.Ca2.pdf</code>, <code>2512.Ca3.pdf</code>)
+            đã được phân bổ đầy đủ vào <strong>10 bộ đề cố định (mỗi đề 40 câu)</strong>.
+            Danh sách câu hỏi của từng đề được <strong>giữ nguyên cố định vĩnh viễn</strong> để bạn dễ ôn lại,
+            và <strong>tự động xáo trộn thứ tự câu hỏi</strong> mỗi khi bạn nhấn vào làm đề!
+          </p>
+          <div class="feature-pills">
+            <span class="f-pill">✅ Làm xong 1 câu mới qua câu kế tiếp</span>
+            <span class="f-pill">💡 Giải thích lý thuyết ngay khi chọn Đúng/Sai</span>
+            <span class="f-pill">🔀 Tự động xáo thứ tự câu hỏi mỗi lần vào làm</span>
+            <span class="f-pill">⌨️ Hỗ trợ phím tắt A/B/C/D & Enter</span>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-box">
+            <span class="stat-value">10</span>
+            <span class="stat-label">Bộ đề cố định</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value">120</span>
+            <span class="stat-label">Tổng câu gốc</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value" id="stat-completed-sets">0/10</span>
+            <span class="stat-label">Đề đã luyện</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value" id="stat-avg-score">--</span>
+            <span class="stat-label">Điểm TB hệ 10</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Options Bar -->
+      <div class="toolbar-bar">
+        <div class="toolbar-left">
+          <h3 class="section-heading">Danh Sách 10 Bộ Đề Cố Định</h3>
+          <span class="section-sub">Nhấn <strong>"Bắt Đầu Làm (Xáo Câu)"</strong> để luyện từng câu có giải thích ngay</span>
+        </div>
+        <div class="toolbar-right">
+          <label class="toggle-label" title="Khi bật, thứ tự 4 đáp án A, B, C, D cũng sẽ được đảo ngẫu nhiên để tránh học vẹt vị trí">
+            <input type="checkbox" id="chk-shuffle-options" />
+            <span>Đảo cả vị trí đáp án A/B/C/D</span>
+          </label>
+          <button class="btn-outline-danger" onclick="app.resetAllProgress()" title="Xóa lịch sử điểm số để làm lại từ đầu">
+            🗑️ Xóa tiến độ
+          </button>
+        </div>
+      </div>
+
+      <!-- 10 Fixed Exam Sets Grid -->
+      <div id="sets-grid" class="sets-grid">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- PDF Source Links -->
+      <div class="pdf-sources-card">
+        <div>
+          <h4>📄 Tài liệu PDF đề gốc đối chiếu</h4>
+          <p>Toàn bộ câu hỏi, hình minh họa và đáp án đã được trích xuất chính xác 100% từ 3 tệp đề gốc của bạn:</p>
+        </div>
+        <div class="pdf-links">
+          <a href="./2512.Ca1.pdf" target="_blank" class="pdf-btn">📥 Xem 2512.Ca1.pdf (40 câu)</a>
+          <a href="./2512.Ca2.pdf" target="_blank" class="pdf-btn">📥 Xem 2512.Ca2.pdf (40 câu)</a>
+          <a href="./2512.Ca3.pdf" target="_blank" class="pdf-btn">📥 Xem 2512.Ca3.pdf (40 câu)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: QUIZ INTERFACE (LÀM TỪNG CÂU + GIẢI THÍCH LÝ THUYẾT) -->
+    <section id="view-quiz" class="view-section hidden">
+      <!-- Quiz Top Bar -->
+      <div class="quiz-topbar">
+        <button class="btn-back" onclick="app.confirmExitQuiz()">
+          ← Quay lại 10 Bộ Đề
+        </button>
+        <div class="quiz-set-info">
+          <span class="quiz-set-badge" id="quiz-set-badge">Bộ Đề 01</span>
+          <h2 id="quiz-set-title">Bộ Đề 01 - Chuẩn Gốc Ca 1</h2>
+        </div>
+        <div class="quiz-topbar-right">
+          <button class="btn-reshuffle" onclick="app.restartCurrentQuiz(true)" title="Xáo lại thứ tự câu hỏi của đề này và làm lại từ câu 1">
+            🔀 Xáo lại đề này
+          </button>
+        </div>
+      </div>
+
+      <!-- Progress & Score Strip -->
+      <div class="quiz-progress-card">
+        <div class="progress-meta">
+          <div class="progress-step">
+            Câu <strong id="q-current-num">1</strong> / <strong id="q-total-num">40</strong>
+            <span class="shuffle-tag" id="q-shuffle-indicator">🔀 Đã xáo thứ tự câu</span>
+          </div>
+          <div class="score-counters">
+            <span class="counter-pill correct">✅ Đúng: <b id="count-correct">0</b></span>
+            <span class="counter-pill wrong">❌ Sai: <b id="count-wrong">0</b></span>
+            <span class="counter-pill score">🎯 Điểm: <b id="live-score">0.0</b>/10</span>
+          </div>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="quiz-progress-fill" style="width: 2.5%"></div>
+        </div>
+        <!-- Mini Question Dots (Only allows viewing already answered questions or current question) -->
+        <div id="question-dots" class="question-dots"></div>
+      </div>
+
+      <!-- Main Question Card -->
+      <div class="question-card" id="question-card">
+        <div class="q-meta-row">
+          <span class="q-topic-tag" id="q-topic-tag">MS Word</span>
+          <span class="q-source-tag" id="q-source-tag">Nguồn: Ca 1 - Câu 1</span>
+        </div>
+
+        <h3 class="q-text" id="q-text">Đang tải câu hỏi...</h3>
+
+        <!-- Optional Question Image -->
+        <div id="q-image-wrap" class="q-image-wrap hidden">
+          <img id="q-image" src="" alt="Hình minh họa câu hỏi" />
+        </div>
+
+        <!-- 4 Options List -->
+        <div id="options-container" class="options-container">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Immediate Theory Explanation Box (Hidden until user ticks an answer) -->
+        <div id="explanation-box" class="explanation-box hidden">
+          <div class="exp-header" id="exp-header">
+            <span class="exp-icon" id="exp-icon">✅</span>
+            <div>
+              <h4 id="exp-status-title">Chính xác! Bạn đã chọn đúng đáp án.</h4>
+              <p id="exp-correct-answer-line">Đáp án đúng: <strong>A</strong></p>
+            </div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-label">📘 GIẢI THÍCH LÝ THUYẾT CHI TIẾT:</div>
+            <p id="exp-text"></p>
+          </div>
+        </div>
+
+        <!-- Bottom Action Bar: Enforces "Làm xong 1 câu mới chuyển qua câu mới" -->
+        <div class="quiz-footer">
+          <div class="footer-left">
+            <button class="btn-secondary" id="btn-prev-q" onclick="app.prevQuestion()" disabled>
+              ← Xem lại câu trước
+            </button>
+            <span class="keyboard-hint" id="quiz-hint-text">
+              💡 Hãy click chọn 1 đáp án (hoặc nhấn phím <b>A, B, C, D</b> / <b>1, 2, 3, 4</b>) để xem giải thích
+            </span>
+          </div>
+          <div class="footer-right">
+            <button class="btn-primary" id="btn-next-q" onclick="app.nextQuestion()" disabled>
+              Câu tiếp theo →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: QUIZ RESULT SUMMARY -->
+    <section id="view-result" class="view-section hidden">
+      <div class="result-card">
+        <div class="result-badge" id="res-emoji">🎉</div>
+        <h2 id="res-title">Hoàn Thành Bộ Đề!</h2>
+        <p class="res-subtitle" id="res-set-name">Bộ Đề 01 - Chuẩn Gốc Ca 1</p>
+
+        <div class="result-score-grid">
+          <div class="res-box primary">
+            <span class="res-val" id="res-score-10">8.5</span>
+            <span class="res-lbl">Điểm hệ 10</span>
+          </div>
+          <div class="res-box success">
+            <span class="res-val" id="res-correct">34/40</span>
+            <span class="res-lbl">Số câu Đúng</span>
+          </div>
+          <div class="res-box danger">
+            <span class="res-val" id="res-wrong">6</span>
+            <span class="res-lbl">Số câu Sai</span>
+          </div>
+          <div class="res-box info">
+            <span class="res-val" id="res-accuracy">85%</span>
+            <span class="res-lbl">Tỷ lệ chính xác</span>
+          </div>
+        </div>
+
+        <div class="result-actions">
+          <button class="btn-primary" onclick="app.restartCurrentQuiz(true)">
+            🔀 Làm lại đề này (Xáo thứ tự câu mới)
+          </button>
+          <button class="btn-warning" id="btn-retry-wrong-in-set" onclick="app.retryWrongInCurrentSet()">
+            🔥 Làm lại các câu vừa sai (<span id="res-wrong-btn-count">0</span> câu)
+          </button>
+          <button class="btn-secondary" onclick="app.showDashboard()">
+            📚 Về danh sách 10 Bộ Đề
+          </button>
+        </div>
+      </div>
+
+      <!-- Full Review List of All Answered Questions in this Set -->
+      <div class="review-list-section">
+        <div class="review-header">
+          <h3>📋 Chi Tiết Đáp Án & Giải Thích Lý Thuyết Trong Đề Vừa Làm</h3>
+          <div class="review-filters">
+            <button class="filter-chip active" id="flt-all" onclick="app.filterResultReview('all')">Tất cả</button>
+            <button class="filter-chip" id="flt-wrong" onclick="app.filterResultReview('wrong')">Chỉ câu làm sai</button>
+            <button class="filter-chip" id="flt-correct" onclick="app.filterResultReview('correct')">Chỉ câu làm đúng</button>
+          </div>
+        </div>
+        <div id="result-review-container" class="review-items-container"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: QUESTION BANK & FIXED SET INSPECTOR -->
+    <section id="view-bank" class="view-section hidden">
+      <div class="bank-header-card">
+        <div>
+          <h2>🔍 Tra Cứu Toàn Bộ 120 Câu Hỏi & Giải Thích Lý Thuyết</h2>
+          <p>Bạn có thể lọc câu hỏi theo từng Bộ Đề Cố Định (Đề 1 → Đề 10), theo Ca thi gốc hoặc tìm kiếm theo từ khóa.</p>
+        </div>
+        <div class="bank-controls">
+          <input
+            type="text"
+            id="bank-search-input"
+            class="search-input"
+            placeholder="🔎 Nhập từ khóa câu hỏi, đáp án, hàm Excel (WEEKNUM, PROPER, Ribbon...)..."
+            oninput="app.renderQuestionBank()"
+          />
+          <select id="bank-set-filter" class="select-input" onchange="app.renderQuestionBank()">
+            <option value="all">Tất cả 120 câu (Ca 1 + Ca 2 + Ca 3)</option>
+          </select>
+          <select id="bank-topic-filter" class="select-input" onchange="app.renderQuestionBank()">
+            <option value="all">Tất cả chủ đề</option>
+            <option value="MS Word">MS Word</option>
+            <option value="MS Excel">MS Excel</option>
+            <option value="MS PowerPoint">MS PowerPoint</option>
+            <option value="Kiến thức máy tính">Kiến thức máy tính</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="bank-count-bar">
+        Đang hiển thị <strong id="bank-match-count">120</strong> câu hỏi
+      </div>
+
+      <div id="bank-list-container" class="review-items-container"></div>
+    </section>
+  </main>
+
+  <!-- Modal Xem trước danh sách câu hỏi cố định của 1 bộ đề -->
+  <div id="modal-set-preview" class="modal-backdrop hidden" onclick="app.closeSetPreview(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <span class="quiz-set-badge" id="preview-set-badge">Bộ Đề 01</span>
+          <h3 id="preview-set-title">Danh sách 40 câu cố định</h3>
+        </div>
+        <button class="modal-close" onclick="app.closeSetPreview()">✕</button>
+      </div>
+      <div class="modal-subheader">
+        <span>📌 Danh sách câu hỏi dưới đây được giữ cố định cho bộ đề này. Khi bấm <b>"Vào Làm Đề"</b>, hệ thống sẽ xáo ngẫu nhiên thứ tự 40 câu này.</span>
+        <button class="btn-primary" id="preview-start-btn">▶️ Vào Làm Đề Này (Xáo Câu)</button>
+      </div>
+      <div id="preview-questions-list" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

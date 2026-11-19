@@ -1,0 +1,17 @@
+{
+  "name": "trac-nghiem-tin-hoc",
+  "version": "1.0.0",
+  "description": "Ứng dụng Web luyện thi Trắc Nghiệm Tin Học (10 bộ đề cố định từ 3 ca thi gốc, có giải thích lý thuyết chi tiết)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "trac-nghiem",
+    "tin-hoc",
+    "on-thi"
+  ],
+  "author": "",
+  "license": "MIT"
+}

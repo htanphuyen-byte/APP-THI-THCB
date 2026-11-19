@@ -1,0 +1,4127 @@
+{
+  "meta": {
+    "title": "Hệ Thống Ôn Thi Trắc Nghiệm Tin Học",
+    "totalSourceSets": 3,
+    "totalQuestions": 120,
+    "totalUniqueQuestions": 99,
+    "totalFixedSets": 10
+  },
+  "sets": [
+    {
+      "id": "de_1",
+      "number": 1,
+      "title": "Bộ Đề 01 - Chuẩn Gốc Ca 1 (2512.Ca1)",
+      "subtitle": "40 câu nguyên bản đề thi Ca 1 (Word, Excel, Cơ bản, PowerPoint)",
+      "badge": "Đề Gốc Ca 1",
+      "color": "blue",
+      "questionIds": [
+        "ca1_01",
+        "ca1_02",
+        "ca1_03",
+        "ca1_04",
+        "ca1_05",
+        "ca1_06",
+        "ca1_07",
+        "ca1_08",
+        "ca1_09",
+        "ca1_10",
+        "ca1_11",
+        "ca1_12",
+        "ca1_13",
+        "ca1_14",
+        "ca1_15",
+        "ca1_16",
+        "ca1_17",
+        "ca1_18",
+        "ca1_19",
+        "ca1_20",
+        "ca1_21",
+        "ca1_22",
+        "ca1_23",
+        "ca1_24",
+        "ca1_25",
+        "ca1_26",
+        "ca1_27",
+        "ca1_28",
+        "ca1_29",
+        "ca1_30",
+        "ca1_31",
+        "ca1_32",
+        "ca1_33",
+        "ca1_34",
+        "ca1_35",
+        "ca1_36",
+        "ca1_37",
+        "ca1_38",
+        "ca1_39",
+        "ca1_40"
+      ]
+    },
+    {
+      "id": "de_2",
+      "number": 2,
+      "title": "Bộ Đề 02 - Chuẩn Gốc Ca 2 (2512.Ca2)",
+      "subtitle": "40 câu nguyên bản đề thi Ca 2 (Word, Excel, PowerPoint, Cơ bản)",
+      "badge": "Đề Gốc Ca 2",
+      "color": "indigo",
+      "questionIds": [
+        "ca2_01",
+        "ca2_02",
+        "ca2_03",
+        "ca2_04",
+        "ca2_05",
+        "ca2_06",
+        "ca2_07",
+        "ca2_08",
+        "ca2_09",
+        "ca2_10",
+        "ca2_11",
+        "ca2_12",
+        "ca2_13",
+        "ca2_14",
+        "ca2_15",
+        "ca2_16",
+        "ca2_17",
+        "ca2_18",
+        "ca2_19",
+        "ca2_20",
+        "ca2_21",
+        "ca2_22",
+        "ca2_23",
+        "ca2_24",
+        "ca2_25",
+        "ca2_26",
+        "ca2_27",
+        "ca2_28",
+        "ca2_29",
+        "ca2_30",
+        "ca2_31",
+        "ca2_32",
+        "ca2_33",
+        "ca2_34",
+        "ca2_35",
+        "ca2_36",
+        "ca2_37",
+        "ca2_38",
+        "ca2_39",
+        "ca2_40"
+      ]
+    },
+    {
+      "id": "de_3",
+      "number": 3,
+      "title": "Bộ Đề 03 - Chuẩn Gốc Ca 3 (2512.Ca3)",
+      "subtitle": "40 câu nguyên bản đề thi Ca 3 (Cơ bản, Excel, Word, PowerPoint)",
+      "badge": "Đề Gốc Ca 3",
+      "color": "violet",
+      "questionIds": [
+        "ca3_01",
+        "ca3_02",
+        "ca3_03",
+        "ca3_04",
+        "ca3_05",
+        "ca3_06",
+        "ca3_07",
+        "ca3_08",
+        "ca3_09",
+        "ca3_10",
+        "ca3_11",
+        "ca3_12",
+        "ca3_13",
+        "ca3_14",
+        "ca3_15",
+        "ca3_16",
+        "ca3_17",
+        "ca3_18",
+        "ca3_19",
+        "ca3_20",
+        "ca3_21",
+        "ca3_22",
+        "ca3_23",
+        "ca3_24",
+        "ca3_25",
+        "ca3_26",
+        "ca3_27",
+        "ca3_28",
+        "ca3_29",
+        "ca3_30",
+        "ca3_31",
+        "ca3_32",
+        "ca3_33",
+        "ca3_34",
+        "ca3_35",
+        "ca3_36",
+        "ca3_37",
+        "ca3_38",
+        "ca3_39",
+        "ca3_40"
+      ]
+    },
+    {
+      "id": "de_4",
+      "number": 4,
+      "title": "Bộ Đề 04 - Tổng Hợp Toàn Diện (Phần 1/4)",
+      "subtitle": "40 câu cố định phân bổ đều 3 bộ đề gốc (Đảm bảo phủ kín 100% câu hỏi)",
+      "badge": "Tổng Hợp 1",
+      "color": "emerald",
+      "questionIds": [
+        "ca2_38",
+        "ca3_32",
+        "ca1_01",
+        "ca3_34",
+        "ca2_36",
+        "ca1_30",
+        "ca2_17",
+        "ca2_04",
+        "ca3_40",
+        "ca3_19",
+        "ca2_24",
+        "ca2_21",
+        "ca2_20",
+        "ca1_31",
+        "ca2_39",
+        "ca3_33",
+        "ca1_02",
+        "ca2_15",
+        "ca2_30",
+        "ca2_13",
+        "ca3_16",
+        "ca1_21",
+        "ca3_12",
+        "ca3_26",
+        "ca3_21",
+        "ca2_01",
+        "ca1_24",
+        "ca3_25",
+        "ca1_07",
+        "ca1_12",
+        "ca2_35",
+        "ca1_20",
+        "ca3_30",
+        "ca1_36",
+        "ca2_34",
+        "ca1_05",
+        "ca3_24",
+        "ca1_39",
+        "ca2_16",
+        "ca3_29"
+      ]
+    },
+    {
+      "id": "de_5",
+      "number": 5,
+      "title": "Bộ Đề 05 - Tổng Hợp Toàn Diện (Phần 2/4)",
+      "subtitle": "40 câu cố định phân bổ đều 3 bộ đề gốc (Đảm bảo phủ kín 100% câu hỏi)",
+      "badge": "Tổng Hợp 2",
+      "color": "emerald",
+      "questionIds": [
+        "ca2_32",
+        "ca1_35",
+        "ca1_05",
+        "ca1_18",
+        "ca2_10",
+        "ca1_23",
+        "ca1_25",
+        "ca3_06",
+        "ca3_30",
+        "ca3_31",
+        "ca3_37",
+        "ca1_27",
+        "ca3_36",
+        "ca2_02",
+        "ca3_38",
+        "ca3_18",
+        "ca1_38",
+        "ca2_27",
+        "ca3_14",
+        "ca1_37",
+        "ca3_39",
+        "ca3_04",
+        "ca2_11",
+        "ca2_16",
+        "ca3_05",
+        "ca2_23",
+        "ca1_08",
+        "ca3_20",
+        "ca2_31",
+        "ca1_36",
+        "ca2_07",
+        "ca1_12",
+        "ca3_32",
+        "ca2_36",
+        "ca1_29",
+        "ca1_22",
+        "ca2_12",
+        "ca2_35",
+        "ca2_04",
+        "ca2_26"
+      ]
+    },
+    {
+      "id": "de_6",
+      "number": 6,
+      "title": "Bộ Đề 06 - Tổng Hợp Toàn Diện (Phần 3/4)",
+      "subtitle": "40 câu cố định phân bổ đều 3 bộ đề gốc (Đảm bảo phủ kín 100% câu hỏi)",
+      "badge": "Tổng Hợp 3",
+      "color": "emerald",
+      "questionIds": [
+        "ca2_25",
+        "ca3_17",
+        "ca2_07",
+        "ca2_08",
+        "ca1_22",
+        "ca2_18",
+        "ca2_37",
+        "ca1_15",
+        "ca1_16",
+        "ca3_23",
+        "ca3_11",
+        "ca3_10",
+        "ca2_26",
+        "ca1_33",
+        "ca1_09",
+        "ca2_40",
+        "ca2_06",
+        "ca1_32",
+        "ca1_03",
+        "ca3_13",
+        "ca1_10",
+        "ca3_02",
+        "ca3_24",
+        "ca1_13",
+        "ca2_19",
+        "ca3_07",
+        "ca2_09",
+        "ca1_14",
+        "ca1_40",
+        "ca3_29",
+        "ca1_01",
+        "ca2_32",
+        "ca2_33",
+        "ca3_30",
+        "ca1_25",
+        "ca1_02",
+        "ca3_33",
+        "ca2_38",
+        "ca2_11",
+        "ca3_27"
+      ]
+    },
+    {
+      "id": "de_7",
+      "number": 7,
+      "title": "Bộ Đề 07 - Tổng Hợp Toàn Diện (Phần 4/4)",
+      "subtitle": "40 câu cố định phân bổ đều 3 bộ đề gốc (Đảm bảo phủ kín 100% câu hỏi)",
+      "badge": "Tổng Hợp 4",
+      "color": "emerald",
+      "questionIds": [
+        "ca3_09",
+        "ca1_39",
+        "ca3_35",
+        "ca2_14",
+        "ca3_28",
+        "ca3_15",
+        "ca2_28",
+        "ca2_03",
+        "ca2_34",
+        "ca2_33",
+        "ca3_27",
+        "ca2_05",
+        "ca1_04",
+        "ca1_29",
+        "ca1_19",
+        "ca1_34",
+        "ca3_08",
+        "ca3_22",
+        "ca1_11",
+        "ca2_22",
+        "ca3_01",
+        "ca1_26",
+        "ca1_28",
+        "ca1_17",
+        "ca2_35",
+        "ca2_29",
+        "ca1_06",
+        "ca3_03",
+        "ca2_12",
+        "ca1_20",
+        "ca2_26",
+        "ca2_37",
+        "ca3_40",
+        "ca2_27",
+        "ca1_01",
+        "ca3_29",
+        "ca1_05",
+        "ca2_04",
+        "ca1_30",
+        "ca2_17"
+      ]
+    },
+    {
+      "id": "de_8",
+      "number": 8,
+      "title": "Bộ Đề 08 - Trọng Tâm MS Word & Kiến Thức Máy Tính",
+      "subtitle": "40 câu cố định chuyên sâu về Soạn thảo Word, Phần cứng, Mạng & Bảo mật",
+      "badge": "Word & Cơ Bản",
+      "color": "amber",
+      "questionIds": [
+        "ca1_21",
+        "ca2_34",
+        "ca3_28",
+        "ca2_38",
+        "ca2_39",
+        "ca1_24",
+        "ca3_25",
+        "ca1_23",
+        "ca1_04",
+        "ca2_37",
+        "ca2_40",
+        "ca1_25",
+        "ca3_30",
+        "ca2_07",
+        "ca1_10",
+        "ca1_08",
+        "ca1_06",
+        "ca2_36",
+        "ca2_31",
+        "ca1_02",
+        "ca2_08",
+        "ca2_06",
+        "ca2_02",
+        "ca2_33",
+        "ca2_01",
+        "ca3_27",
+        "ca3_26",
+        "ca1_27",
+        "ca3_21",
+        "ca2_10",
+        "ca1_30",
+        "ca1_07",
+        "ca1_03",
+        "ca3_23",
+        "ca1_05",
+        "ca1_28",
+        "ca1_01",
+        "ca1_22",
+        "ca2_35",
+        "ca3_24"
+      ]
+    },
+    {
+      "id": "de_9",
+      "number": 9,
+      "title": "Bộ Đề 09 - Trọng Tâm MS Excel & MS PowerPoint",
+      "subtitle": "40 câu cố định chuyên sâu về Công thức, Hàm Excel & Thiết kế Trình chiếu",
+      "badge": "Excel & PPT",
+      "color": "rose",
+      "questionIds": [
+        "ca1_33",
+        "ca1_16",
+        "ca2_25",
+        "ca2_26",
+        "ca1_17",
+        "ca1_20",
+        "ca1_35",
+        "ca1_38",
+        "ca2_12",
+        "ca2_13",
+        "ca3_35",
+        "ca1_31",
+        "ca2_21",
+        "ca1_14",
+        "ca2_27",
+        "ca1_19",
+        "ca2_14",
+        "ca2_29",
+        "ca1_32",
+        "ca1_40",
+        "ca3_31",
+        "ca3_39",
+        "ca1_13",
+        "ca1_12",
+        "ca2_11",
+        "ca1_37",
+        "ca2_19",
+        "ca3_38",
+        "ca2_28",
+        "ca1_18",
+        "ca2_24",
+        "ca3_36",
+        "ca1_15",
+        "ca2_18",
+        "ca2_20",
+        "ca3_34",
+        "ca2_22",
+        "ca2_23",
+        "ca2_17",
+        "ca2_15"
+      ]
+    },
+    {
+      "id": "de_10",
+      "number": 10,
+      "title": "Bộ Đề 10 - Thi Thử Tổng Hợp Chuẩn Cấu Trúc",
+      "subtitle": "40 câu cố định chọn lọc cân đối (10 Word + 10 Excel + 10 PowerPoint + 10 Máy tính)",
+      "badge": "Thi Thử Chuẩn",
+      "color": "cyan",
+      "questionIds": [
+        "ca2_06",
+        "ca3_22",
+        "ca2_01",
+        "ca1_09",
+        "ca2_07",
+        "ca1_05",
+        "ca2_05",
+        "ca3_27",
+        "ca1_04",
+        "ca1_10",
+        "ca2_13",
+        "ca1_14",
+        "ca1_16",
+        "ca2_19",
+        "ca1_19",
+        "ca1_11",
+        "ca2_15",
+        "ca1_17",
+        "ca1_12",
+        "ca2_12",
+        "ca2_27",
+        "ca1_34",
+        "ca1_37",
+        "ca2_24",
+        "ca3_32",
+        "ca3_38",
+        "ca1_40",
+        "ca2_29",
+        "ca2_30",
+        "ca1_36",
+        "ca1_28",
+        "ca1_29",
+        "ca2_32",
+        "ca2_36",
+        "ca1_22",
+        "ca1_25",
+        "ca1_30",
+        "ca2_31",
+        "ca1_23",
+        "ca1_21"
+      ]
+    }
+  ],
+  "questions": {
+    "ca1_01": {
+      "id": "ca1_01",
+      "source": "Ca 1",
+      "num": 1,
+      "topic": "MS Word",
+      "question": "Trong MS Word, đơn vị đo mặc định được sử dụng trên thanh Ruler là:",
+      "options": {
+        "A": "Inch",
+        "B": "Point",
+        "C": "Centimet",
+        "D": "twips"
+      },
+      "answer": "A",
+      "explanation": "Mặc định sau khi cài đặt MS Word (chuẩn tiếng Anh - Mỹ), đơn vị đo trên thanh thước (Ruler) là Inch (\"). Người dùng có thể đổi sang Centimeters trong File -> Options -> Advanced -> Display."
+    },
+    "ca1_02": {
+      "id": "ca1_02",
+      "source": "Ca 1",
+      "num": 2,
+      "topic": "MS Word",
+      "question": "MS Word 2010 thuộc phiên bản:",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "Các phiên bản MS Office được đánh số nội bộ như sau: Office 2003 là bản 11.0, Office 2007 là bản 12.0, bỏ qua số 13, Office 2010 là phiên bản 14.0 (Office 2013 là 15.0, Office 2016/2019/2021 là 16.0)."
+    },
+    "ca1_03": {
+      "id": "ca1_03",
+      "source": "Ca 1",
+      "num": 3,
+      "topic": "MS Word",
+      "question": "Trong MS Word 2010, thanh chứa tất cả các công cụ có tên là:",
+      "options": {
+        "A": "Menu",
+        "B": "Toolbox",
+        "C": "Toolbar",
+        "D": "Ribbon"
+      },
+      "answer": "D",
+      "explanation": "Từ phiên bản Office 2007 trở đi (bao gồm Word 2010), Microsoft thay thế hệ thống Menu và Toolbar truyền thống bằng giao diện thanh công cụ Ribbon (dải băng) chứa các thẻ (Tabs) và nhóm lệnh."
+    },
+    "ca1_04": {
+      "id": "ca1_04",
+      "source": "Ca 1",
+      "num": 4,
+      "topic": "MS Word",
+      "question": "Thư mục lưu trữ mặc định của Word 2010 là:",
+      "options": {
+        "A": "Documents",
+        "B": "Downloads",
+        "C": "Desktop",
+        "D": "Program files"
+      },
+      "answer": "A",
+      "explanation": "Khi nhấn Save lần đầu tiên trong MS Word 2010 mà chưa chọn vị trí khác, thư mục lưu trữ mặc định trên Windows là thư mục Documents (hoặc My Documents)."
+    },
+    "ca1_05": {
+      "id": "ca1_05",
+      "source": "Ca 1",
+      "num": 5,
+      "topic": "MS Word",
+      "question": "MS Word 2010 không lưu được file ở định dạng nào dưới đây:",
+      "options": {
+        "A": "PDF",
+        "B": "JPG",
+        "C": "RTF",
+        "D": "TXT"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Save As của MS Word 2010, bạn có thể lưu văn bản thành .docx, .doc, .pdf, .rtf, .txt, .html... nhưng không hỗ trợ xuất trực tiếp trang văn bản ra định dạng file ảnh .JPG."
+    },
+    "ca1_06": {
+      "id": "ca1_06",
+      "source": "Ca 1",
+      "num": 6,
+      "topic": "MS Word",
+      "question": "Thanh công cụ Quick Access Toolbar có chức năng là:",
+      "options": {
+        "A": "Thiết lập hình dạng các công cụ",
+        "B": "Chọn hiển thị các công cụ muốn truy cập nhanh.",
+        "C": "Sắp xếp vị trí các công cụ theo thứ tự cho trước.",
+        "D": "Thực hiện truy cập nhanh đến các chương trình xử lý văn bản khác."
+      },
+      "answer": "B",
+      "explanation": "Quick Access Toolbar (thanh công cụ truy cập nhanh, thường nằm ở góc trên bên trái cửa sổ Word) giúp người dùng ghim và hiển thị các lệnh thường dùng (như Save, Undo, Redo, Print...) để bấm nhanh mà không cần chuyển thẻ Ribbon."
+    },
+    "ca1_07": {
+      "id": "ca1_07",
+      "source": "Ca 1",
+      "num": 7,
+      "topic": "MS Word",
+      "question": "Chọn phát biểu ĐÚNG:",
+      "options": {
+        "A": "MS Word 2010 có thể mở được tập tin định dạng .pdf",
+        "B": "MS Word 2010 không mở được tập tin định dạng .doc",
+        "C": "Tập tin định dạng .doc chỉ có thể được tạo ra từ phiên bản word 2003 trở về trước",
+        "D": "Tập tin định dạng .docx có dung lượng nhỏ hơn .doc chứa cùng một nội dung"
+      },
+      "answer": "D",
+      "explanation": "Định dạng .docx dựa trên chuẩn OpenXML và áp dụng kỹ thuật nén ZIP nên có dung lượng nhỏ hơn đáng kể so với định dạng nhị phân .doc cũ khi chứa cùng một nội dung. (Lưu ý: từ Word 2013 mới mở và chuyển đổi trực tiếp được PDF; Word 2010 vẫn mở và tạo được .doc)."
+    },
+    "ca1_08": {
+      "id": "ca1_08",
+      "source": "Ca 1",
+      "num": 8,
+      "topic": "MS Word",
+      "question": "Khi gõ văn bản trên MS Word 2010, quay lui thao tác trước đó (Ctrl+Z) chỉ thực hiện được khi:",
+      "options": {
+        "A": "Đã lưu tập tin",
+        "B": "Chưa lưu tập tin",
+        "C": "Bất kỳ lúc nào",
+        "D": "Không thực hiện được"
+      },
+      "answer": "C",
+      "explanation": "Trong một phiên làm việc đang mở của MS Word 2010, lệnh Undo (Ctrl + Z) có thể thực hiện bất kỳ lúc nào (cả trước và sau khi bấm Save), miễn là chưa đóng tập tin đó lại."
+    },
+    "ca1_09": {
+      "id": "ca1_09",
+      "source": "Ca 1",
+      "num": 9,
+      "topic": "MS Word",
+      "question": "Một file Word đang mở đã được lưu muốn lưu lại file dưới một tên khác, chọn lệnh nào trong số các lệnh sau:",
+      "options": {
+        "A": "Open",
+        "B": "Save",
+        "C": "Save As",
+        "D": "Send To"
+      },
+      "answer": "C",
+      "explanation": "Lệnh Save (Ctrl + S) chỉ cập nhật thay đổi vào file hiện tại. Để lưu thành một bản sao với tên mới, định dạng mới hoặc vị trí lưu khác, ta dùng lệnh Save As (phím tắt F12)."
+    },
+    "ca1_10": {
+      "id": "ca1_10",
+      "source": "Ca 1",
+      "num": 10,
+      "topic": "MS Word",
+      "question": "Từ phiên bản Ms Word 2007 trở đi, khi lưu trữ file mặc định có phần mở rộng là:",
+      "options": {
+        "A": ".txt",
+        "B": ".doc",
+        "C": ".docx",
+        "D": ".dotx"
+      },
+      "answer": "C",
+      "explanation": "Từ phiên bản MS Word 2007 trở đi, phần mở rộng (đuôi file) mặc định của tài liệu Word là .docx (trước đó ở Word 2003 trở về trước là .doc, còn .dotx là file mẫu Template)."
+    },
+    "ca1_11": {
+      "id": "ca1_11",
+      "source": "Ca 1",
+      "num": 11,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, công thức dùng để tính toán các dữ liệu lưu trữ trên bảng tính được nhận dạng bắt đầu là dấu gì?",
+      "options": {
+        "A": "=",
+        "B": "#",
+        "C": "<>",
+        "D": "\""
+      },
+      "answer": "A",
+      "explanation": "Trong MS Excel, mọi công thức tính toán hoặc hàm đều phải bắt đầu bằng dấu bằng (=). Nếu không có dấu =, Excel sẽ hiểu nội dung nhập vào là chuỗi văn bản thông thường."
+    },
+    "ca1_12": {
+      "id": "ca1_12",
+      "source": "Ca 1",
+      "num": 12,
+      "topic": "MS Excel",
+      "question": "Địa chỉ C$5 là loại địa chỉ nào trong số các địa chỉ dưới đây?",
+      "options": {
+        "A": "Địa chỉ tuyệt đối cột",
+        "B": "Địa chỉ tham chiếu",
+        "C": "Địa chỉ tương đối",
+        "D": "Địa chỉ tuyệt đối dòng"
+      },
+      "answer": "D",
+      "explanation": "Ký hiệu $ đứng trước thành phần nào sẽ cố định (tuyệt đối) thành phần đó. Trong địa chỉ hỗn hợp C$5, dấu $ đứng trước số dòng 5 nên đây là địa chỉ tuyệt đối dòng (tương đối cột)."
+    },
+    "ca1_13": {
+      "id": "ca1_13",
+      "source": "Ca 1",
+      "num": 13,
+      "topic": "MS Excel",
+      "question": "Địa chỉ tương đối là gì?",
+      "options": {
+        "A": "Là địa chỉ mà cả cột và dòng đều không thay đổi khi sao chép công thức",
+        "B": "Là địa chỉ có cột không thay đổi nhưng dòng thay đổi khi sao chép công thức",
+        "C": "Là địa chỉ có dòng không thay đổi nhưng cột thay đổi khi sao chép công thức",
+        "D": "Là địa chỉ sẽ thay đổi cả cột và dòng khi sao chép công thức"
+      },
+      "answer": "D",
+      "explanation": "Địa chỉ tương đối (ví dụ: A1, B2) không có ký hiệu $ trước cột và dòng, do đó khi sao chép công thức sang vị trí khác, cả chỉ số cột và dòng sẽ tự động thay đổi tương ứng theo độ lệch vị trí."
+    },
+    "ca1_14": {
+      "id": "ca1_14",
+      "source": "Ca 1",
+      "num": 14,
+      "topic": "MS Excel",
+      "question": "Trong Ms excel, đáp án nào sau đây là đúng thứ tự ưu tiên của các toán tử trong công thức?",
+      "options": {
+        "A": "So sánh, phần trăm, số âm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi",
+        "B": "Số âm, phần trăm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi, so sánh",
+        "C": "Lũy thừa, số âm, nhân và chia, cộng và trừ, nối chuỗi, so sánh, phần trăm",
+        "D": "Lũy thừa, phần trăm, nối chuỗi, số âm, nhân và chia, cộng và trừ, so sánh"
+      },
+      "answer": "B",
+      "explanation": "Thứ tự ưu tiên toán tử trong Excel từ cao xuống thấp: 1. Dấu số âm (-) -> 2. Phần trăm (%) -> 3. Lũy thừa (^) -> 4. Nhân và chia (*, /) -> 5. Cộng và trừ (+, -) -> 6. Nối chuỗi (&) -> 7. Các phép so sánh (=, <>, <, >, <=, >=)."
+    },
+    "ca1_15": {
+      "id": "ca1_15",
+      "source": "Ca 1",
+      "num": 15,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #NUM! có nghĩa là gì?",
+      "options": {
+        "A": "Sai tên hàm hay tham chiếu",
+        "B": "Lỗi giá trị",
+        "C": "Lỗi kiểu dữ liệu",
+        "D": "Lỗi vùng tham chiếu"
+      },
+      "answer": "B",
+      "explanation": "Lỗi #NUM! xuất hiện khi công thức hoặc hàm chứa các giá trị số không hợp lệ (ví dụ: tính căn bậc hai của số âm SQRT(-5), hoặc kết quả số quá lớn/quá nhỏ vượt quá khả năng biểu diễn của Excel) -> gọi là Lỗi giá trị số (Numeric value error). (Lưu ý: #VALUE! trong bộ đề này được phân loại là lỗi kiểu dữ liệu, #NAME? là sai tên hàm, #REF! là lỗi vùng tham chiếu)."
+    },
+    "ca1_16": {
+      "id": "ca1_16",
+      "source": "Ca 1",
+      "num": 16,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #N/A có nghĩa là gì?",
+      "options": {
+        "A": "Sai tên hàm hay tham chiếu",
+        "B": "Lỗi kiểu dữ liệu",
+        "C": "Hàm dò tìm không có kết quả",
+        "D": "Lỗi giá trị"
+      },
+      "answer": "C",
+      "explanation": "Lỗi #N/A (Not Available) xảy ra phổ biến nhất khi các hàm dò tìm như VLOOKUP, HLOOKUP, MATCH, LOOKUP không tìm thấy giá trị cần dò trong bảng dữ liệu."
+    },
+    "ca1_17": {
+      "id": "ca1_17",
+      "source": "Ca 1",
+      "num": 17,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm WEEKNUM có chức năng gì?",
+      "options": {
+        "A": "Trả về một số thứ tự thể hiện ngày làm việc",
+        "B": "Trả về một số cho biết thứ trong tuần",
+        "C": "Trả về một số cho biết tuần thứ mấy trong tháng",
+        "D": "Trả về một số cho biết tuần thứ mấy trong năm"
+      },
+      "answer": "D",
+      "explanation": "Hàm WEEKNUM(serial_number, [return_type]) trả về số thứ tự của tuần trong năm (từ tuần 1 đến tuần 52/53/54) của một ngày cụ thể. (Còn hàm trả về thứ trong tuần là WEEKDAY)."
+    },
+    "ca1_18": {
+      "id": "ca1_18",
+      "source": "Ca 1",
+      "num": 18,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm PROPER có chức năng gì?",
+      "options": {
+        "A": "Chuyển tất cả các ký tự trong một chuỗi thành chữ thường",
+        "B": "Đổi tất cả các ký tự trong chuỗi thành chữ in hoa",
+        "C": "Chuyển ký tự đầu tiên trong chuỗi thành chữ in thường và chuyển các ký tự còn lại thành chữ in hoa",
+        "D": "Chuyển ký tự đầu tiên trong một từ thành chữ in hoa và chuyển các ký tự còn lại thành chữ in thường"
+      },
+      "answer": "D",
+      "explanation": "Hàm PROPER viết hoa chữ cái đầu tiên của mỗi từ trong chuỗi văn bản và chuyển các chữ cái còn lại về chữ thường (rất hay dùng để chuẩn hóa Họ và Tên). Hàm UPPER viết hoa toàn bộ, hàm LOWER viết thường toàn bộ."
+    },
+    "ca1_19": {
+      "id": "ca1_19",
+      "source": "Ca 1",
+      "num": 19,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm AVERAGEA có chức năng gì?",
+      "options": {
+        "A": "Tính trung bình cộng của các giá trị, bao gồm cả những giá trị logic",
+        "B": "Tính trung bình cộng của các giá trị trong một mảng theo một điều kiện",
+        "C": "Tính trung bình cộng của các giá trị trong một mảng theo nhiều điều kiện",
+        "D": "Tính trung bình cộng các giá trị số, không bao gồm những giá trị logic"
+      },
+      "answer": "A",
+      "explanation": "Khác với hàm AVERAGE (chỉ tính các ô số, bỏ qua chuỗi và giá trị logic), hàm AVERAGEA tính trung bình cộng của tất cả các ô không rỗng, trong đó giá trị logic TRUE được tính là 1, FALSE và chuỗi văn bản được tính là 0."
+    },
+    "ca1_20": {
+      "id": "ca1_20",
+      "source": "Ca 1",
+      "num": 20,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để trả ra kết quả chuỗi \"AY\" trong chuỗi \"XAYB\" dùng hàm nào sau đây?",
+      "options": {
+        "A": "Hàm MID",
+        "B": "Hàm LEFT",
+        "C": "Hàm FIXED",
+        "D": "Hàm RIGHT"
+      },
+      "answer": "A",
+      "explanation": "Chuỗi \"AY\" nằm ở giữa chuỗi \"XAYB\" (bắt đầu từ vị trí thứ 2, lấy 2 ký tự). Do đó ta dùng hàm cắt chuỗi ở giữa là MID(\"XAYB\", 2, 2). Hàm LEFT cắt từ bên trái, hàm RIGHT cắt từ bên phải."
+    },
+    "ca1_21": {
+      "id": "ca1_21",
+      "source": "Ca 1",
+      "num": 21,
+      "topic": "Kiến thức máy tính",
+      "question": "Thành phần nào sau đây không thuộc bộ xử lý trung tâm (Central Processing Unit)?",
+      "options": {
+        "A": "Đường truyền (BUS)",
+        "B": "Bộ điều khiển (Control Unit)",
+        "C": "Đĩa mềm (Floppy Disk)",
+        "D": "Đồng hồ hay còn gọi là bộ tạo xung nhịp (Clock)"
+      },
+      "answer": "C",
+      "explanation": "CPU (Bộ xử lý trung tâm) bao gồm Bộ điều khiển (CU), Bộ số học và logic (ALU), các thanh ghi (Registers), bộ tạo xung nhịp (Clock) và đường truyền nội bộ (Internal Bus). Đĩa mềm (Floppy Disk) là thiết bị lưu trữ bộ nhớ ngoài, không thuộc CPU."
+    },
+    "ca1_22": {
+      "id": "ca1_22",
+      "source": "Ca 1",
+      "num": 22,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI?",
+      "options": {
+        "A": "Virus máy tính lây lan qua việc sao chép các tập tin đã nhiễm virus",
+        "B": "Virus máy tính lây lan qua mạng, đặc biệt là thư điện tử",
+        "C": "Virus máy tính lây lan qua các thiết bị nhớ di động",
+        "D": "Virus máy tính không lây lan qua các phần mềm có bản quyền"
+      },
+      "answer": "D",
+      "explanation": "Phát biểu SAI là \"Virus máy tính không lây lan qua các phần mềm có bản quyền\". Dù máy tính cài phần mềm có bản quyền nhưng nếu không có biện pháp bảo vệ hoặc tải file từ nguồn bị nhiễm thì máy tính và các file chương trình vẫn có thể bị lây nhiễm virus."
+    },
+    "ca1_23": {
+      "id": "ca1_23",
+      "source": "Ca 1",
+      "num": 23,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI:",
+      "options": {
+        "A": "BitLocker là phần mềm của Windows 7 có chức năng mã hóa dữ liệu trong USB flash",
+        "B": "Windows 7 là một phiên bản hệ điều hành mã nguồn mở của Windows",
+        "C": "Unikey, VietKey là những phần mềm hỗ trợ người dùng gõ dấu tiếng Việt",
+        "D": "Calculator là một ứng dụng cho phép thực hiện các phép tính số"
+      },
+      "answer": "B",
+      "explanation": "Windows 7 là hệ điều hành thương mại có bản quyền đóng (mã nguồn đóng) của tập đoàn Microsoft, không phải là hệ điều hành mã nguồn mở (như Linux/Ubuntu)."
+    },
+    "ca1_24": {
+      "id": "ca1_24",
+      "source": "Ca 1",
+      "num": 24,
+      "topic": "Kiến thức máy tính",
+      "question": "Việc nào sau đây KHÔNG nên làm khi bạn sử dụng máy vi tính thường xuyên?",
+      "options": {
+        "A": "Để đèn chiếu ánh sáng trực tiếp vào màn hình",
+        "B": "Lau bàn phím thường xuyên với dung dịch kháng khuẩn",
+        "C": "Rời khỏi bàn làm việc sau mỗi giờ",
+        "D": "Sử dụng kính chống lóa"
+      },
+      "answer": "A",
+      "explanation": "Không nên để đèn hoặc ánh nắng chiếu trực tiếp vào màn hình máy tính vì sẽ gây hiện tượng phản xạ ánh sáng (chói, lóa), làm mỏi mắt và giảm thị lực nhanh chóng."
+    },
+    "ca1_25": {
+      "id": "ca1_25",
+      "source": "Ca 1",
+      "num": 25,
+      "topic": "Kiến thức máy tính",
+      "question": "Phương án nào sau đây KHÔNG phải là một loại mã độc đối với máy tính?",
+      "options": {
+        "A": "Virus",
+        "B": "Worm",
+        "C": "Trojan horse",
+        "D": "BitLocker"
+      },
+      "answer": "D",
+      "explanation": "Virus, Worm (sâu máy tính) và Trojan horse (ngựa thành Troia) đều là các loại phần mềm độc hại (Malware). Còn BitLocker là tính năng bảo mật dùng để mã hóa ổ đĩa được tích hợp sẵn trong hệ điều hành Windows."
+    },
+    "ca1_26": {
+      "id": "ca1_26",
+      "source": "Ca 1",
+      "num": 26,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu SAI:",
+      "options": {
+        "A": "Sao chép trái phép phần mềm có bản quyền là vi phạm bản quyền phần mềm.",
+        "B": "Mất mát dữ liệu là một trong những tác hại mà virus có thể gây ra cho máy tính.",
+        "C": "Mã hóa dữ liệu là một cách để bảo vệ dữ liệu trên máy tính người dùng.",
+        "D": "Sử dụng phần mềm có bản quyền thì máy tính không bao giờ bị nhiễm virus."
+      },
+      "answer": "D",
+      "explanation": "Sử dụng phần mềm có bản quyền giúp giảm nguy cơ nhiễm mã độc từ các bản crack/bẻ khóa, nhưng máy tính vẫn có thể bị nhiễm virus qua USB, email, duyệt web độc hại... nên nói \"không bao giờ bị nhiễm virus\" là SAI."
+    },
+    "ca1_27": {
+      "id": "ca1_27",
+      "source": "Ca 1",
+      "num": 27,
+      "topic": "Kiến thức máy tính",
+      "question": "Xét theo chức năng của các máy tính trong mạng, có thể phân mạng thành 3 mô hình chủ yếu. Hãy chọn phương án ĐÚNG:",
+      "options": {
+        "A": "Mô hình mạng di động, gia đình và cơ quan",
+        "B": "Mô hình Peer-to-Peer, Client-Server và dựa trên nền Web",
+        "C": "Mô hình mạng LAN, WLAN, WAN",
+        "D": "Mô hình Client-Server, LAN, WAN"
+      },
+      "answer": "B",
+      "explanation": "Xét theo chức năng (vai trò) của các máy tính trong mạng, mạng máy tính được chia thành 3 mô hình chính: Mạng ngang hàng (Peer-to-Peer), mạng Khách - Chủ (Client-Server) và mô hình mạng dựa trên nền Web. (Còn LAN, MAN, WAN là phân loại theo phạm vi địa lý)."
+    },
+    "ca1_28": {
+      "id": "ca1_28",
+      "source": "Ca 1",
+      "num": 28,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu ĐÚNG:",
+      "options": {
+        "A": "Mạng LAN là một cách nói khác của Internet.",
+        "B": "Mạng LAN là mạng kết nối các máy tính ở cách nhau những khoảng cách lớn và thường bao gồm hai hay nhiều mạng WAN",
+        "C": "Máy chủ (Server) phải là máy tính có cấu hình mạnh nhất.",
+        "D": "Hai máy tính và một phần mềm ứng dụng chưa tạo thành một mạng máy tính."
+      },
+      "answer": "D",
+      "explanation": "Để tạo thành một mạng máy tính, cần có: từ 2 máy tính trở lên, các thiết bị kết nối mạng / đường truyền vật lý (cáp mạng, sóng không dây, card mạng...) và giao thức/phần mềm mạng để trao đổi dữ liệu. Chỉ có hai máy tính độc lập và một phần mềm ứng dụng mà không có kết nối truyền thông với nhau thì chưa tạo thành mạng máy tính."
+    },
+    "ca1_29": {
+      "id": "ca1_29",
+      "source": "Ca 1",
+      "num": 29,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây SAI khi nói về bộ nhớ truy xuất ngẫu nhiên (RAM):",
+      "options": {
+        "A": "Là nơi lưu trữ dữ liệu đang được máy tính xử lý",
+        "B": "Là nơi dữ liệu không bị mất khi dòng điện bị gián đoạn",
+        "C": "Là nơi chương trình được đưa vào để thực hiện",
+        "D": "Là một thành phần quan trọng của bộ nhớ trong"
+      },
+      "answer": "B",
+      "explanation": "RAM (Random Access Memory) là bộ nhớ khả biến (volatile memory): toàn bộ dữ liệu trong RAM sẽ bị mất đi khi mất nguồn điện hoặc tắt máy. Bộ nhớ không mất dữ liệu khi mất điện là ROM hoặc bộ nhớ ngoài (ổ cứng, USB)."
+    },
+    "ca1_30": {
+      "id": "ca1_30",
+      "source": "Ca 1",
+      "num": 30,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây ĐÚNG?",
+      "options": {
+        "A": "Dữ liệu lưu trên bộ nhớ ngoài vẫn còn tồn tại khi nguồn điện bị gián đoạn.",
+        "B": "Bộ nhớ ngoài có thể thay thế bộ nhớ trong trong trường hợp bộ nhớ trong bị hỏng.",
+        "C": "Bộ nhớ ngoài của máy tính thường là đĩa cứng, USB, RAM, ROM, ..",
+        "D": "Tốc độ truy xuất của bộ nhớ ngoài nhanh hơn rất nhiều so với bộ nhớ trong."
+      },
+      "answer": "A",
+      "explanation": "Bộ nhớ ngoài (như ổ cứng HDD/SSD, USB, thẻ nhớ, đĩa quang) là bộ nhớ lưu trữ lâu dài, dữ liệu không bị mất khi tắt máy hay gián đoạn nguồn điện. (B sai vì máy không thể chạy thiếu RAM/ROM; C sai vì RAM, ROM là bộ nhớ trong; D sai vì bộ nhớ trong nhanh hơn bộ nhớ ngoài rất nhiều)."
+    },
+    "ca1_31": {
+      "id": "ca1_31",
+      "source": "Ca 1",
+      "num": 31,
+      "topic": "MS PowerPoint",
+      "question": "\"Trong chế độ hiển thị __________, slide sẽ hiển thị toàn màn hình, các slide sẽ lần lượt xuất hiện theo thứ tự được sắp xếp trong bài thuyết trình\". Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Slide Sorter",
+        "B": "Notes Page",
+        "C": "Reading View",
+        "D": "Slide Show"
+      },
+      "answer": "D",
+      "explanation": "Slide Show là chế độ trình chiếu toàn màn hình, nơi các slide và hiệu ứng lần lượt xuất hiện để thuyết trình trước người xem."
+    },
+    "ca1_32": {
+      "id": "ca1_32",
+      "source": "Ca 1",
+      "num": 32,
+      "topic": "MS PowerPoint",
+      "question": "Chế độ hiển thị nào sau đây có trong Ms PowerPoint?",
+      "options": {
+        "A": "Notes page",
+        "B": "Print Layout",
+        "C": "Outline",
+        "D": "Draft"
+      },
+      "answer": "A",
+      "explanation": "Trong MS PowerPoint 2010 (thẻ View -> Presentation Views) có các chế độ hiển thị: Normal, Slide Sorter, Notes Page, Reading View. Còn Print Layout, Outline, Draft là các chế độ hiển thị của MS Word."
+    },
+    "ca1_33": {
+      "id": "ca1_33",
+      "source": "Ca 1",
+      "num": 33,
+      "topic": "MS PowerPoint",
+      "question": "Để thêm âm thanh khi dịch chuyển, thời gian dịch chuyển giữa các slide chọn nhóm lệnh nào sau đây?",
+      "options": {
+        "A": "Advanced Animation",
+        "B": "Media",
+        "C": "Preview",
+        "D": "Timing"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Transitions của PowerPoint 2010, nhóm lệnh Timing chứa các tùy chọn: Sound (âm thanh khi chuyển slide), Duration (thời gian thực hiện hiệu ứng chuyển), Advance Slide (chuyển slide khi click chuột hoặc tự động sau bao nhiêu giây)."
+    },
+    "ca1_34": {
+      "id": "ca1_34",
+      "source": "Ca 1",
+      "num": 34,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, về chức năng Effect Option, phát biểu nào sau đây là đúng:",
+      "options": {
+        "A": "Thêm liên kết cho đối tượng",
+        "B": "Thêm hiệu ứng chuyển Slide",
+        "C": "Thay đổi hướng di chuyển của hiệu ứng",
+        "D": "Thêm hiệu ứng động cho đối tượng"
+      },
+      "answer": "C",
+      "explanation": "Nút lệnh Effect Options (trong thẻ Transitions hoặc Animations) cho phép tùy chỉnh chi tiết thuộc tính của hiệu ứng đã chọn, phổ biến nhất là thay đổi hướng di chuyển/xuất hiện của hiệu ứng (ví dụ: From Bottom, From Left, From Right, From Top...)."
+    },
+    "ca1_35": {
+      "id": "ca1_35",
+      "source": "Ca 1",
+      "num": 35,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi vào View -> Master Views -> Slide Master như trong hình vẽ, người ta thực hiện:",
+      "options": {
+        "A": "Chọn trang thuyết trình chủ (master slide) mới",
+        "B": "Xóa trang thuyết trình chủ (master slide) hiện có",
+        "C": "Tìm trang thuyết trình chủ (master slide) mới",
+        "D": "Xem trang thuyết trình chủ (master slide) hiện có"
+      },
+      "answer": "D",
+      "explanation": "Lệnh View -> Master Views -> Slide Master dùng để mở và xem/chỉnh sửa trang thuyết trình chủ (Slide Master) hiện có của bài thuyết trình, giúp đồng bộ bố cục, font chữ, logo trên toàn bộ các slide."
+    },
+    "ca1_36": {
+      "id": "ca1_36",
+      "source": "Ca 1",
+      "num": 36,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, chế độ xem nào sau đây không có:",
+      "options": {
+        "A": "Normal",
+        "B": "Slide sorter",
+        "C": "Draft",
+        "D": "Reading View"
+      },
+      "answer": "C",
+      "explanation": "PowerPoint 2010 có các chế độ xem: Normal, Slide Sorter, Notes Page, Reading View (và Slide Show). Chế độ Draft (bản nháp) chỉ có trong MS Word, không có trong PowerPoint."
+    },
+    "ca1_37": {
+      "id": "ca1_37",
+      "source": "Ca 1",
+      "num": 37,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, để chọn cách xuất hiện của đối tượng trong hiệu ứng, khi vào Animations -> Effect Options, cách nào sau đây không có?",
+      "options": {
+        "A": "From left",
+        "B": "From Top-Left",
+        "C": "From Bottom-left",
+        "D": "From Top"
+      },
+      "answer": "B",
+      "explanation": "Theo đáp án chuẩn của bộ đề thi (mã câu 37 Ca 1 = B), tùy chọn 'From Top-Left' là đáp án được chọn cho hiệu ứng cụ thể trong câu hỏi này."
+    },
+    "ca1_38": {
+      "id": "ca1_38",
+      "source": "Ca 1",
+      "num": 38,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, muốn trình diễn một bài thuyết trình, cách nào sau đây là sai:",
+      "options": {
+        "A": "Vào slide Show -> Set Up Slide show",
+        "B": "Vào Slide Show -> From Custom Slide show",
+        "C": "Bấm vào nút Slide Show ở góc dưới bên phải",
+        "D": "Vào Slide Show -> From Beginning"
+      },
+      "answer": "A",
+      "explanation": "Lệnh Slide Show -> Set Up Slide Show chỉ mở hộp thoại thiết lập cấu hình trình chiếu (như chiếu lặp lại, tắt hiệu ứng, chọn màn hình...) chứ không bắt đầu chạy trình chiếu. Các cách B, C, D (hoặc nhấn F5 / Shift+F5) đều trực tiếp khởi chạy bài thuyết trình."
+    },
+    "ca1_39": {
+      "id": "ca1_39",
+      "source": "Ca 1",
+      "num": 39,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi vào Insert -> Screenshot, khi bấm vào các hình ảnh trong \"Available Windows\" như trong hình là để thực hiện:",
+      "options": {
+        "A": "Chèn hình ảnh chụp qua Camera vào Slide",
+        "B": "Chèn các file đã có sẵn vào slide",
+        "C": "Chuyển sang cửa sổ màn hình khác",
+        "D": "Chèn vào các cửa sổ màn hình vào Slide"
+      },
+      "answer": "D",
+      "explanation": "Tính năng Insert -> Screenshot -> Available Windows trong Office 2010 sẽ liệt kê ảnh chụp của các cửa sổ chương trình đang mở trên máy tính (không bị thu nhỏ xuống Taskbar). Khi bấm vào một hình trong đó, PowerPoint sẽ chèn ngay ảnh chụp cửa sổ màn hình đó vào Slide."
+    },
+    "ca1_40": {
+      "id": "ca1_40",
+      "source": "Ca 1",
+      "num": 40,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, chức năng nào không xuất hiện trên thanh ribbon:",
+      "options": {
+        "A": "Bookmark",
+        "B": "Tigger",
+        "C": "Action",
+        "D": "Macros"
+      },
+      "answer": "A",
+      "explanation": "Trên thanh Ribbon của PowerPoint 2010 có Trigger (trong thẻ Animations), Action (trong thẻ Insert -> Links) và Macros (trong thẻ View). Còn nút lệnh Bookmark trên nhóm Links (thẻ Insert) là chức năng của MS Word, không xuất hiện trên nhóm Links của PowerPoint."
+    },
+    "ca2_01": {
+      "id": "ca2_01",
+      "source": "Ca 2",
+      "num": 1,
+      "topic": "MS Word",
+      "question": "Lệnh Split Table trong Ms Word có chức năng gì?",
+      "options": {
+        "A": "Gộp hai bảng thành một bảng",
+        "B": "Gộp nhiều bảng thành một bảng",
+        "C": "Tách một bảng thành hai bảng",
+        "D": "Tách hai bảng thành nhiều bảng"
+      },
+      "answer": "C",
+      "explanation": "Trong MS Word (thẻ Table Tools -> Layout -> nhóm Merge), lệnh Split Table (phím tắt Ctrl + Shift + Enter) dùng để tách bảng hiện tại thành hai bảng riêng biệt tại vị trí dòng đang đặt con trỏ."
+    },
+    "ca2_02": {
+      "id": "ca2_02",
+      "source": "Ca 2",
+      "num": 2,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, để chia một ô của Table (bảng) thành nhiều ô ta sử dụng lệnh nào dưới đây?",
+      "options": {
+        "A": "AutoFit",
+        "B": "Split Table",
+        "C": "Split Cells",
+        "D": "Merge Cells"
+      },
+      "answer": "C",
+      "explanation": "Lệnh Split Cells dùng để chia (tách) một ô hoặc các ô đang chọn thành nhiều dòng và nhiều cột. Ngược lại, Merge Cells dùng để gộp nhiều ô thành một ô."
+    },
+    "ca2_03": {
+      "id": "ca2_03",
+      "source": "Ca 2",
+      "num": 3,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, để chuyển đổi dữ liệu (văn bản) trong bảng thành dạng văn bản thông thường ta sử dụng lệnh là:",
+      "options": {
+        "A": "Convert text to table",
+        "B": "Text to Convert",
+        "C": "Text Direction",
+        "D": "Convert to text"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Table Tools -> Layout -> nhóm Data, lệnh Convert to Text cho phép chuyển đổi dữ liệu trong bảng (Table) thành văn bản thông thường (ngăn cách bởi dấu Tab, dấu phẩy hoặc dấu ngắt đoạn). Ngược lại, Insert -> Table -> Convert Text to Table dùng để chuyển văn bản thành bảng."
+    },
+    "ca2_04": {
+      "id": "ca2_04",
+      "source": "Ca 2",
+      "num": 4,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, để một đối tượng hình ảnh làm nền cho văn bản ta sử dụng lệnh nào trong nhóm lệnh Wrap Text?",
+      "options": {
+        "A": "In front of Text",
+        "B": "Behind Text",
+        "C": "Hide Text",
+        "D": "Tight"
+      },
+      "answer": "B",
+      "explanation": "Trong nhóm Wrap Text (bố trí văn bản quanh hình ảnh), tùy chọn Behind Text sẽ đưa hình ảnh nằm chìm phía sau chữ (làm nền cho văn bản). Ngược lại, In front of Text đưa hình ảnh đè lên phía trước chữ."
+    },
+    "ca2_05": {
+      "id": "ca2_05",
+      "source": "Ca 2",
+      "num": 5,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, chức năng của lệnh Legend trong hình bên dưới là gì?",
+      "image": "/images/q/ca2_q05.png",
+      "options": {
+        "A": "Tên biểu đồ",
+        "B": "Tiêu đề cột",
+        "C": "Chú giải",
+        "D": "Tiêu đề trục"
+      },
+      "answer": "C",
+      "explanation": "Khi làm việc với biểu đồ (Chart Tools -> Layout -> nhóm Labels), nút lệnh Legend dùng để bật/tắt hoặc chọn vị trí đặt bảng Chú giải (chú thích màu sắc/ký hiệu của các chuỗi dữ liệu) trên biểu đồ. (Chart Title là Tên biểu đồ, Axis Titles là Tiêu đề trục)."
+    },
+    "ca2_06": {
+      "id": "ca2_06",
+      "source": "Ca 2",
+      "num": 6,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, lệnh Convert Text to Table để thực hiện chức năng gì?",
+      "options": {
+        "A": "Chuyển nội dung văn bản được chọn thành lịch công tác",
+        "B": "Chuyển nội dung văn bản được chọn thành bảng biểu",
+        "C": "Chuyển văn bản thành các bảng",
+        "D": "Chuyển văn bản thành nhiều dòng, nhiều cột"
+      },
+      "answer": "B",
+      "explanation": "Lệnh Insert -> Table -> Convert Text to Table có chức năng chuyển đổi đoạn nội dung văn bản đang được bôi đen (đã có các ký tự phân cách như Tab, dấu phẩy...) thành một bảng biểu (Table)."
+    },
+    "ca2_07": {
+      "id": "ca2_07",
+      "source": "Ca 2",
+      "num": 7,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, lệnh Wrap Text/Tight trong nhóm Arrange để thực hiện chức năng gì?",
+      "options": {
+        "A": "Bố trí văn bản nằm bên trên và bên dưới đối tượng",
+        "B": "Bố trí văn bản nằm dưới đối tượng",
+        "C": "Bố trí văn bản theo khung hình chữ nhật bao quanh đối tượng",
+        "D": "Bố trí văn bản bao sát quanh đối tượng"
+      },
+      "answer": "D",
+      "explanation": "Trong menu Wrap Text: 'Tight' giúp bố trí các dòng văn bản ôm/bao sát theo đường viền thực tế của đối tượng hình ảnh. ('Square' là bao theo khung hình chữ nhật, 'Top and Bottom' là nằm trên và dưới đối tượng, 'Behind Text' là chữ đè lên hình)."
+    },
+    "ca2_08": {
+      "id": "ca2_08",
+      "source": "Ca 2",
+      "num": 8,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, lệnh Picture Corrections Options trong nhóm Adjust/Corrections thực hiện chức năng gì?",
+      "options": {
+        "A": "Phục hồi ảnh trở về trạng thái gốc",
+        "B": "Thay đổi ảnh khác",
+        "C": "Dùng để nén ảnh",
+        "D": "Mở hộp thoại cho điều chỉnh độ độ sáng và độ tương phản"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Picture Tools -> Format -> nhóm Adjust -> Corrections, chọn Picture Corrections Options sẽ mở hộp thoại Format Picture cho phép tinh chỉnh chi tiết độ sắc nét (Sharpen/Soften), độ sáng (Brightness) và độ tương phản (Contrast) của bức ảnh. (Reset Picture là phục hồi ảnh gốc, Change Picture là đổi ảnh, Compress Pictures là nén ảnh)."
+    },
+    "ca2_09": {
+      "id": "ca2_09",
+      "source": "Ca 2",
+      "num": 9,
+      "topic": "MS Word",
+      "question": "Trong MS Word, thẻ lệnh nào trên thanh công cụ Ribbon chứa lệnh thiết lập trang?",
+      "options": {
+        "A": "Page Layout",
+        "B": "Insert",
+        "C": "View",
+        "D": "Home"
+      },
+      "answer": "A",
+      "explanation": "Trong MS Word 2010, thẻ Page Layout chứa nhóm lệnh Page Setup dùng để thiết lập trang in như căn lề (Margins), hướng giấy (Orientation), khổ giấy (Size) và chia cột (Columns)."
+    },
+    "ca2_10": {
+      "id": "ca2_10",
+      "source": "Ca 2",
+      "num": 10,
+      "topic": "MS Word",
+      "question": "Trong văn bản của MS Word, chức năng Section Breaks dùng để làm gì?",
+      "options": {
+        "A": "Tạo văn bản thành nhiều cột khác nhau.",
+        "B": "Xuống hàng phần văn bản từ vị trí con trỏ trở đi nhưng không ngắt thành đoạn văn bản khác.",
+        "C": "Đưa phần văn bản từ vị trí con trỏ trở đi sang trang khác thay vì phải enter nhiều lần (không tạo thành vùng văn bản khác).",
+        "D": "Chia văn bản thành các vùng khác nhau để từ đó người dùng có thể định dạng riêng cho từng vùng."
+      },
+      "answer": "D",
+      "explanation": "Section Breaks (Ngắt phân vùng, trong thẻ Page Layout -> Breaks) dùng để chia tài liệu thành các phân vùng (Sections) độc lập, giúp người dùng có thể thiết lập định dạng trang riêng biệt cho từng vùng (ví dụ: trang dọc xen kẽ trang ngang, đánh số trang khác nhau, Header/Footer khác nhau). (Phương án B là Text Wrapping Break / Shift+Enter, phương án C là Page Break / Ctrl+Enter)."
+    },
+    "ca2_11": {
+      "id": "ca2_11",
+      "source": "Ca 2",
+      "num": 11,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, bảng tính đã được lưu và đang mở muốn lưu lại bảng tính dưới một tên khác thì chọn lệnh nào trong số các lệnh sau:",
+      "options": {
+        "A": "Send To",
+        "B": "Open",
+        "C": "Save",
+        "D": "Save As"
+      },
+      "answer": "D",
+      "explanation": "Để lưu một bảng tính (Workbook) đã có sẵn dưới một tên mới, vị trí mới hoặc định dạng khác, ta vào File -> chọn Save As (hoặc nhấn phím F12)."
+    },
+    "ca2_12": {
+      "id": "ca2_12",
+      "source": "Ca 2",
+      "num": 12,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, khi mở một workbook mặc định sẽ có bao nhiêu worksheet?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Theo đáp án chuẩn của đề thi (mã câu 12 Ca 2 = A: trong ảnh thí sinh khoanh D bị chấm sai, đáp án hệ thống là 12?...a... tức đáp án A): Trong MS Excel 2010 (và các bản 2003, 2007), khi tạo mới một Workbook, mặc định sẽ có sẵn 3 Worksheet (Sheet1, Sheet2, Sheet3)."
+    },
+    "ca2_13": {
+      "id": "ca2_13",
+      "source": "Ca 2",
+      "num": 13,
+      "topic": "MS Excel",
+      "question": "Từ phiên bản Ms Excel 2007 trở đi, khi lưu trữ Workbook mặc định có phần mở rộng là:",
+      "options": {
+        "A": ".xls",
+        "B": ".xltx",
+        "C": ".xlsx",
+        "D": ".xltm"
+      },
+      "answer": "C",
+      "explanation": "Từ phiên bản MS Excel 2007 trở đi, phần mở rộng (đuôi file) mặc định của tập tin bảng tính Excel là .xlsx (phiên bản 2003 trở về trước là .xls; còn .xltx và .xltm là các file mẫu Template)."
+    },
+    "ca2_14": {
+      "id": "ca2_14",
+      "source": "Ca 2",
+      "num": 14,
+      "topic": "MS Excel",
+      "question": "Một Worksheet trong Ms Excel 2010 chứa được bao nhiêu cột và bao nhiêu dòng?",
+      "options": {
+        "A": "16.384 cột và 1.048.576 dòng",
+        "B": "1.048.576 cột và 16.384 dòng",
+        "C": "65.536 cột và 256 dòng",
+        "D": "256 cột và 65.536 dòng"
+      },
+      "answer": "A",
+      "explanation": "Từ Excel 2007 và Excel 2010 trở đi, mỗi trang tính (Worksheet) có tối đa 16.384 cột (từ cột A đến cột XFD, tương ứng 2^14) và 1.048.576 dòng (tương ứng 2^20). (Còn 256 cột và 65.536 dòng là giới hạn cũ của Excel 2003)."
+    },
+    "ca2_15": {
+      "id": "ca2_15",
+      "source": "Ca 2",
+      "num": 15,
+      "topic": "MS Excel",
+      "question": "Trong MS Excel, tên vùng tính (Range) chứa tối đa bao nhiêu ký tự?",
+      "options": {
+        "A": "250 ký tự không chứa khoảng trắng và dấu chấm",
+        "B": "125 ký tự không chứa khoảng trắng và dấu chấm",
+        "C": "255 ký tự không chứa khoảng trắng và dấu chấm",
+        "D": "225 ký tự không chứa khoảng trắng và dấu chấm"
+      },
+      "answer": "C",
+      "explanation": "Khi đặt tên cho một ô hoặc vùng dữ liệu (Defined Name / Range Name) trong MS Excel, tên vùng có độ dài tối đa là 255 ký tự, phải bắt đầu bằng chữ cái hoặc dấu gạch dưới (_), và không được chứa khoảng trắng."
+    },
+    "ca2_16": {
+      "id": "ca2_16",
+      "source": "Ca 2",
+      "num": 16,
+      "topic": "MS Excel",
+      "question": "Trong MS excel, để đặt mật khẩu cho file thực hiện lệnh nào sau đây là đúng?",
+      "options": {
+        "A": "Check Accessibility",
+        "B": "Inspect Document",
+        "C": "Encrypt with Password",
+        "D": "Check Compatibility"
+      },
+      "answer": "C",
+      "explanation": "Trong bộ Office 2010 (Word, Excel, PowerPoint), để đặt mật khẩu bảo vệ không cho người lạ mở file, ta vào File -> Info -> Protect Workbook (hoặc Protect Document/Presentation) -> chọn Encrypt with Password."
+    },
+    "ca2_17": {
+      "id": "ca2_17",
+      "source": "Ca 2",
+      "num": 17,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, một tập tin được gọi là:",
+      "options": {
+        "A": "Worksheet",
+        "B": "Workbook",
+        "C": "Sheet",
+        "D": "File"
+      },
+      "answer": "B",
+      "explanation": "Trong MS Excel, một tập tin (file .xlsx) được gọi là một Workbook (sổ làm việc / tập bảng tính). Bên trong một Workbook chứa một hoặc nhiều trang tính con gọi là Worksheet (hay Sheet)."
+    },
+    "ca2_18": {
+      "id": "ca2_18",
+      "source": "Ca 2",
+      "num": 18,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, cách thể hiện nào sau đây không phải địa chỉ của 1 Ô trên bảng tính?",
+      "options": {
+        "A": "A3:A3",
+        "B": "A1:A3",
+        "C": "R1C3",
+        "D": "A5"
+      },
+      "answer": "B",
+      "explanation": "A1:A3 là địa chỉ của một VÙNG (Range) gồm 3 ô (A1, A2, A3), không phải địa chỉ của 1 ô đơn lẻ. (A5 là địa chỉ 1 ô kiểu A1; R1C3 là địa chỉ 1 ô dòng 1 cột 3 theo kiểu R1C1; A3:A3 tuy viết dạng vùng nhưng vẫn chỉ tham chiếu đúng 1 ô A3)."
+    },
+    "ca2_19": {
+      "id": "ca2_19",
+      "source": "Ca 2",
+      "num": 19,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để ghi chú hay chú thích cho 1 ô trên bảng tính, lệnh nào sau đây sẽ được sử dụng?",
+      "options": {
+        "A": "New Window",
+        "B": "New Review",
+        "C": "New View",
+        "D": "New Comment"
+      },
+      "answer": "D",
+      "explanation": "Để thêm ghi chú/chú thích vào một ô trong Excel, ta chọn ô đó rồi vào thẻ Review -> bấm New Comment (hoặc click chuột phải vào ô chọn Insert Comment, phím tắt Shift + F2)."
+    },
+    "ca2_20": {
+      "id": "ca2_20",
+      "source": "Ca 2",
+      "num": 20,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để quản lý và theo dõi sự thay đổi thông tin trên các bảng tính của tập tin từ những người đồng sử dụng, dùng chức năng:",
+      "options": {
+        "A": "Data Changes",
+        "B": "Highlight Changes",
+        "C": "Track Changes",
+        "D": "View Changes"
+      },
+      "answer": "C",
+      "explanation": "Chức năng Track Changes (trong thẻ Review -> nhóm Changes) giúp theo dõi, ghi nhận và đánh dấu mọi sự thay đổi dữ liệu trên bảng tính khi nhiều người cùng chia sẻ và chỉnh sửa tập tin."
+    },
+    "ca2_21": {
+      "id": "ca2_21",
+      "source": "Ca 2",
+      "num": 21,
+      "topic": "MS PowerPoint",
+      "question": "Hãy cho biết trình tự thực hiện để thiết kế một bài thuyết trình:",
+      "options": {
+        "A": "Phân tích, lập kế hoạch, xây dựng đề cương, thu thập thông tin và thực hiện",
+        "B": "Thu thập thông tin, phân tích, xây dựng đề cương, lập kế hoạch và thực hiện",
+        "C": "Lập kế hoạch, phân tích, xây dựng đề cương, thu thập thông tin và thực hiện",
+        "D": "Thu thập thông tin, lập kế hoạch, xây dựng đề cương, phân tích và thực hiện"
+      },
+      "answer": "C",
+      "explanation": "Theo quy trình chuẩn khi thiết kế một bài thuyết trình: Bước 1: Lập kế hoạch -> Bước 2: Phân tích (mục tiêu, đối tượng người nghe) -> Bước 3: Xây dựng đề cương (dàn ý nội dung) -> Bước 4: Thu thập thông tin (tư liệu, hình ảnh, số liệu) -> Bước 5: Thực hiện (thiết kế slide)."
+    },
+    "ca2_22": {
+      "id": "ca2_22",
+      "source": "Ca 2",
+      "num": 22,
+      "topic": "MS PowerPoint",
+      "question": "Hãy kể tên một số phần mềm trình chiếu thông dụng:",
+      "options": {
+        "A": "Impress, Prezi, Google Slides, Ms word và SlideRocket",
+        "B": "Impress, Google Presentation, Ms Word và SlideRocket",
+        "C": "Impress, Prezi, Google Slides và Ms Excel",
+        "D": "Impress, Prezi, Google Slides, Ms PowerPoint và SlideRocket"
+      },
+      "answer": "D",
+      "explanation": "Các phần mềm trình chiếu thông dụng hiện nay gồm: Microsoft PowerPoint, OpenOffice/LibreOffice Impress, Prezi, Google Slides (Google Presentation), Apple Keynote và SlideRocket. Các đáp án A, B, C sai vì có chứa MS Word hoặc MS Excel."
+    },
+    "ca2_23": {
+      "id": "ca2_23",
+      "source": "Ca 2",
+      "num": 23,
+      "topic": "MS PowerPoint",
+      "question": "Bài thuyết trình (tập tin thuyết trình) được tạo ra từ Ms PowerPoint 2010 có phần mở rộng mặc định là gì?",
+      "options": {
+        "A": "xls",
+        "B": "ppt",
+        "C": "pptx",
+        "D": "docx"
+      },
+      "answer": "C",
+      "explanation": "Tập tin thuyết trình tạo từ MS PowerPoint 2007/2010 trở đi có phần mở rộng mặc định là .pptx (phiên bản PowerPoint 2003 trở về trước là .ppt)."
+    },
+    "ca2_24": {
+      "id": "ca2_24",
+      "source": "Ca 2",
+      "num": 24,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint 2010, khi chọn Outline trong chế độ Normal ở cửa sổ bên trái có ý nghĩa gì?",
+      "options": {
+        "A": "Hiển thị nội dung của Slide trong bài thuyết trình",
+        "B": "Chỉ hiển thị các ghi chú trong các Slide",
+        "C": "Chỉ hiển thị các đoạn văn bản trong slide",
+        "D": "Hiển thị thông tin các Slide ở dạng thu nhỏ"
+      },
+      "answer": "C",
+      "explanation": "Ở khung điều hướng bên trái trong chế độ Normal của PowerPoint 2010 có 2 thẻ: Thẻ 'Slides' hiển thị hình ảnh các slide ở dạng thu nhỏ (thumbnail), còn thẻ 'Outline' (Dàn ý) chỉ hiển thị nội dung các đoạn văn bản (tiêu đề và nội dung chữ) có trong các slide."
+    },
+    "ca2_25": {
+      "id": "ca2_25",
+      "source": "Ca 2",
+      "num": 25,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các lệnh trong thẻ lệnh Insert thực hiện chức năng gì?",
+      "options": {
+        "A": "Thực hiện các lệnh chèn, thêm các đối tượng",
+        "B": "Tạo ghi chú cho nội dung trong Slide",
+        "C": "Thực hiện các lệnh về định dạng cho nội dung trình chiếu",
+        "D": "Chuyển đổi qua lại giữa các chế độ hiển thị"
+      },
+      "answer": "A",
+      "explanation": "Thẻ Insert (Chèn) trên thanh công cụ Ribbon chứa các lệnh dùng để chèn, thêm các đối tượng vào Slide như bảng biểu (Table), hình ảnh (Picture), hình vẽ (Shapes), biểu đồ (Chart), SmartArt, WordArt, âm thanh (Audio), video..."
+    },
+    "ca2_26": {
+      "id": "ca2_26",
+      "source": "Ca 2",
+      "num": 26,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các lệnh trong thẻ lệnh Review thực hiện chức năng gì?",
+      "options": {
+        "A": "Chuyển đổi qua lại giữa các chế độ hiển thị",
+        "B": "Thực hiện các lệnh chèn, thêm các đối tượng",
+        "C": "Tạo ghi chú cho nội dung trong Slide",
+        "D": "Thực hiện các lệnh về định dạng cho nội dung trình chiếu"
+      },
+      "answer": "C",
+      "explanation": "Thẻ Review (Xem lại) trong PowerPoint dùng để kiểm tra chính tả, dịch thuật, so sánh bài thuyết trình và đặc biệt là tạo, chỉnh sửa, quản lý các ghi chú/bình luận (Comments) cho nội dung trong Slide."
+    },
+    "ca2_27": {
+      "id": "ca2_27",
+      "source": "Ca 2",
+      "num": 27,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các lệnh trong thẻ lệnh View thực hiện chức năng gì?",
+      "options": {
+        "A": "Tạo ghi chú cho nội dung trong Slide",
+        "B": "Chuyển đổi qua lại giữa các chế độ hiển thị",
+        "C": "Thực hiện các lệnh về định dạng cho nội dung trình chiếu",
+        "D": "Chuyển đổi qua lại giữa các chế độ hiển thị"
+      },
+      "answer": "B",
+      "explanation": "Thẻ View (Hiển thị) chứa các nhóm lệnh Presentation Views và Master Views giúp chuyển đổi qua lại giữa các chế độ hiển thị bài thuyết trình (Normal, Slide Sorter, Notes Page, Reading View, Slide Master...), bật/tắt thước (Ruler), lưới (Gridlines) và thu phóng (Zoom)."
+    },
+    "ca2_28": {
+      "id": "ca2_28",
+      "source": "Ca 2",
+      "num": 28,
+      "topic": "MS PowerPoint",
+      "question": "Lựa chọn nào sau đây KHÔNG phải là tên của một phần mềm trình chiếu?",
+      "options": {
+        "A": "OpenOffice Impress",
+        "B": "Ms PowerPoint",
+        "C": "Apple Keynote",
+        "D": "Google Docs"
+      },
+      "answer": "D",
+      "explanation": "Google Docs là ứng dụng soạn thảo văn bản trực tuyến (tương tự MS Word). Phần mềm trình chiếu của Google là Google Slides (hay Google Presentations). Còn OpenOffice Impress, MS PowerPoint và Apple Keynote đều là các phần mềm trình chiếu."
+    },
+    "ca2_29": {
+      "id": "ca2_29",
+      "source": "Ca 2",
+      "num": 29,
+      "topic": "MS PowerPoint",
+      "question": "Phần mở rộng mặc định của tập tin thuyết trình trong Ms PowerPoint 2010 là gì?",
+      "options": {
+        "A": "ppt",
+        "B": "potx",
+        "C": "ppts",
+        "D": "pptx"
+      },
+      "answer": "D",
+      "explanation": "Phần mở rộng mặc định của tập tin thuyết trình trong MS PowerPoint 2010 là .pptx (.ppt là của bản 2003 trở về trước, .potx là file mẫu PowerPoint Template)."
+    },
+    "ca2_30": {
+      "id": "ca2_30",
+      "source": "Ca 2",
+      "num": 30,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, hướng (orientation) của trang chiếu được thiết lập mặc định là:",
+      "options": {
+        "A": "Landscape",
+        "B": "Portrait",
+        "C": "Horizontal",
+        "D": "Vertical"
+      },
+      "answer": "A",
+      "explanation": "Để phù hợp với màn hình máy tính và máy chiếu, hướng trang chiếu (Slide Orientation) mặc định trong PowerPoint là Landscape (khổ ngang). Ngược lại, trong MS Word hướng giấy mặc định là Portrait (khổ dọc)."
+    },
+    "ca2_31": {
+      "id": "ca2_31",
+      "source": "Ca 2",
+      "num": 31,
+      "topic": "Kiến thức máy tính",
+      "question": "\"..... là các đoạn mạch có chức năng truyền dẫn thông tin giữa các thành phần\", Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Bộ số học luận lý (ALU)",
+        "B": "Thanh ghi (Register)",
+        "C": "Bộ điều khiển (CU)",
+        "D": "Đường truyền (BUS)"
+      },
+      "answer": "D",
+      "explanation": "Hệ thống BUS (Đường truyền) trong máy tính là tập hợp các đường dây dẫn/đoạn mạch điện tử có chức năng truyền dẫn dữ liệu, địa chỉ và tín hiệu điều khiển giữa CPU, bộ nhớ và các thiết bị ngoại vi."
+    },
+    "ca2_32": {
+      "id": "ca2_32",
+      "source": "Ca 2",
+      "num": 32,
+      "topic": "Kiến thức máy tính",
+      "question": "Dưới góc độ địa lý, mạng máy tính có thể phân thành:",
+      "options": {
+        "A": "Mạng SNA, mạng ISO, mạng WAN",
+        "B": "Mạng LAN, mạng MAN, mạng WAN, mạng GAN",
+        "C": "Mạng TCP/IP, mạng ISO, mạng WAN",
+        "D": "Mạng TCP/IP, mạng NETBIOS, mạng LAN"
+      },
+      "answer": "B",
+      "explanation": "Xét theo phạm vi địa lý từ nhỏ đến lớn, mạng máy tính được chia thành: mạng cục bộ LAN (Local Area Network), mạng đô thị MAN (Metropolitan Area Network), mạng diện rộng WAN (Wide Area Network) và mạng toàn cầu GAN (Global Area Network)."
+    },
+    "ca2_33": {
+      "id": "ca2_33",
+      "source": "Ca 2",
+      "num": 33,
+      "topic": "Kiến thức máy tính",
+      "question": "\"....là bộ phận thực hiện các phép toán số học như phép cộng, trừ và các phép toán luận lý như AND, OR, XOR\". Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Bộ nhớ truy xuất ngẫu nhiên",
+        "B": "Bộ nhớ chỉ đọc",
+        "C": "Bộ số học luận lý",
+        "D": "Bộ nhớ truy xuất nhanh"
+      },
+      "answer": "C",
+      "explanation": "ALU (Arithmetic Logic Unit - Bộ số học và luận lý) là một thành phần cốt lõi bên trong CPU, chịu trách nhiệm thực hiện mọi phép tính số học (cộng, trừ, nhân, chia) và các phép toán logic/so sánh (AND, OR, NOT, XOR)."
+    },
+    "ca2_34": {
+      "id": "ca2_34",
+      "source": "Ca 2",
+      "num": 34,
+      "topic": "Kiến thức máy tính",
+      "question": "\"... là một tập hợp các câu lệnh được viết bằng một hoặc nhiều ngôn ngữ lập trình nhằm tự động giải quyết một số chức năng hoặc bài toán nào đó\". Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Phần cứng",
+        "B": "Bộ nhớ ngoài",
+        "C": "Phần mềm",
+        "D": "Bộ nhớ trong"
+      },
+      "answer": "C",
+      "explanation": "Phần mềm máy tính (Software / Chương trình máy tính) là tập hợp các câu lệnh, chỉ thị được viết bằng một hoặc nhiều ngôn ngữ lập trình nhằm điều khiển phần cứng tự động thực hiện một chức năng hay giải quyết bài toán cụ thể."
+    },
+    "ca2_35": {
+      "id": "ca2_35",
+      "source": "Ca 2",
+      "num": 35,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây không phải chức năng chính của Firewall?",
+      "options": {
+        "A": "Ngăn chặn sự truy nhập trái phép",
+        "B": "Kiểm soát người dùng và việc truy nhập của người dùng",
+        "C": "Kiểm soát nội dung thông tin lưu chuyển trên mạng",
+        "D": "Giúp cho việc truy nhập thông tin dễ dàng trên Internet"
+      },
+      "answer": "D",
+      "explanation": "Tường lửa (Firewall) là hệ thống an ninh mạng dùng để giám sát, kiểm soát luồng thông tin vào/ra và ngăn chặn các truy cập trái phép dựa trên các quy tắc bảo mật. Việc 'giúp truy nhập thông tin dễ dàng trên Internet' là vai trò của trình duyệt web / công cụ tìm kiếm, không phải chức năng của Firewall."
+    },
+    "ca2_36": {
+      "id": "ca2_36",
+      "source": "Ca 2",
+      "num": 36,
+      "topic": "Kiến thức máy tính",
+      "question": "Các thiết bị nhớ sau đây, thiết bị nào có tốc độ truy cập dữ liệu nhanh nhất?",
+      "options": {
+        "A": "Bộ nhớ truy cập ngẫu nhiên (RAM)",
+        "B": "Đĩa cứng (Hard Disk)",
+        "C": "Thiết bị nhớ Flash (USB)",
+        "D": "Đĩa mềm"
+      },
+      "answer": "A",
+      "explanation": "Trong các thiết bị lưu trữ/bộ nhớ được liệt kê (RAM, đĩa cứng, USB, đĩa mềm), RAM là bộ nhớ trong làm việc trực tiếp với CPU thông qua mạch bán dẫn tốc độ cao nên có tốc độ truy cập dữ liệu nhanh nhất. (Đĩa mềm là chậm nhất)."
+    },
+    "ca2_37": {
+      "id": "ca2_37",
+      "source": "Ca 2",
+      "num": 37,
+      "topic": "Kiến thức máy tính",
+      "question": "Trong hệ điều hành Windows, tài khoản người dùng nào đã có mặc định?",
+      "options": {
+        "A": "Computer",
+        "B": "Admin",
+        "C": "Guest",
+        "D": "PC"
+      },
+      "answer": "C",
+      "explanation": "Trong hệ điều hành Windows, hai tài khoản được hệ thống tạo sẵn mặc định (Built-in accounts) là 'Administrator' (không phải 'Admin') và 'Guest' (tài khoản khách). Do trong 4 đáp án không có chữ Administrator đầy đủ mà có 'Guest', nên đáp án đúng là Guest."
+    },
+    "ca2_38": {
+      "id": "ca2_38",
+      "source": "Ca 2",
+      "num": 38,
+      "topic": "Kiến thức máy tính",
+      "question": "Hệ điều hành nào sao đây không phải là hệ điều hành đa nhiệm?",
+      "options": {
+        "A": "MAC OS",
+        "B": "UNIX",
+        "C": "WINDOWS",
+        "D": "MS DOS"
+      },
+      "answer": "D",
+      "explanation": "MS-DOS (Microsoft Disk Operating System) là hệ điều hành đơn nhiệm (single-tasking) giao diện dòng lệnh, tại một thời điểm chỉ chạy được một chương trình duy nhất. Còn Windows, macOS và UNIX/Linux đều là hệ điều hành đa nhiệm (multitasking)."
+    },
+    "ca2_39": {
+      "id": "ca2_39",
+      "source": "Ca 2",
+      "num": 39,
+      "topic": "Kiến thức máy tính",
+      "question": "\"_______ là một chương trình xử lý văn bản\". Hãy chọn phương án ĐÚNG điền vào chỗ trống.",
+      "options": {
+        "A": "MS Powerpoint",
+        "B": "Oracle",
+        "C": "Notepad",
+        "D": "MS Excel"
+      },
+      "answer": "C",
+      "explanation": "Trong 4 phương án: MS PowerPoint là phần mềm trình chiếu, Oracle là hệ quản trị cơ sở dữ liệu, MS Excel là chương trình bảng tính. Chỉ có Notepad (hoặc WordPad, MS Word) là chương trình soạn thảo/xử lý văn bản."
+    },
+    "ca2_40": {
+      "id": "ca2_40",
+      "source": "Ca 2",
+      "num": 40,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây không phải là đặc trưng của thương mại điện tử?",
+      "options": {
+        "A": "Mạng lưới thông tin chính là phương tiện để trao đổi dữ liệu",
+        "B": "Các bên tiến hành giao dịch không tiếp xúc trực tiếp với nhau và không đòi hỏi phải biết nhau từ trước",
+        "C": "Có sự tham gia của ít nhất ba chủ thể",
+        "D": "Thị trường thống nhất toàn cầu"
+      },
+      "answer": "A",
+      "explanation": "Theo đáp án chuẩn của bộ đề thi (mã câu 40 Ca 2 = A): Trong giáo trình Thương mại điện tử của trường, các đặc trưng cơ bản của TMĐT được nêu nguyên văn gồm: (1) Các bên tiến hành giao dịch không tiếp xúc trực tiếp với nhau và không đòi hỏi phải biết nhau từ trước; (2) Giao dịch thương mại truyền thống được thực hiện với sự tồn tại của khái niệm biên giới quốc gia, còn TMĐT được thực hiện trong một thị trường không có biên giới (thị trường thống nhất toàn cầu); (3) Trong hoạt động giao dịch TMĐT đều có sự tham gia của ít nhất ba chủ thể; (4) Mạng lưới thông tin chính là THỊ TRƯỜNG (chứ không chỉ đơn thuần là phương tiện để trao đổi dữ liệu). Do đó phát biểu A bị sửa chữ 'là thị trường' thành 'là phương tiện để trao đổi dữ liệu' nên A là đáp án được chọn."
+    },
+    "ca3_01": {
+      "id": "ca3_01",
+      "source": "Ca 3",
+      "num": 1,
+      "topic": "Kiến thức máy tính",
+      "question": "Thành phần nào sau đây không thuộc bộ xử lý trung tâm (Central Processing Unit)?",
+      "options": {
+        "A": "Đường truyền (BUS)",
+        "B": "Đĩa mềm (Floppy Disk)",
+        "C": "Bộ điều khiển (Control Unit)",
+        "D": "Đồng hồ hay còn gọi là bộ tạo xung nhịp (Clock)"
+      },
+      "answer": "B",
+      "explanation": "Đĩa mềm (Floppy Disk) là thiết bị lưu trữ thuộc bộ nhớ ngoài, không nằm trong bộ xử lý trung tâm (CPU). Các thành phần CU, ALU, thanh ghi, Clock và Bus nội bộ đều thuộc CPU."
+    },
+    "ca3_02": {
+      "id": "ca3_02",
+      "source": "Ca 3",
+      "num": 2,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI?",
+      "options": {
+        "A": "Virus máy tính lây lan qua các thiết bị nhớ di động",
+        "B": "Virus máy tính không lây lan qua các phần mềm có bản quyền",
+        "C": "Virus máy tính lây lan qua mạng, đặc biệt là thư điện tử",
+        "D": "Virus máy tính lây lan qua việc sao chép các tập tin đã nhiễm virus"
+      },
+      "answer": "B",
+      "explanation": "Phát biểu SAI là 'Virus máy tính không lây lan qua các phần mềm có bản quyền', vì nếu môi trường máy tính hoặc tệp cài đặt bị lây nhiễm từ nguồn khác thì virus vẫn có thể tấn công và lây lan."
+    },
+    "ca3_03": {
+      "id": "ca3_03",
+      "source": "Ca 3",
+      "num": 3,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI:",
+      "options": {
+        "A": "Windows 7 là một phiên bản hệ điều hành mã nguồn mở của Windows",
+        "B": "BitLocker là phần mềm của Windows 7 có chức năng mã hóa dữ liệu trong USB flash",
+        "C": "Unikey, VietKey là những phần mềm hỗ trợ người dùng gõ dấu tiếng Việt",
+        "D": "Calculator là một ứng dụng cho phép thực hiện các phép tính số"
+      },
+      "answer": "A",
+      "explanation": "Windows 7 là hệ điều hành thương mại mã nguồn đóng (proprietary software) của Microsoft, không phải mã nguồn mở."
+    },
+    "ca3_04": {
+      "id": "ca3_04",
+      "source": "Ca 3",
+      "num": 4,
+      "topic": "Kiến thức máy tính",
+      "question": "Việc nào sau đây KHÔNG nên làm khi bạn sử dụng máy vi tính thường xuyên?",
+      "options": {
+        "A": "Rời khỏi bàn làm việc sau mỗi giờ",
+        "B": "Để đèn chiếu ánh sáng trực tiếp vào màn hình",
+        "C": "Sử dụng kính chống lóa",
+        "D": "Lau bàn phím thường xuyên với dung dịch kháng khuẩn"
+      },
+      "answer": "B",
+      "explanation": "Để đèn chiếu ánh sáng trực tiếp vào màn hình sẽ gây lóa, phản chiếu ánh sáng mạnh vào mắt làm mỏi mắt và hại thị lực."
+    },
+    "ca3_05": {
+      "id": "ca3_05",
+      "source": "Ca 3",
+      "num": 5,
+      "topic": "Kiến thức máy tính",
+      "question": "Phương án nào sau đây KHÔNG phải là một loại mã độc đối với máy tính?",
+      "options": {
+        "A": "BitLocker",
+        "B": "Virus",
+        "C": "Trojan horse",
+        "D": "Worm"
+      },
+      "answer": "A",
+      "explanation": "BitLocker là công cụ mã hóa bảo vệ dữ liệu ổ đĩa của Windows (BitLocker Drive Encryption), không phải mã độc. Virus, Worm, Trojan horse đều là mã độc."
+    },
+    "ca3_06": {
+      "id": "ca3_06",
+      "source": "Ca 3",
+      "num": 6,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu SAI:",
+      "options": {
+        "A": "Sử dụng phần mềm có bản quyền thì máy tính không bao giờ bị nhiễm virus.",
+        "B": "Mất mát dữ liệu là một trong những tác hại mà virus có thể gây ra cho máy tính.",
+        "C": "Sao chép trái phép phần mềm có bản quyền là vi phạm bản quyền phần mềm.",
+        "D": "Mã hóa dữ liệu là một cách để bảo vệ dữ liệu trên máy tính người dùng."
+      },
+      "answer": "A",
+      "explanation": "Dù sử dụng phần mềm có bản quyền nhưng nếu người dùng cắm USB nhiễm virus, mở file đính kèm email độc hại hoặc truy cập web không an toàn thì máy tính vẫn có thể bị nhiễm virus."
+    },
+    "ca3_07": {
+      "id": "ca3_07",
+      "source": "Ca 3",
+      "num": 7,
+      "topic": "Kiến thức máy tính",
+      "question": "Xét theo chức năng của các máy tính trong mạng, có thể phân mạng thành 3 mô hình chủ yếu. Hãy chọn phương án ĐÚNG:",
+      "options": {
+        "A": "Mô hình Peer-to-Peer, Client-Server và dựa trên nền Web",
+        "B": "Mô hình mạng di động, gia đình và cơ quan",
+        "C": "Mô hình mạng LAN, WLAN, WAN",
+        "D": "Mô hình Client-Server, LAN, WAN"
+      },
+      "answer": "A",
+      "explanation": "Xét theo chức năng của các máy tính trong mạng, có 3 mô hình chủ yếu: Mạng ngang hàng (Peer-to-Peer), mạng Khách - Chủ (Client-Server) và mạng dựa trên nền Web."
+    },
+    "ca3_08": {
+      "id": "ca3_08",
+      "source": "Ca 3",
+      "num": 8,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu ĐÚNG:",
+      "options": {
+        "A": "Mạng LAN là một cách nói khác của Internet.",
+        "B": "Hai máy tính và một phần mềm ứng dụng chưa tạo thành một mạng máy tính.",
+        "C": "Máy chủ (Server) phải là máy tính có cấu hình mạnh nhất.",
+        "D": "Mạng LAN là mạng kết nối các máy tính ở cách nhau những khoảng cách lớn và thường bao gồm hai hay nhiều mạng WAN"
+      },
+      "answer": "B",
+      "explanation": "Hai máy tính và một phần mềm ứng dụng nếu không có môi trường truyền dẫn, thiết bị kết nối mạng và giao thức truyền thông để kết nối với nhau thì chưa tạo thành một mạng máy tính."
+    },
+    "ca3_09": {
+      "id": "ca3_09",
+      "source": "Ca 3",
+      "num": 9,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây SAI khi nói về bộ nhớ truy xuất ngẫu nhiên (RAM):",
+      "options": {
+        "A": "Là nơi chương trình được đưa vào để thực hiện",
+        "B": "Là nơi lưu trữ dữ liệu đang được máy tính xử lý",
+        "C": "Là một thành phần quan trọng của bộ nhớ trong",
+        "D": "Là nơi dữ liệu không bị mất khi dòng điện bị gián đoạn"
+      },
+      "answer": "D",
+      "explanation": "RAM là bộ nhớ khả biến, mọi dữ liệu đang lưu tạm trong RAM sẽ bị xóa sạch khi mất điện hoặc tắt máy tính."
+    },
+    "ca3_10": {
+      "id": "ca3_10",
+      "source": "Ca 3",
+      "num": 10,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây ĐÚNG?",
+      "options": {
+        "A": "Bộ nhớ ngoài có thể thay thế bộ nhớ trong trong trường hợp bộ nhớ trong bị hỏng.",
+        "B": "Dữ liệu lưu trên bộ nhớ ngoài vẫn còn tồn tại khi nguồn điện bị gián đoạn.",
+        "C": "Tốc độ truy xuất của bộ nhớ ngoài nhanh hơn rất nhiều so với bộ nhớ trong.",
+        "D": "Bộ nhớ ngoài của máy tính thường là đĩa cứng, USB, RAM, ROM, .."
+      },
+      "answer": "B",
+      "explanation": "Bộ nhớ ngoài (đĩa cứng, USB, đĩa quang...) dùng để lưu trữ dữ liệu lâu dài và không bị mất dữ liệu khi nguồn điện bị ngắt."
+    },
+    "ca3_11": {
+      "id": "ca3_11",
+      "source": "Ca 3",
+      "num": 11,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, công thức dùng để tính toán các dữ liệu lưu trữ trên bảng tính được nhận dạng bắt đầu là dấu gì?",
+      "options": {
+        "A": "#",
+        "B": "\"",
+        "C": "=",
+        "D": "<>"
+      },
+      "answer": "C",
+      "explanation": "Trong MS Excel, các công thức tính toán luôn bắt đầu bằng dấu bằng (=)."
+    },
+    "ca3_12": {
+      "id": "ca3_12",
+      "source": "Ca 3",
+      "num": 12,
+      "topic": "MS Excel",
+      "question": "Địa chỉ C$5 là loại địa chỉ nào trong số các địa chỉ dưới đây?",
+      "options": {
+        "A": "Địa chỉ tuyệt đối dòng",
+        "B": "Địa chỉ tham chiếu",
+        "C": "Địa chỉ tương đối",
+        "D": "Địa chỉ tuyệt đối cột"
+      },
+      "answer": "A",
+      "explanation": "Trong địa chỉ C$5, ký hiệu $ đặt ngay trước chỉ số dòng 5 giúp cố định dòng 5 khi sao chép công thức, còn cột C vẫn thay đổi -> gọi là địa chỉ tuyệt đối dòng (hay địa chỉ hỗn hợp cố định dòng)."
+    },
+    "ca3_13": {
+      "id": "ca3_13",
+      "source": "Ca 3",
+      "num": 13,
+      "topic": "MS Excel",
+      "question": "Địa chỉ tương đối là gì?",
+      "options": {
+        "A": "Là địa chỉ sẽ thay đổi cả cột và dòng khi sao chép công thức",
+        "B": "Là địa chỉ mà cả cột và dòng đều không thay đổi khi sao chép công thức",
+        "C": "Là địa chỉ có cột không thay đổi nhưng dòng thay đổi khi sao chép công thức",
+        "D": "Là địa chỉ có dòng không thay đổi nhưng cột thay đổi khi sao chép công thức"
+      },
+      "answer": "A",
+      "explanation": "Địa chỉ tương đối (như A1, C5) là địa chỉ không có dấu $ cố định, sẽ tự động thay đổi cả chỉ số cột và dòng khi sao chép công thức sang ô khác."
+    },
+    "ca3_14": {
+      "id": "ca3_14",
+      "source": "Ca 3",
+      "num": 14,
+      "topic": "MS Excel",
+      "question": "Trong Ms excel, đáp án nào sau đây là đúng thứ tự ưu tiên của các toán tử trong công thức?",
+      "options": {
+        "A": "Số âm, phần trăm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi, so sánh",
+        "B": "Lũy thừa, phần trăm, nối chuỗi, số âm, nhân và chia, cộng và trừ, so sánh",
+        "C": "Lũy thừa, số âm, nhân và chia, cộng và trừ, nối chuỗi, so sánh, phần trăm",
+        "D": "So sánh, phần trăm, số âm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi"
+      },
+      "answer": "A",
+      "explanation": "Thứ tự ưu tiên toán tử trong công thức Excel từ cao xuống thấp: Số âm (-) -> Phần trăm (%) -> Lũy thừa (^) -> Nhân và chia (*, /) -> Cộng và trừ (+, -) -> Nối chuỗi (&) -> So sánh (=, <, >, <=, >=, <>)."
+    },
+    "ca3_15": {
+      "id": "ca3_15",
+      "source": "Ca 3",
+      "num": 15,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #NUM! có nghĩa là gì?",
+      "options": {
+        "A": "Lỗi kiểu dữ liệu",
+        "B": "Lỗi giá trị",
+        "C": "Sai tên hàm hay tham chiếu",
+        "D": "Lỗi vùng tham chiếu"
+      },
+      "answer": "B",
+      "explanation": "Lỗi #NUM! là lỗi giá trị số không hợp lệ trong công thức hoặc hàm toán học."
+    },
+    "ca3_16": {
+      "id": "ca3_16",
+      "source": "Ca 3",
+      "num": 16,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #N/A có nghĩa là gì?",
+      "options": {
+        "A": "Lỗi kiểu dữ liệu",
+        "B": "Lỗi giá trị",
+        "C": "Sai tên hàm hay tham chiếu",
+        "D": "Hàm dò tìm không có kết quả"
+      },
+      "answer": "D",
+      "explanation": "Lỗi #N/A (Not Available) xuất hiện khi hàm tìm kiếm / dò tìm (VLOOKUP, HLOOKUP, MATCH...) không tìm thấy giá trị khớp trong vùng tham chiếu."
+    },
+    "ca3_17": {
+      "id": "ca3_17",
+      "source": "Ca 3",
+      "num": 17,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm WEEKNUM có chức năng gì?",
+      "options": {
+        "A": "Trả về một số thứ tự thể hiện ngày làm việc",
+        "B": "Trả về một số cho biết tuần thứ mấy trong năm",
+        "C": "Trả về một số cho biết tuần thứ mấy trong tháng",
+        "D": "Trả về một số cho biết thứ trong tuần"
+      },
+      "answer": "B",
+      "explanation": "Hàm WEEKNUM trả về một số nguyên cho biết ngày đang xét thuộc tuần thứ mấy trong năm."
+    },
+    "ca3_18": {
+      "id": "ca3_18",
+      "source": "Ca 3",
+      "num": 18,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm PROPER có chức năng gì?",
+      "options": {
+        "A": "Chuyển ký tự đầu tiên trong chuỗi thành chữ in thường và chuyển các ký tự còn lại thành chữ in hoa",
+        "B": "Đổi tất cả các ký tự trong chuỗi thành chữ in hoa",
+        "C": "Chuyển ký tự đầu tiên trong một từ thành chữ in hoa và chuyển các ký tự còn lại thành chữ in thường",
+        "D": "Chuyển tất cả các ký tự trong một chuỗi thành chữ thường"
+      },
+      "answer": "C",
+      "explanation": "Hàm PROPER chuyển ký tự chữ cái đầu tiên của mỗi từ trong chuỗi thành chữ in hoa và các ký tự còn lại trong từ đó thành chữ in thường."
+    },
+    "ca3_19": {
+      "id": "ca3_19",
+      "source": "Ca 3",
+      "num": 19,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm AVERAGEA có chức năng gì?",
+      "options": {
+        "A": "Tính trung bình cộng của các giá trị trong một mảng theo nhiều điều kiện",
+        "B": "Tính trung bình cộng của các giá trị trong một mảng theo một điều kiện",
+        "C": "Tính trung bình cộng của các giá trị, bao gồm cả những giá trị logic",
+        "D": "Tính trung bình cộng các giá trị số, không bao gồm những giá trị logic"
+      },
+      "answer": "C",
+      "explanation": "Hàm AVERAGEA tính trung bình cộng của tất cả các đối số, bao gồm cả số, chuỗi văn bản (tính là 0) và các giá trị logic (TRUE tính là 1, FALSE tính là 0)."
+    },
+    "ca3_20": {
+      "id": "ca3_20",
+      "source": "Ca 3",
+      "num": 20,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để trả ra kết quả chuỗi \"AY\" trong chuỗi \"XAYB\" dùng hàm nào sau đây?",
+      "options": {
+        "A": "Hàm LEFT",
+        "B": "Hàm MID",
+        "C": "Hàm RIGHT",
+        "D": "Hàm FIXED"
+      },
+      "answer": "B",
+      "explanation": "Dùng hàm MID(\"XAYB\", 2, 2) để trích xuất chuỗi con \"AY\" nằm ở giữa chuỗi \"XAYB\"."
+    },
+    "ca3_21": {
+      "id": "ca3_21",
+      "source": "Ca 3",
+      "num": 21,
+      "topic": "MS Word",
+      "question": "Dạng tab (chữ T ngược có dấu chấm ở góc phải) như hình bên dưới được gọi là:",
+      "image": "/images/q/ca3_q21.png",
+      "options": {
+        "A": "Right Tab",
+        "B": "Decimal Tab",
+        "C": "Center Tab",
+        "D": "Left Tab"
+      },
+      "answer": "B",
+      "explanation": "Biểu tượng chữ T lộn ngược có kèm một dấu chấm nhỏ ở phía trên bên phải là Decimal Tab (Tab thập phân), dùng để căn thẳng hàng các con số theo vị trí dấu chấm thập phân. (Chữ L là Left Tab, chữ T ngược không chấm là Center Tab, chữ L ngược là Right Tab)."
+    },
+    "ca3_22": {
+      "id": "ca3_22",
+      "source": "Ca 3",
+      "num": 22,
+      "topic": "MS Word",
+      "question": "Trong định dạng font, Lệnh nào sau đây định dạng ký tự chỉ số trên (ví dụ X²)?",
+      "image": "/images/q/ca3_q22.png",
+      "options": {
+        "A": "Superscript",
+        "B": "Double Strikethrough",
+        "C": "Strikethrough",
+        "D": "Subscript"
+      },
+      "answer": "A",
+      "explanation": "Trong hộp thoại Font (hoặc nhóm Font trên thẻ Home): Superscript (phím tắt Ctrl + Shift + =) dùng để tạo chỉ số trên (ví dụ: X²). Còn Subscript (Ctrl + =) tạo chỉ số dưới (ví dụ: H₂O), Strikethrough là gạch ngang giữa chữ."
+    },
+    "ca3_23": {
+      "id": "ca3_23",
+      "source": "Ca 3",
+      "num": 23,
+      "topic": "MS Word",
+      "question": "Trong nhóm lệnh Paragraph, Chức năng Increase Indent thực hiện:",
+      "image": "/images/q/ca3_q23.png",
+      "options": {
+        "A": "Lùi vào dòng đầu tiên một khoảng cách cho trước.",
+        "B": "Canh lề phải của đoạn",
+        "C": "Đóng khung văn bản",
+        "D": "Lùi vào cả đoạn một khoảng cách cho trước."
+      },
+      "answer": "D",
+      "explanation": "Nút lệnh Increase Indent (Tăng thụt lề) trong nhóm Paragraph sẽ đẩy (lùi) toàn bộ các dòng của cả đoạn văn bản đang chọn sang bên phải một khoảng cách tab mặc định. Ngược lại, Decrease Indent kéo lùi đoạn văn về bên trái."
+    },
+    "ca3_24": {
+      "id": "ca3_24",
+      "source": "Ca 3",
+      "num": 24,
+      "topic": "MS Word",
+      "question": "Chức năng Format Painter thực hiện:",
+      "options": {
+        "A": "Chỉ sao chép định dạng văn bản",
+        "B": "Sao chép định dạng một đối tượng đến các đối tượng khác",
+        "C": "Sao chép đối tượng",
+        "D": "Chỉ sao chép định dạng đối tượng đồ hoạ"
+      },
+      "answer": "B",
+      "explanation": "Công cụ Format Painter (biểu tượng cây chổi quét sơn trong nhóm Clipboard, phím tắt Ctrl + Shift + C / Ctrl + Shift + V) dùng để sao chép định dạng (màu sắc, kiểu chữ, đường viền, hiệu ứng...) từ một đoạn văn bản hoặc đối tượng đồ họa này sang các văn bản/đối tượng khác."
+    },
+    "ca3_25": {
+      "id": "ca3_25",
+      "source": "Ca 3",
+      "num": 25,
+      "topic": "MS Word",
+      "question": "Một dòng văn bản không tạo bất kỳ tab nào, khi nhấn phím Tab thì:",
+      "options": {
+        "A": "Dấu nháy sẽ nhảy đến một vị trí bất kỳ trên dòng đó.",
+        "B": "Dấu nháy luôn nhảy đến một khoảng cách 1.27cm",
+        "C": "Dấu nháy nhảy đến vị trí tab mặc định được thiết lập",
+        "D": "Dấu nháy không di chuyển."
+      },
+      "answer": "C",
+      "explanation": "Khi một dòng/đoạn văn bản chưa được đặt bất kỳ điểm dừng Tab (Tab stop) tùy chỉnh nào trên thước Ruler, mỗi lần nhấn phím Tab thì con trỏ soạn thảo (dấu nháy) sẽ nhảy đến vị trí khoảng cách Tab mặc định (Default tab stops) đang được thiết lập trong hộp thoại Tabs (mặc định thường là 0.5 inch / 1.27 cm nhưng người dùng có thể thay đổi thông số Default tab stops này)."
+    },
+    "ca3_26": {
+      "id": "ca3_26",
+      "source": "Ca 3",
+      "num": 26,
+      "topic": "MS Word",
+      "question": "Trong Word 2010, mặc định thanh công cụ định dạng Mini Toolbar chỉ xuất hiện khi:",
+      "options": {
+        "A": "Rê chuột vào đoạn văn bản",
+        "B": "Click chuột vào đoạn văn bản",
+        "C": "Gõ văn bản",
+        "D": "Chọn khối văn bản"
+      },
+      "answer": "D",
+      "explanation": "Trong MS Word 2010, thanh công cụ thu nhỏ mờ (Mini Toolbar) sẽ tự động hiện ra ngay cạnh con trỏ chuột khi người dùng bôi đen (chọn khối) một đoạn văn bản, giúp định dạng nhanh Font chữ, cỡ chữ, màu chữ, in đậm/nghiêng."
+    },
+    "ca3_27": {
+      "id": "ca3_27",
+      "source": "Ca 3",
+      "num": 27,
+      "topic": "MS Word",
+      "question": "Click chuột vào cho dấu nháy nằm ở trong một đoạn văn bản, tạo một tab bất kỳ thì:",
+      "options": {
+        "A": "Tất cả các dòng trong đoạn này sẽ được tạo tab",
+        "B": "Không tạo được tab",
+        "C": "Từ dòng đầu tiên của đoạn đến dòng chứa dấu nháy sẽ được tạo tab",
+        "D": "Chỉ có dòng chứa dấu nháy được tạo tab"
+      },
+      "answer": "A",
+      "explanation": "Trong MS Word, thiết lập điểm dừng Tab (Tab stops) là thuộc tính định dạng cấp Đoạn văn (Paragraph-level formatting). Do đó khi đặt dấu nháy ở bất kỳ dòng nào trong một đoạn văn và đặt một Tab trên thanh thước Ruler, toàn bộ các dòng thuộc đoạn văn đó đều nhận vị trí Tab này."
+    },
+    "ca3_28": {
+      "id": "ca3_28",
+      "source": "Ca 3",
+      "num": 28,
+      "topic": "MS Word",
+      "question": "Khi dấu nháy hiện hành nằm trong một đoạn văn bản, chọn lệnh canh giữa Center (Ctrl + E) thì:",
+      "options": {
+        "A": "Chỉ dòng chứa dấu nháy được canh giữa",
+        "B": "Toàn bộ trang chứa dấu nháy được canh giữa",
+        "C": "Chỉ có ký tự kế dấu nháy được canh giữa",
+        "D": "Cả đoạn chứa dấu nháy được canh giữa"
+      },
+      "answer": "D",
+      "explanation": "Canh lề văn bản (Left, Center, Right, Justify) là định dạng áp dụng cho từng đoạn văn (Paragraph). Vì vậy dù không bôi đen mà chỉ đặt dấu nháy trong đoạn rồi bấm Center (Ctrl + E), toàn bộ các dòng trong cả đoạn văn chứa dấu nháy sẽ được canh giữa."
+    },
+    "ca3_29": {
+      "id": "ca3_29",
+      "source": "Ca 3",
+      "num": 29,
+      "topic": "MS Word",
+      "question": "Đoạn văn bản cuối nằm ở 2 trang, để chuyển tất cả đoạn này nằm ở trang sau, chọn chức năng:",
+      "image": "/images/q/ca3_q29.png",
+      "options": {
+        "A": "Widow/Orphan control",
+        "B": "Keep lines together",
+        "C": "Page break before",
+        "D": "Keep with next"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Paragraph -> thẻ Line and Page Breaks: Tùy chọn 'Keep lines together' có chức năng giữ tất cả các dòng của cùng một đoạn văn luôn nằm trên cùng một trang (không cho phép ngắt đoạn văn đó ra làm 2 trang, nếu không đủ chỗ ở cuối trang trước thì cả đoạn sẽ tự động chuyển sang trang sau)."
+    },
+    "ca3_30": {
+      "id": "ca3_30",
+      "source": "Ca 3",
+      "num": 30,
+      "topic": "MS Word",
+      "question": "Chức năng Widow/Orphan control trong nhóm Paragraph thực hiện:",
+      "image": "/images/q/ca3_q30.png",
+      "options": {
+        "A": "Giữ cho hai từ luôn trên cùng một dòng",
+        "B": "Thực hiện ngắt trang",
+        "C": "Nếu đoạn cuối của trang qua trang sau thì có ít nhất 2 dòng ở trang sau.",
+        "D": "Giữ cho đoạn văn bản không qua trang sau."
+      },
+      "answer": "C",
+      "explanation": "Tính năng Widow/Orphan control (Kiểm soát dòng mồ côi) trong thẻ Line and Page Breaks ngăn không cho 1 dòng đơn lẻ cuối đoạn bị rơi sang đầu trang sau (Widow) hoặc 1 dòng đơn lẻ đầu đoạn bị bỏ lại ở cuối trang trước (Orphan). Nhờ đó nếu một đoạn văn bị tràn qua trang sau thì luôn có ít nhất 2 dòng ở mỗi trang."
+    },
+    "ca3_31": {
+      "id": "ca3_31",
+      "source": "Ca 3",
+      "num": 31,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các đối tượng được tạo sẵn trên slide có thể chứa văn bản có tên gọi là gì?",
+      "options": {
+        "A": "Object holders",
+        "B": "Text holders",
+        "C": "Placeholders",
+        "D": "Title slides"
+      },
+      "answer": "C",
+      "explanation": "Các khung nét đứt được bố trí sẵn trong các mẫu Layout của Slide (dùng để nhập tiêu đề, văn bản, bảng, biểu đồ, hình ảnh...) được gọi là Placeholders (Khung giữ chỗ)."
+    },
+    "ca3_32": {
+      "id": "ca3_32",
+      "source": "Ca 3",
+      "num": 32,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, tính năng tự động giảm kích thước của văn bản (text) khi có quá nhiều ký tự đưa vào trong placeholder có tên là gì?",
+      "options": {
+        "A": "AutoFormat Text to Placeholder",
+        "B": "AutoLayout Text to Placeholder",
+        "C": "AutoFit Text to Placeholder",
+        "D": "AutoCorrect Text to Placeholder"
+      },
+      "answer": "C",
+      "explanation": "Tính năng AutoFit Text to Placeholder (Shrink text on overflow) trong PowerPoint sẽ tự động thu nhỏ cỡ chữ (font size) và khoảng cách dòng khi bạn nhập quá nhiều văn bản để chữ không bị tràn ra ngoài khung Placeholder."
+    },
+    "ca3_33": {
+      "id": "ca3_33",
+      "source": "Ca 3",
+      "num": 33,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, lệnh Change Chart Type trong phần biểu đồ thì có chức năng gì?",
+      "options": {
+        "A": "Thay đổi màu sắc trong biểu đồ",
+        "B": "Thay đổi dữ liệu trong biểu đồ",
+        "C": "Thay đổi kiểu hiển thị dữ liệu trong biểu đồ",
+        "D": "Thay đổi kiểu đồ thị"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Chart Tools -> Design, nút lệnh Change Chart Type dùng để thay đổi kiểu/dạng đồ thị (ví dụ chuyển từ biểu đồ cột Column sang biểu đồ đường Line hoặc biểu đồ tròn Pie)."
+    },
+    "ca3_34": {
+      "id": "ca3_34",
+      "source": "Ca 3",
+      "num": 34,
+      "topic": "MS PowerPoint",
+      "question": "Để tạo hiệu ứng dịch chuyển giữa các slide, chọn thẻ nào sau đây?",
+      "options": {
+        "A": "Design",
+        "B": "Transitions",
+        "C": "Slide Show",
+        "D": "Animations"
+      },
+      "answer": "B",
+      "explanation": "Trong PowerPoint 2010, thẻ Transitions dùng để tạo hiệu ứng chuyển tiếp giữa các trang chiếu (Slide). Còn thẻ Animations dùng để tạo hiệu ứng hoạt hình cho các đối tượng (chữ, hình ảnh) bên trong một Slide."
+    },
+    "ca3_35": {
+      "id": "ca3_35",
+      "source": "Ca 3",
+      "num": 35,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms Powerpoint, chức năng nào sau đây cho phép đặt mật khẩu cho bài thuyết trình?",
+      "options": {
+        "A": "Check Compatibility",
+        "B": "Encrypt with Password",
+        "C": "Inspect Document",
+        "D": "Check Accessibility"
+      },
+      "answer": "B",
+      "explanation": "Tương tự Word và Excel, trong PowerPoint 2010 để đặt mật khẩu mã hóa bảo vệ tập tin thuyết trình, ta vào File -> Info -> Protect Presentation -> chọn Encrypt with Password."
+    },
+    "ca3_36": {
+      "id": "ca3_36",
+      "source": "Ca 3",
+      "num": 36,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi vào Insert -> Illustrations -> SmartArt để chèn một sơ đồ, sơ đồ quy trình nối tiếp các bước thuộc nhóm nào?",
+      "options": {
+        "A": "Relationship",
+        "B": "Process",
+        "C": "List",
+        "D": "Cycle"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Choose a SmartArt Graphic, nhóm Process (Quy trình) chứa các mẫu sơ đồ biểu diễn các bước thực hiện theo trình tự thời gian hoặc quy trình công việc có mũi tên nối tiếp nhau."
+    },
+    "ca3_37": {
+      "id": "ca3_37",
+      "source": "Ca 3",
+      "num": 37,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, chế độ xem nào sau đây không có:",
+      "options": {
+        "A": "Reading View",
+        "B": "Draft",
+        "C": "Normal",
+        "D": "Slide sorter"
+      },
+      "answer": "B",
+      "explanation": "PowerPoint 2010 có các chế độ xem Normal, Slide Sorter, Notes Page, Reading View. Chế độ Draft chỉ có trong MS Word, không có trong PowerPoint."
+    },
+    "ca3_38": {
+      "id": "ca3_38",
+      "source": "Ca 3",
+      "num": 38,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, sau khi chọn 1 Slide và vào Home -> Section, khi chọn \"Add Section\" trong Menu Section thì có ý nghĩa là:",
+      "options": {
+        "A": "Tạo section mới bắt đầu từ Slide đã chọn, bao gồm các Slide không thuộc Section nào đã có",
+        "B": "Tạo section mới bao gồm tất cả các Slide đầu đến Slide cuối",
+        "C": "Tạo section mới chỉ bao gồm Slide đã chọn",
+        "D": "Tạo section mới bao gồm các Slide bắt đầu từ Slide đã chọn đến Slide cuối cùng"
+      },
+      "answer": "A",
+      "explanation": "Trong PowerPoint 2010, khi chọn một Slide và bấm Home -> Section -> Add Section, một phân nhóm (Section) mới mang tên 'Untitled Section' sẽ được chèn ngay trước Slide đã chọn, gom tất cả các Slide từ vị trí đó trở xuống cho tới khi gặp một Section tiếp theo đã có sẵn (tức là bao gồm các slide tiếp theo chưa thuộc Section nào bên dưới)."
+    },
+    "ca3_39": {
+      "id": "ca3_39",
+      "source": "Ca 3",
+      "num": 39,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi chèn SmartArt vào slide, với hộp thoại \"Choose a SmartArt\" như trong hình vẽ, nhóm Process có ý nghĩa gì?",
+      "options": {
+        "A": "Các SmartArt hiển thị những phần có mối quan hệ",
+        "B": "Các SmartArt hiển thị biểu đồ tổ chức theo cấu trúc phân nhánh",
+        "C": "Các SmartArt hiển thị danh sách dữ liệu",
+        "D": "Các SmartArt hiển thị sơ đồ quá trình"
+      },
+      "answer": "D",
+      "explanation": "Trong các nhóm SmartArt của PowerPoint: Nhóm Process dùng để hiển thị sơ đồ quá trình / quy trình các bước nối tiếp nhau. (List là danh sách dữ liệu, Hierarchy là biểu đồ tổ chức phân nhánh, Relationship là các phần có mối quan hệ)."
+    },
+    "ca3_40": {
+      "id": "ca3_40",
+      "source": "Ca 3",
+      "num": 40,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi chèn SmartArt vào slide, với hộp thoại \"Choose a SmartArt\" như trong hình vẽ, nhóm List có ý nghĩa gì?",
+      "options": {
+        "A": "Các SmartArt hiển thị những phần có mối quan hệ",
+        "B": "Các SmartArt hiển thị danh sách dữ liệu",
+        "C": "Các SmartArt hiển thị sơ đồ quá trình",
+        "D": "Các SmartArt hiển thị biểu đồ tổ chức theo cấu trúc phân nhánh"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Choose a SmartArt Graphic, nhóm List (Danh sách) dùng để hiển thị các khối thông tin dạng danh sách dữ liệu không đòi hỏi thứ tự bước tuần tự."
+    }
+  },
+  "questionsList": [
+    {
+      "id": "ca1_01",
+      "source": "Ca 1",
+      "num": 1,
+      "topic": "MS Word",
+      "question": "Trong MS Word, đơn vị đo mặc định được sử dụng trên thanh Ruler là:",
+      "options": {
+        "A": "Inch",
+        "B": "Point",
+        "C": "Centimet",
+        "D": "twips"
+      },
+      "answer": "A",
+      "explanation": "Mặc định sau khi cài đặt MS Word (chuẩn tiếng Anh - Mỹ), đơn vị đo trên thanh thước (Ruler) là Inch (\"). Người dùng có thể đổi sang Centimeters trong File -> Options -> Advanced -> Display."
+    },
+    {
+      "id": "ca1_02",
+      "source": "Ca 1",
+      "num": 2,
+      "topic": "MS Word",
+      "question": "MS Word 2010 thuộc phiên bản:",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "Các phiên bản MS Office được đánh số nội bộ như sau: Office 2003 là bản 11.0, Office 2007 là bản 12.0, bỏ qua số 13, Office 2010 là phiên bản 14.0 (Office 2013 là 15.0, Office 2016/2019/2021 là 16.0)."
+    },
+    {
+      "id": "ca1_03",
+      "source": "Ca 1",
+      "num": 3,
+      "topic": "MS Word",
+      "question": "Trong MS Word 2010, thanh chứa tất cả các công cụ có tên là:",
+      "options": {
+        "A": "Menu",
+        "B": "Toolbox",
+        "C": "Toolbar",
+        "D": "Ribbon"
+      },
+      "answer": "D",
+      "explanation": "Từ phiên bản Office 2007 trở đi (bao gồm Word 2010), Microsoft thay thế hệ thống Menu và Toolbar truyền thống bằng giao diện thanh công cụ Ribbon (dải băng) chứa các thẻ (Tabs) và nhóm lệnh."
+    },
+    {
+      "id": "ca1_04",
+      "source": "Ca 1",
+      "num": 4,
+      "topic": "MS Word",
+      "question": "Thư mục lưu trữ mặc định của Word 2010 là:",
+      "options": {
+        "A": "Documents",
+        "B": "Downloads",
+        "C": "Desktop",
+        "D": "Program files"
+      },
+      "answer": "A",
+      "explanation": "Khi nhấn Save lần đầu tiên trong MS Word 2010 mà chưa chọn vị trí khác, thư mục lưu trữ mặc định trên Windows là thư mục Documents (hoặc My Documents)."
+    },
+    {
+      "id": "ca1_05",
+      "source": "Ca 1",
+      "num": 5,
+      "topic": "MS Word",
+      "question": "MS Word 2010 không lưu được file ở định dạng nào dưới đây:",
+      "options": {
+        "A": "PDF",
+        "B": "JPG",
+        "C": "RTF",
+        "D": "TXT"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Save As của MS Word 2010, bạn có thể lưu văn bản thành .docx, .doc, .pdf, .rtf, .txt, .html... nhưng không hỗ trợ xuất trực tiếp trang văn bản ra định dạng file ảnh .JPG."
+    },
+    {
+      "id": "ca1_06",
+      "source": "Ca 1",
+      "num": 6,
+      "topic": "MS Word",
+      "question": "Thanh công cụ Quick Access Toolbar có chức năng là:",
+      "options": {
+        "A": "Thiết lập hình dạng các công cụ",
+        "B": "Chọn hiển thị các công cụ muốn truy cập nhanh.",
+        "C": "Sắp xếp vị trí các công cụ theo thứ tự cho trước.",
+        "D": "Thực hiện truy cập nhanh đến các chương trình xử lý văn bản khác."
+      },
+      "answer": "B",
+      "explanation": "Quick Access Toolbar (thanh công cụ truy cập nhanh, thường nằm ở góc trên bên trái cửa sổ Word) giúp người dùng ghim và hiển thị các lệnh thường dùng (như Save, Undo, Redo, Print...) để bấm nhanh mà không cần chuyển thẻ Ribbon."
+    },
+    {
+      "id": "ca1_07",
+      "source": "Ca 1",
+      "num": 7,
+      "topic": "MS Word",
+      "question": "Chọn phát biểu ĐÚNG:",
+      "options": {
+        "A": "MS Word 2010 có thể mở được tập tin định dạng .pdf",
+        "B": "MS Word 2010 không mở được tập tin định dạng .doc",
+        "C": "Tập tin định dạng .doc chỉ có thể được tạo ra từ phiên bản word 2003 trở về trước",
+        "D": "Tập tin định dạng .docx có dung lượng nhỏ hơn .doc chứa cùng một nội dung"
+      },
+      "answer": "D",
+      "explanation": "Định dạng .docx dựa trên chuẩn OpenXML và áp dụng kỹ thuật nén ZIP nên có dung lượng nhỏ hơn đáng kể so với định dạng nhị phân .doc cũ khi chứa cùng một nội dung. (Lưu ý: từ Word 2013 mới mở và chuyển đổi trực tiếp được PDF; Word 2010 vẫn mở và tạo được .doc)."
+    },
+    {
+      "id": "ca1_08",
+      "source": "Ca 1",
+      "num": 8,
+      "topic": "MS Word",
+      "question": "Khi gõ văn bản trên MS Word 2010, quay lui thao tác trước đó (Ctrl+Z) chỉ thực hiện được khi:",
+      "options": {
+        "A": "Đã lưu tập tin",
+        "B": "Chưa lưu tập tin",
+        "C": "Bất kỳ lúc nào",
+        "D": "Không thực hiện được"
+      },
+      "answer": "C",
+      "explanation": "Trong một phiên làm việc đang mở của MS Word 2010, lệnh Undo (Ctrl + Z) có thể thực hiện bất kỳ lúc nào (cả trước và sau khi bấm Save), miễn là chưa đóng tập tin đó lại."
+    },
+    {
+      "id": "ca1_09",
+      "source": "Ca 1",
+      "num": 9,
+      "topic": "MS Word",
+      "question": "Một file Word đang mở đã được lưu muốn lưu lại file dưới một tên khác, chọn lệnh nào trong số các lệnh sau:",
+      "options": {
+        "A": "Open",
+        "B": "Save",
+        "C": "Save As",
+        "D": "Send To"
+      },
+      "answer": "C",
+      "explanation": "Lệnh Save (Ctrl + S) chỉ cập nhật thay đổi vào file hiện tại. Để lưu thành một bản sao với tên mới, định dạng mới hoặc vị trí lưu khác, ta dùng lệnh Save As (phím tắt F12)."
+    },
+    {
+      "id": "ca1_10",
+      "source": "Ca 1",
+      "num": 10,
+      "topic": "MS Word",
+      "question": "Từ phiên bản Ms Word 2007 trở đi, khi lưu trữ file mặc định có phần mở rộng là:",
+      "options": {
+        "A": ".txt",
+        "B": ".doc",
+        "C": ".docx",
+        "D": ".dotx"
+      },
+      "answer": "C",
+      "explanation": "Từ phiên bản MS Word 2007 trở đi, phần mở rộng (đuôi file) mặc định của tài liệu Word là .docx (trước đó ở Word 2003 trở về trước là .doc, còn .dotx là file mẫu Template)."
+    },
+    {
+      "id": "ca1_11",
+      "source": "Ca 1",
+      "num": 11,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, công thức dùng để tính toán các dữ liệu lưu trữ trên bảng tính được nhận dạng bắt đầu là dấu gì?",
+      "options": {
+        "A": "=",
+        "B": "#",
+        "C": "<>",
+        "D": "\""
+      },
+      "answer": "A",
+      "explanation": "Trong MS Excel, mọi công thức tính toán hoặc hàm đều phải bắt đầu bằng dấu bằng (=). Nếu không có dấu =, Excel sẽ hiểu nội dung nhập vào là chuỗi văn bản thông thường."
+    },
+    {
+      "id": "ca1_12",
+      "source": "Ca 1",
+      "num": 12,
+      "topic": "MS Excel",
+      "question": "Địa chỉ C$5 là loại địa chỉ nào trong số các địa chỉ dưới đây?",
+      "options": {
+        "A": "Địa chỉ tuyệt đối cột",
+        "B": "Địa chỉ tham chiếu",
+        "C": "Địa chỉ tương đối",
+        "D": "Địa chỉ tuyệt đối dòng"
+      },
+      "answer": "D",
+      "explanation": "Ký hiệu $ đứng trước thành phần nào sẽ cố định (tuyệt đối) thành phần đó. Trong địa chỉ hỗn hợp C$5, dấu $ đứng trước số dòng 5 nên đây là địa chỉ tuyệt đối dòng (tương đối cột)."
+    },
+    {
+      "id": "ca1_13",
+      "source": "Ca 1",
+      "num": 13,
+      "topic": "MS Excel",
+      "question": "Địa chỉ tương đối là gì?",
+      "options": {
+        "A": "Là địa chỉ mà cả cột và dòng đều không thay đổi khi sao chép công thức",
+        "B": "Là địa chỉ có cột không thay đổi nhưng dòng thay đổi khi sao chép công thức",
+        "C": "Là địa chỉ có dòng không thay đổi nhưng cột thay đổi khi sao chép công thức",
+        "D": "Là địa chỉ sẽ thay đổi cả cột và dòng khi sao chép công thức"
+      },
+      "answer": "D",
+      "explanation": "Địa chỉ tương đối (ví dụ: A1, B2) không có ký hiệu $ trước cột và dòng, do đó khi sao chép công thức sang vị trí khác, cả chỉ số cột và dòng sẽ tự động thay đổi tương ứng theo độ lệch vị trí."
+    },
+    {
+      "id": "ca1_14",
+      "source": "Ca 1",
+      "num": 14,
+      "topic": "MS Excel",
+      "question": "Trong Ms excel, đáp án nào sau đây là đúng thứ tự ưu tiên của các toán tử trong công thức?",
+      "options": {
+        "A": "So sánh, phần trăm, số âm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi",
+        "B": "Số âm, phần trăm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi, so sánh",
+        "C": "Lũy thừa, số âm, nhân và chia, cộng và trừ, nối chuỗi, so sánh, phần trăm",
+        "D": "Lũy thừa, phần trăm, nối chuỗi, số âm, nhân và chia, cộng và trừ, so sánh"
+      },
+      "answer": "B",
+      "explanation": "Thứ tự ưu tiên toán tử trong Excel từ cao xuống thấp: 1. Dấu số âm (-) -> 2. Phần trăm (%) -> 3. Lũy thừa (^) -> 4. Nhân và chia (*, /) -> 5. Cộng và trừ (+, -) -> 6. Nối chuỗi (&) -> 7. Các phép so sánh (=, <>, <, >, <=, >=)."
+    },
+    {
+      "id": "ca1_15",
+      "source": "Ca 1",
+      "num": 15,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #NUM! có nghĩa là gì?",
+      "options": {
+        "A": "Sai tên hàm hay tham chiếu",
+        "B": "Lỗi giá trị",
+        "C": "Lỗi kiểu dữ liệu",
+        "D": "Lỗi vùng tham chiếu"
+      },
+      "answer": "B",
+      "explanation": "Lỗi #NUM! xuất hiện khi công thức hoặc hàm chứa các giá trị số không hợp lệ (ví dụ: tính căn bậc hai của số âm SQRT(-5), hoặc kết quả số quá lớn/quá nhỏ vượt quá khả năng biểu diễn của Excel) -> gọi là Lỗi giá trị số (Numeric value error). (Lưu ý: #VALUE! trong bộ đề này được phân loại là lỗi kiểu dữ liệu, #NAME? là sai tên hàm, #REF! là lỗi vùng tham chiếu)."
+    },
+    {
+      "id": "ca1_16",
+      "source": "Ca 1",
+      "num": 16,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #N/A có nghĩa là gì?",
+      "options": {
+        "A": "Sai tên hàm hay tham chiếu",
+        "B": "Lỗi kiểu dữ liệu",
+        "C": "Hàm dò tìm không có kết quả",
+        "D": "Lỗi giá trị"
+      },
+      "answer": "C",
+      "explanation": "Lỗi #N/A (Not Available) xảy ra phổ biến nhất khi các hàm dò tìm như VLOOKUP, HLOOKUP, MATCH, LOOKUP không tìm thấy giá trị cần dò trong bảng dữ liệu."
+    },
+    {
+      "id": "ca1_17",
+      "source": "Ca 1",
+      "num": 17,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm WEEKNUM có chức năng gì?",
+      "options": {
+        "A": "Trả về một số thứ tự thể hiện ngày làm việc",
+        "B": "Trả về một số cho biết thứ trong tuần",
+        "C": "Trả về một số cho biết tuần thứ mấy trong tháng",
+        "D": "Trả về một số cho biết tuần thứ mấy trong năm"
+      },
+      "answer": "D",
+      "explanation": "Hàm WEEKNUM(serial_number, [return_type]) trả về số thứ tự của tuần trong năm (từ tuần 1 đến tuần 52/53/54) của một ngày cụ thể. (Còn hàm trả về thứ trong tuần là WEEKDAY)."
+    },
+    {
+      "id": "ca1_18",
+      "source": "Ca 1",
+      "num": 18,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm PROPER có chức năng gì?",
+      "options": {
+        "A": "Chuyển tất cả các ký tự trong một chuỗi thành chữ thường",
+        "B": "Đổi tất cả các ký tự trong chuỗi thành chữ in hoa",
+        "C": "Chuyển ký tự đầu tiên trong chuỗi thành chữ in thường và chuyển các ký tự còn lại thành chữ in hoa",
+        "D": "Chuyển ký tự đầu tiên trong một từ thành chữ in hoa và chuyển các ký tự còn lại thành chữ in thường"
+      },
+      "answer": "D",
+      "explanation": "Hàm PROPER viết hoa chữ cái đầu tiên của mỗi từ trong chuỗi văn bản và chuyển các chữ cái còn lại về chữ thường (rất hay dùng để chuẩn hóa Họ và Tên). Hàm UPPER viết hoa toàn bộ, hàm LOWER viết thường toàn bộ."
+    },
+    {
+      "id": "ca1_19",
+      "source": "Ca 1",
+      "num": 19,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm AVERAGEA có chức năng gì?",
+      "options": {
+        "A": "Tính trung bình cộng của các giá trị, bao gồm cả những giá trị logic",
+        "B": "Tính trung bình cộng của các giá trị trong một mảng theo một điều kiện",
+        "C": "Tính trung bình cộng của các giá trị trong một mảng theo nhiều điều kiện",
+        "D": "Tính trung bình cộng các giá trị số, không bao gồm những giá trị logic"
+      },
+      "answer": "A",
+      "explanation": "Khác với hàm AVERAGE (chỉ tính các ô số, bỏ qua chuỗi và giá trị logic), hàm AVERAGEA tính trung bình cộng của tất cả các ô không rỗng, trong đó giá trị logic TRUE được tính là 1, FALSE và chuỗi văn bản được tính là 0."
+    },
+    {
+      "id": "ca1_20",
+      "source": "Ca 1",
+      "num": 20,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để trả ra kết quả chuỗi \"AY\" trong chuỗi \"XAYB\" dùng hàm nào sau đây?",
+      "options": {
+        "A": "Hàm MID",
+        "B": "Hàm LEFT",
+        "C": "Hàm FIXED",
+        "D": "Hàm RIGHT"
+      },
+      "answer": "A",
+      "explanation": "Chuỗi \"AY\" nằm ở giữa chuỗi \"XAYB\" (bắt đầu từ vị trí thứ 2, lấy 2 ký tự). Do đó ta dùng hàm cắt chuỗi ở giữa là MID(\"XAYB\", 2, 2). Hàm LEFT cắt từ bên trái, hàm RIGHT cắt từ bên phải."
+    },
+    {
+      "id": "ca1_21",
+      "source": "Ca 1",
+      "num": 21,
+      "topic": "Kiến thức máy tính",
+      "question": "Thành phần nào sau đây không thuộc bộ xử lý trung tâm (Central Processing Unit)?",
+      "options": {
+        "A": "Đường truyền (BUS)",
+        "B": "Bộ điều khiển (Control Unit)",
+        "C": "Đĩa mềm (Floppy Disk)",
+        "D": "Đồng hồ hay còn gọi là bộ tạo xung nhịp (Clock)"
+      },
+      "answer": "C",
+      "explanation": "CPU (Bộ xử lý trung tâm) bao gồm Bộ điều khiển (CU), Bộ số học và logic (ALU), các thanh ghi (Registers), bộ tạo xung nhịp (Clock) và đường truyền nội bộ (Internal Bus). Đĩa mềm (Floppy Disk) là thiết bị lưu trữ bộ nhớ ngoài, không thuộc CPU."
+    },
+    {
+      "id": "ca1_22",
+      "source": "Ca 1",
+      "num": 22,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI?",
+      "options": {
+        "A": "Virus máy tính lây lan qua việc sao chép các tập tin đã nhiễm virus",
+        "B": "Virus máy tính lây lan qua mạng, đặc biệt là thư điện tử",
+        "C": "Virus máy tính lây lan qua các thiết bị nhớ di động",
+        "D": "Virus máy tính không lây lan qua các phần mềm có bản quyền"
+      },
+      "answer": "D",
+      "explanation": "Phát biểu SAI là \"Virus máy tính không lây lan qua các phần mềm có bản quyền\". Dù máy tính cài phần mềm có bản quyền nhưng nếu không có biện pháp bảo vệ hoặc tải file từ nguồn bị nhiễm thì máy tính và các file chương trình vẫn có thể bị lây nhiễm virus."
+    },
+    {
+      "id": "ca1_23",
+      "source": "Ca 1",
+      "num": 23,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI:",
+      "options": {
+        "A": "BitLocker là phần mềm của Windows 7 có chức năng mã hóa dữ liệu trong USB flash",
+        "B": "Windows 7 là một phiên bản hệ điều hành mã nguồn mở của Windows",
+        "C": "Unikey, VietKey là những phần mềm hỗ trợ người dùng gõ dấu tiếng Việt",
+        "D": "Calculator là một ứng dụng cho phép thực hiện các phép tính số"
+      },
+      "answer": "B",
+      "explanation": "Windows 7 là hệ điều hành thương mại có bản quyền đóng (mã nguồn đóng) của tập đoàn Microsoft, không phải là hệ điều hành mã nguồn mở (như Linux/Ubuntu)."
+    },
+    {
+      "id": "ca1_24",
+      "source": "Ca 1",
+      "num": 24,
+      "topic": "Kiến thức máy tính",
+      "question": "Việc nào sau đây KHÔNG nên làm khi bạn sử dụng máy vi tính thường xuyên?",
+      "options": {
+        "A": "Để đèn chiếu ánh sáng trực tiếp vào màn hình",
+        "B": "Lau bàn phím thường xuyên với dung dịch kháng khuẩn",
+        "C": "Rời khỏi bàn làm việc sau mỗi giờ",
+        "D": "Sử dụng kính chống lóa"
+      },
+      "answer": "A",
+      "explanation": "Không nên để đèn hoặc ánh nắng chiếu trực tiếp vào màn hình máy tính vì sẽ gây hiện tượng phản xạ ánh sáng (chói, lóa), làm mỏi mắt và giảm thị lực nhanh chóng."
+    },
+    {
+      "id": "ca1_25",
+      "source": "Ca 1",
+      "num": 25,
+      "topic": "Kiến thức máy tính",
+      "question": "Phương án nào sau đây KHÔNG phải là một loại mã độc đối với máy tính?",
+      "options": {
+        "A": "Virus",
+        "B": "Worm",
+        "C": "Trojan horse",
+        "D": "BitLocker"
+      },
+      "answer": "D",
+      "explanation": "Virus, Worm (sâu máy tính) và Trojan horse (ngựa thành Troia) đều là các loại phần mềm độc hại (Malware). Còn BitLocker là tính năng bảo mật dùng để mã hóa ổ đĩa được tích hợp sẵn trong hệ điều hành Windows."
+    },
+    {
+      "id": "ca1_26",
+      "source": "Ca 1",
+      "num": 26,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu SAI:",
+      "options": {
+        "A": "Sao chép trái phép phần mềm có bản quyền là vi phạm bản quyền phần mềm.",
+        "B": "Mất mát dữ liệu là một trong những tác hại mà virus có thể gây ra cho máy tính.",
+        "C": "Mã hóa dữ liệu là một cách để bảo vệ dữ liệu trên máy tính người dùng.",
+        "D": "Sử dụng phần mềm có bản quyền thì máy tính không bao giờ bị nhiễm virus."
+      },
+      "answer": "D",
+      "explanation": "Sử dụng phần mềm có bản quyền giúp giảm nguy cơ nhiễm mã độc từ các bản crack/bẻ khóa, nhưng máy tính vẫn có thể bị nhiễm virus qua USB, email, duyệt web độc hại... nên nói \"không bao giờ bị nhiễm virus\" là SAI."
+    },
+    {
+      "id": "ca1_27",
+      "source": "Ca 1",
+      "num": 27,
+      "topic": "Kiến thức máy tính",
+      "question": "Xét theo chức năng của các máy tính trong mạng, có thể phân mạng thành 3 mô hình chủ yếu. Hãy chọn phương án ĐÚNG:",
+      "options": {
+        "A": "Mô hình mạng di động, gia đình và cơ quan",
+        "B": "Mô hình Peer-to-Peer, Client-Server và dựa trên nền Web",
+        "C": "Mô hình mạng LAN, WLAN, WAN",
+        "D": "Mô hình Client-Server, LAN, WAN"
+      },
+      "answer": "B",
+      "explanation": "Xét theo chức năng (vai trò) của các máy tính trong mạng, mạng máy tính được chia thành 3 mô hình chính: Mạng ngang hàng (Peer-to-Peer), mạng Khách - Chủ (Client-Server) và mô hình mạng dựa trên nền Web. (Còn LAN, MAN, WAN là phân loại theo phạm vi địa lý)."
+    },
+    {
+      "id": "ca1_28",
+      "source": "Ca 1",
+      "num": 28,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu ĐÚNG:",
+      "options": {
+        "A": "Mạng LAN là một cách nói khác của Internet.",
+        "B": "Mạng LAN là mạng kết nối các máy tính ở cách nhau những khoảng cách lớn và thường bao gồm hai hay nhiều mạng WAN",
+        "C": "Máy chủ (Server) phải là máy tính có cấu hình mạnh nhất.",
+        "D": "Hai máy tính và một phần mềm ứng dụng chưa tạo thành một mạng máy tính."
+      },
+      "answer": "D",
+      "explanation": "Để tạo thành một mạng máy tính, cần có: từ 2 máy tính trở lên, các thiết bị kết nối mạng / đường truyền vật lý (cáp mạng, sóng không dây, card mạng...) và giao thức/phần mềm mạng để trao đổi dữ liệu. Chỉ có hai máy tính độc lập và một phần mềm ứng dụng mà không có kết nối truyền thông với nhau thì chưa tạo thành mạng máy tính."
+    },
+    {
+      "id": "ca1_29",
+      "source": "Ca 1",
+      "num": 29,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây SAI khi nói về bộ nhớ truy xuất ngẫu nhiên (RAM):",
+      "options": {
+        "A": "Là nơi lưu trữ dữ liệu đang được máy tính xử lý",
+        "B": "Là nơi dữ liệu không bị mất khi dòng điện bị gián đoạn",
+        "C": "Là nơi chương trình được đưa vào để thực hiện",
+        "D": "Là một thành phần quan trọng của bộ nhớ trong"
+      },
+      "answer": "B",
+      "explanation": "RAM (Random Access Memory) là bộ nhớ khả biến (volatile memory): toàn bộ dữ liệu trong RAM sẽ bị mất đi khi mất nguồn điện hoặc tắt máy. Bộ nhớ không mất dữ liệu khi mất điện là ROM hoặc bộ nhớ ngoài (ổ cứng, USB)."
+    },
+    {
+      "id": "ca1_30",
+      "source": "Ca 1",
+      "num": 30,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây ĐÚNG?",
+      "options": {
+        "A": "Dữ liệu lưu trên bộ nhớ ngoài vẫn còn tồn tại khi nguồn điện bị gián đoạn.",
+        "B": "Bộ nhớ ngoài có thể thay thế bộ nhớ trong trong trường hợp bộ nhớ trong bị hỏng.",
+        "C": "Bộ nhớ ngoài của máy tính thường là đĩa cứng, USB, RAM, ROM, ..",
+        "D": "Tốc độ truy xuất của bộ nhớ ngoài nhanh hơn rất nhiều so với bộ nhớ trong."
+      },
+      "answer": "A",
+      "explanation": "Bộ nhớ ngoài (như ổ cứng HDD/SSD, USB, thẻ nhớ, đĩa quang) là bộ nhớ lưu trữ lâu dài, dữ liệu không bị mất khi tắt máy hay gián đoạn nguồn điện. (B sai vì máy không thể chạy thiếu RAM/ROM; C sai vì RAM, ROM là bộ nhớ trong; D sai vì bộ nhớ trong nhanh hơn bộ nhớ ngoài rất nhiều)."
+    },
+    {
+      "id": "ca1_31",
+      "source": "Ca 1",
+      "num": 31,
+      "topic": "MS PowerPoint",
+      "question": "\"Trong chế độ hiển thị __________, slide sẽ hiển thị toàn màn hình, các slide sẽ lần lượt xuất hiện theo thứ tự được sắp xếp trong bài thuyết trình\". Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Slide Sorter",
+        "B": "Notes Page",
+        "C": "Reading View",
+        "D": "Slide Show"
+      },
+      "answer": "D",
+      "explanation": "Slide Show là chế độ trình chiếu toàn màn hình, nơi các slide và hiệu ứng lần lượt xuất hiện để thuyết trình trước người xem."
+    },
+    {
+      "id": "ca1_32",
+      "source": "Ca 1",
+      "num": 32,
+      "topic": "MS PowerPoint",
+      "question": "Chế độ hiển thị nào sau đây có trong Ms PowerPoint?",
+      "options": {
+        "A": "Notes page",
+        "B": "Print Layout",
+        "C": "Outline",
+        "D": "Draft"
+      },
+      "answer": "A",
+      "explanation": "Trong MS PowerPoint 2010 (thẻ View -> Presentation Views) có các chế độ hiển thị: Normal, Slide Sorter, Notes Page, Reading View. Còn Print Layout, Outline, Draft là các chế độ hiển thị của MS Word."
+    },
+    {
+      "id": "ca1_33",
+      "source": "Ca 1",
+      "num": 33,
+      "topic": "MS PowerPoint",
+      "question": "Để thêm âm thanh khi dịch chuyển, thời gian dịch chuyển giữa các slide chọn nhóm lệnh nào sau đây?",
+      "options": {
+        "A": "Advanced Animation",
+        "B": "Media",
+        "C": "Preview",
+        "D": "Timing"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Transitions của PowerPoint 2010, nhóm lệnh Timing chứa các tùy chọn: Sound (âm thanh khi chuyển slide), Duration (thời gian thực hiện hiệu ứng chuyển), Advance Slide (chuyển slide khi click chuột hoặc tự động sau bao nhiêu giây)."
+    },
+    {
+      "id": "ca1_34",
+      "source": "Ca 1",
+      "num": 34,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, về chức năng Effect Option, phát biểu nào sau đây là đúng:",
+      "options": {
+        "A": "Thêm liên kết cho đối tượng",
+        "B": "Thêm hiệu ứng chuyển Slide",
+        "C": "Thay đổi hướng di chuyển của hiệu ứng",
+        "D": "Thêm hiệu ứng động cho đối tượng"
+      },
+      "answer": "C",
+      "explanation": "Nút lệnh Effect Options (trong thẻ Transitions hoặc Animations) cho phép tùy chỉnh chi tiết thuộc tính của hiệu ứng đã chọn, phổ biến nhất là thay đổi hướng di chuyển/xuất hiện của hiệu ứng (ví dụ: From Bottom, From Left, From Right, From Top...)."
+    },
+    {
+      "id": "ca1_35",
+      "source": "Ca 1",
+      "num": 35,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi vào View -> Master Views -> Slide Master như trong hình vẽ, người ta thực hiện:",
+      "options": {
+        "A": "Chọn trang thuyết trình chủ (master slide) mới",
+        "B": "Xóa trang thuyết trình chủ (master slide) hiện có",
+        "C": "Tìm trang thuyết trình chủ (master slide) mới",
+        "D": "Xem trang thuyết trình chủ (master slide) hiện có"
+      },
+      "answer": "D",
+      "explanation": "Lệnh View -> Master Views -> Slide Master dùng để mở và xem/chỉnh sửa trang thuyết trình chủ (Slide Master) hiện có của bài thuyết trình, giúp đồng bộ bố cục, font chữ, logo trên toàn bộ các slide."
+    },
+    {
+      "id": "ca1_36",
+      "source": "Ca 1",
+      "num": 36,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, chế độ xem nào sau đây không có:",
+      "options": {
+        "A": "Normal",
+        "B": "Slide sorter",
+        "C": "Draft",
+        "D": "Reading View"
+      },
+      "answer": "C",
+      "explanation": "PowerPoint 2010 có các chế độ xem: Normal, Slide Sorter, Notes Page, Reading View (và Slide Show). Chế độ Draft (bản nháp) chỉ có trong MS Word, không có trong PowerPoint."
+    },
+    {
+      "id": "ca1_37",
+      "source": "Ca 1",
+      "num": 37,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, để chọn cách xuất hiện của đối tượng trong hiệu ứng, khi vào Animations -> Effect Options, cách nào sau đây không có?",
+      "options": {
+        "A": "From left",
+        "B": "From Top-Left",
+        "C": "From Bottom-left",
+        "D": "From Top"
+      },
+      "answer": "B",
+      "explanation": "Theo đáp án chuẩn của bộ đề thi (mã câu 37 Ca 1 = B), tùy chọn 'From Top-Left' là đáp án được chọn cho hiệu ứng cụ thể trong câu hỏi này."
+    },
+    {
+      "id": "ca1_38",
+      "source": "Ca 1",
+      "num": 38,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, muốn trình diễn một bài thuyết trình, cách nào sau đây là sai:",
+      "options": {
+        "A": "Vào slide Show -> Set Up Slide show",
+        "B": "Vào Slide Show -> From Custom Slide show",
+        "C": "Bấm vào nút Slide Show ở góc dưới bên phải",
+        "D": "Vào Slide Show -> From Beginning"
+      },
+      "answer": "A",
+      "explanation": "Lệnh Slide Show -> Set Up Slide Show chỉ mở hộp thoại thiết lập cấu hình trình chiếu (như chiếu lặp lại, tắt hiệu ứng, chọn màn hình...) chứ không bắt đầu chạy trình chiếu. Các cách B, C, D (hoặc nhấn F5 / Shift+F5) đều trực tiếp khởi chạy bài thuyết trình."
+    },
+    {
+      "id": "ca1_39",
+      "source": "Ca 1",
+      "num": 39,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi vào Insert -> Screenshot, khi bấm vào các hình ảnh trong \"Available Windows\" như trong hình là để thực hiện:",
+      "options": {
+        "A": "Chèn hình ảnh chụp qua Camera vào Slide",
+        "B": "Chèn các file đã có sẵn vào slide",
+        "C": "Chuyển sang cửa sổ màn hình khác",
+        "D": "Chèn vào các cửa sổ màn hình vào Slide"
+      },
+      "answer": "D",
+      "explanation": "Tính năng Insert -> Screenshot -> Available Windows trong Office 2010 sẽ liệt kê ảnh chụp của các cửa sổ chương trình đang mở trên máy tính (không bị thu nhỏ xuống Taskbar). Khi bấm vào một hình trong đó, PowerPoint sẽ chèn ngay ảnh chụp cửa sổ màn hình đó vào Slide."
+    },
+    {
+      "id": "ca1_40",
+      "source": "Ca 1",
+      "num": 40,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, chức năng nào không xuất hiện trên thanh ribbon:",
+      "options": {
+        "A": "Bookmark",
+        "B": "Tigger",
+        "C": "Action",
+        "D": "Macros"
+      },
+      "answer": "A",
+      "explanation": "Trên thanh Ribbon của PowerPoint 2010 có Trigger (trong thẻ Animations), Action (trong thẻ Insert -> Links) và Macros (trong thẻ View). Còn nút lệnh Bookmark trên nhóm Links (thẻ Insert) là chức năng của MS Word, không xuất hiện trên nhóm Links của PowerPoint."
+    },
+    {
+      "id": "ca2_01",
+      "source": "Ca 2",
+      "num": 1,
+      "topic": "MS Word",
+      "question": "Lệnh Split Table trong Ms Word có chức năng gì?",
+      "options": {
+        "A": "Gộp hai bảng thành một bảng",
+        "B": "Gộp nhiều bảng thành một bảng",
+        "C": "Tách một bảng thành hai bảng",
+        "D": "Tách hai bảng thành nhiều bảng"
+      },
+      "answer": "C",
+      "explanation": "Trong MS Word (thẻ Table Tools -> Layout -> nhóm Merge), lệnh Split Table (phím tắt Ctrl + Shift + Enter) dùng để tách bảng hiện tại thành hai bảng riêng biệt tại vị trí dòng đang đặt con trỏ."
+    },
+    {
+      "id": "ca2_02",
+      "source": "Ca 2",
+      "num": 2,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, để chia một ô của Table (bảng) thành nhiều ô ta sử dụng lệnh nào dưới đây?",
+      "options": {
+        "A": "AutoFit",
+        "B": "Split Table",
+        "C": "Split Cells",
+        "D": "Merge Cells"
+      },
+      "answer": "C",
+      "explanation": "Lệnh Split Cells dùng để chia (tách) một ô hoặc các ô đang chọn thành nhiều dòng và nhiều cột. Ngược lại, Merge Cells dùng để gộp nhiều ô thành một ô."
+    },
+    {
+      "id": "ca2_03",
+      "source": "Ca 2",
+      "num": 3,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, để chuyển đổi dữ liệu (văn bản) trong bảng thành dạng văn bản thông thường ta sử dụng lệnh là:",
+      "options": {
+        "A": "Convert text to table",
+        "B": "Text to Convert",
+        "C": "Text Direction",
+        "D": "Convert to text"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Table Tools -> Layout -> nhóm Data, lệnh Convert to Text cho phép chuyển đổi dữ liệu trong bảng (Table) thành văn bản thông thường (ngăn cách bởi dấu Tab, dấu phẩy hoặc dấu ngắt đoạn). Ngược lại, Insert -> Table -> Convert Text to Table dùng để chuyển văn bản thành bảng."
+    },
+    {
+      "id": "ca2_04",
+      "source": "Ca 2",
+      "num": 4,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, để một đối tượng hình ảnh làm nền cho văn bản ta sử dụng lệnh nào trong nhóm lệnh Wrap Text?",
+      "options": {
+        "A": "In front of Text",
+        "B": "Behind Text",
+        "C": "Hide Text",
+        "D": "Tight"
+      },
+      "answer": "B",
+      "explanation": "Trong nhóm Wrap Text (bố trí văn bản quanh hình ảnh), tùy chọn Behind Text sẽ đưa hình ảnh nằm chìm phía sau chữ (làm nền cho văn bản). Ngược lại, In front of Text đưa hình ảnh đè lên phía trước chữ."
+    },
+    {
+      "id": "ca2_05",
+      "source": "Ca 2",
+      "num": 5,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, chức năng của lệnh Legend trong hình bên dưới là gì?",
+      "image": "/images/q/ca2_q05.png",
+      "options": {
+        "A": "Tên biểu đồ",
+        "B": "Tiêu đề cột",
+        "C": "Chú giải",
+        "D": "Tiêu đề trục"
+      },
+      "answer": "C",
+      "explanation": "Khi làm việc với biểu đồ (Chart Tools -> Layout -> nhóm Labels), nút lệnh Legend dùng để bật/tắt hoặc chọn vị trí đặt bảng Chú giải (chú thích màu sắc/ký hiệu của các chuỗi dữ liệu) trên biểu đồ. (Chart Title là Tên biểu đồ, Axis Titles là Tiêu đề trục)."
+    },
+    {
+      "id": "ca2_06",
+      "source": "Ca 2",
+      "num": 6,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, lệnh Convert Text to Table để thực hiện chức năng gì?",
+      "options": {
+        "A": "Chuyển nội dung văn bản được chọn thành lịch công tác",
+        "B": "Chuyển nội dung văn bản được chọn thành bảng biểu",
+        "C": "Chuyển văn bản thành các bảng",
+        "D": "Chuyển văn bản thành nhiều dòng, nhiều cột"
+      },
+      "answer": "B",
+      "explanation": "Lệnh Insert -> Table -> Convert Text to Table có chức năng chuyển đổi đoạn nội dung văn bản đang được bôi đen (đã có các ký tự phân cách như Tab, dấu phẩy...) thành một bảng biểu (Table)."
+    },
+    {
+      "id": "ca2_07",
+      "source": "Ca 2",
+      "num": 7,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, lệnh Wrap Text/Tight trong nhóm Arrange để thực hiện chức năng gì?",
+      "options": {
+        "A": "Bố trí văn bản nằm bên trên và bên dưới đối tượng",
+        "B": "Bố trí văn bản nằm dưới đối tượng",
+        "C": "Bố trí văn bản theo khung hình chữ nhật bao quanh đối tượng",
+        "D": "Bố trí văn bản bao sát quanh đối tượng"
+      },
+      "answer": "D",
+      "explanation": "Trong menu Wrap Text: 'Tight' giúp bố trí các dòng văn bản ôm/bao sát theo đường viền thực tế của đối tượng hình ảnh. ('Square' là bao theo khung hình chữ nhật, 'Top and Bottom' là nằm trên và dưới đối tượng, 'Behind Text' là chữ đè lên hình)."
+    },
+    {
+      "id": "ca2_08",
+      "source": "Ca 2",
+      "num": 8,
+      "topic": "MS Word",
+      "question": "Trong Ms Word, lệnh Picture Corrections Options trong nhóm Adjust/Corrections thực hiện chức năng gì?",
+      "options": {
+        "A": "Phục hồi ảnh trở về trạng thái gốc",
+        "B": "Thay đổi ảnh khác",
+        "C": "Dùng để nén ảnh",
+        "D": "Mở hộp thoại cho điều chỉnh độ độ sáng và độ tương phản"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Picture Tools -> Format -> nhóm Adjust -> Corrections, chọn Picture Corrections Options sẽ mở hộp thoại Format Picture cho phép tinh chỉnh chi tiết độ sắc nét (Sharpen/Soften), độ sáng (Brightness) và độ tương phản (Contrast) của bức ảnh. (Reset Picture là phục hồi ảnh gốc, Change Picture là đổi ảnh, Compress Pictures là nén ảnh)."
+    },
+    {
+      "id": "ca2_09",
+      "source": "Ca 2",
+      "num": 9,
+      "topic": "MS Word",
+      "question": "Trong MS Word, thẻ lệnh nào trên thanh công cụ Ribbon chứa lệnh thiết lập trang?",
+      "options": {
+        "A": "Page Layout",
+        "B": "Insert",
+        "C": "View",
+        "D": "Home"
+      },
+      "answer": "A",
+      "explanation": "Trong MS Word 2010, thẻ Page Layout chứa nhóm lệnh Page Setup dùng để thiết lập trang in như căn lề (Margins), hướng giấy (Orientation), khổ giấy (Size) và chia cột (Columns)."
+    },
+    {
+      "id": "ca2_10",
+      "source": "Ca 2",
+      "num": 10,
+      "topic": "MS Word",
+      "question": "Trong văn bản của MS Word, chức năng Section Breaks dùng để làm gì?",
+      "options": {
+        "A": "Tạo văn bản thành nhiều cột khác nhau.",
+        "B": "Xuống hàng phần văn bản từ vị trí con trỏ trở đi nhưng không ngắt thành đoạn văn bản khác.",
+        "C": "Đưa phần văn bản từ vị trí con trỏ trở đi sang trang khác thay vì phải enter nhiều lần (không tạo thành vùng văn bản khác).",
+        "D": "Chia văn bản thành các vùng khác nhau để từ đó người dùng có thể định dạng riêng cho từng vùng."
+      },
+      "answer": "D",
+      "explanation": "Section Breaks (Ngắt phân vùng, trong thẻ Page Layout -> Breaks) dùng để chia tài liệu thành các phân vùng (Sections) độc lập, giúp người dùng có thể thiết lập định dạng trang riêng biệt cho từng vùng (ví dụ: trang dọc xen kẽ trang ngang, đánh số trang khác nhau, Header/Footer khác nhau). (Phương án B là Text Wrapping Break / Shift+Enter, phương án C là Page Break / Ctrl+Enter)."
+    },
+    {
+      "id": "ca2_11",
+      "source": "Ca 2",
+      "num": 11,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, bảng tính đã được lưu và đang mở muốn lưu lại bảng tính dưới một tên khác thì chọn lệnh nào trong số các lệnh sau:",
+      "options": {
+        "A": "Send To",
+        "B": "Open",
+        "C": "Save",
+        "D": "Save As"
+      },
+      "answer": "D",
+      "explanation": "Để lưu một bảng tính (Workbook) đã có sẵn dưới một tên mới, vị trí mới hoặc định dạng khác, ta vào File -> chọn Save As (hoặc nhấn phím F12)."
+    },
+    {
+      "id": "ca2_12",
+      "source": "Ca 2",
+      "num": 12,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, khi mở một workbook mặc định sẽ có bao nhiêu worksheet?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Theo đáp án chuẩn của đề thi (mã câu 12 Ca 2 = A: trong ảnh thí sinh khoanh D bị chấm sai, đáp án hệ thống là 12?...a... tức đáp án A): Trong MS Excel 2010 (và các bản 2003, 2007), khi tạo mới một Workbook, mặc định sẽ có sẵn 3 Worksheet (Sheet1, Sheet2, Sheet3)."
+    },
+    {
+      "id": "ca2_13",
+      "source": "Ca 2",
+      "num": 13,
+      "topic": "MS Excel",
+      "question": "Từ phiên bản Ms Excel 2007 trở đi, khi lưu trữ Workbook mặc định có phần mở rộng là:",
+      "options": {
+        "A": ".xls",
+        "B": ".xltx",
+        "C": ".xlsx",
+        "D": ".xltm"
+      },
+      "answer": "C",
+      "explanation": "Từ phiên bản MS Excel 2007 trở đi, phần mở rộng (đuôi file) mặc định của tập tin bảng tính Excel là .xlsx (phiên bản 2003 trở về trước là .xls; còn .xltx và .xltm là các file mẫu Template)."
+    },
+    {
+      "id": "ca2_14",
+      "source": "Ca 2",
+      "num": 14,
+      "topic": "MS Excel",
+      "question": "Một Worksheet trong Ms Excel 2010 chứa được bao nhiêu cột và bao nhiêu dòng?",
+      "options": {
+        "A": "16.384 cột và 1.048.576 dòng",
+        "B": "1.048.576 cột và 16.384 dòng",
+        "C": "65.536 cột và 256 dòng",
+        "D": "256 cột và 65.536 dòng"
+      },
+      "answer": "A",
+      "explanation": "Từ Excel 2007 và Excel 2010 trở đi, mỗi trang tính (Worksheet) có tối đa 16.384 cột (từ cột A đến cột XFD, tương ứng 2^14) và 1.048.576 dòng (tương ứng 2^20). (Còn 256 cột và 65.536 dòng là giới hạn cũ của Excel 2003)."
+    },
+    {
+      "id": "ca2_15",
+      "source": "Ca 2",
+      "num": 15,
+      "topic": "MS Excel",
+      "question": "Trong MS Excel, tên vùng tính (Range) chứa tối đa bao nhiêu ký tự?",
+      "options": {
+        "A": "250 ký tự không chứa khoảng trắng và dấu chấm",
+        "B": "125 ký tự không chứa khoảng trắng và dấu chấm",
+        "C": "255 ký tự không chứa khoảng trắng và dấu chấm",
+        "D": "225 ký tự không chứa khoảng trắng và dấu chấm"
+      },
+      "answer": "C",
+      "explanation": "Khi đặt tên cho một ô hoặc vùng dữ liệu (Defined Name / Range Name) trong MS Excel, tên vùng có độ dài tối đa là 255 ký tự, phải bắt đầu bằng chữ cái hoặc dấu gạch dưới (_), và không được chứa khoảng trắng."
+    },
+    {
+      "id": "ca2_16",
+      "source": "Ca 2",
+      "num": 16,
+      "topic": "MS Excel",
+      "question": "Trong MS excel, để đặt mật khẩu cho file thực hiện lệnh nào sau đây là đúng?",
+      "options": {
+        "A": "Check Accessibility",
+        "B": "Inspect Document",
+        "C": "Encrypt with Password",
+        "D": "Check Compatibility"
+      },
+      "answer": "C",
+      "explanation": "Trong bộ Office 2010 (Word, Excel, PowerPoint), để đặt mật khẩu bảo vệ không cho người lạ mở file, ta vào File -> Info -> Protect Workbook (hoặc Protect Document/Presentation) -> chọn Encrypt with Password."
+    },
+    {
+      "id": "ca2_17",
+      "source": "Ca 2",
+      "num": 17,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, một tập tin được gọi là:",
+      "options": {
+        "A": "Worksheet",
+        "B": "Workbook",
+        "C": "Sheet",
+        "D": "File"
+      },
+      "answer": "B",
+      "explanation": "Trong MS Excel, một tập tin (file .xlsx) được gọi là một Workbook (sổ làm việc / tập bảng tính). Bên trong một Workbook chứa một hoặc nhiều trang tính con gọi là Worksheet (hay Sheet)."
+    },
+    {
+      "id": "ca2_18",
+      "source": "Ca 2",
+      "num": 18,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, cách thể hiện nào sau đây không phải địa chỉ của 1 Ô trên bảng tính?",
+      "options": {
+        "A": "A3:A3",
+        "B": "A1:A3",
+        "C": "R1C3",
+        "D": "A5"
+      },
+      "answer": "B",
+      "explanation": "A1:A3 là địa chỉ của một VÙNG (Range) gồm 3 ô (A1, A2, A3), không phải địa chỉ của 1 ô đơn lẻ. (A5 là địa chỉ 1 ô kiểu A1; R1C3 là địa chỉ 1 ô dòng 1 cột 3 theo kiểu R1C1; A3:A3 tuy viết dạng vùng nhưng vẫn chỉ tham chiếu đúng 1 ô A3)."
+    },
+    {
+      "id": "ca2_19",
+      "source": "Ca 2",
+      "num": 19,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để ghi chú hay chú thích cho 1 ô trên bảng tính, lệnh nào sau đây sẽ được sử dụng?",
+      "options": {
+        "A": "New Window",
+        "B": "New Review",
+        "C": "New View",
+        "D": "New Comment"
+      },
+      "answer": "D",
+      "explanation": "Để thêm ghi chú/chú thích vào một ô trong Excel, ta chọn ô đó rồi vào thẻ Review -> bấm New Comment (hoặc click chuột phải vào ô chọn Insert Comment, phím tắt Shift + F2)."
+    },
+    {
+      "id": "ca2_20",
+      "source": "Ca 2",
+      "num": 20,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để quản lý và theo dõi sự thay đổi thông tin trên các bảng tính của tập tin từ những người đồng sử dụng, dùng chức năng:",
+      "options": {
+        "A": "Data Changes",
+        "B": "Highlight Changes",
+        "C": "Track Changes",
+        "D": "View Changes"
+      },
+      "answer": "C",
+      "explanation": "Chức năng Track Changes (trong thẻ Review -> nhóm Changes) giúp theo dõi, ghi nhận và đánh dấu mọi sự thay đổi dữ liệu trên bảng tính khi nhiều người cùng chia sẻ và chỉnh sửa tập tin."
+    },
+    {
+      "id": "ca2_21",
+      "source": "Ca 2",
+      "num": 21,
+      "topic": "MS PowerPoint",
+      "question": "Hãy cho biết trình tự thực hiện để thiết kế một bài thuyết trình:",
+      "options": {
+        "A": "Phân tích, lập kế hoạch, xây dựng đề cương, thu thập thông tin và thực hiện",
+        "B": "Thu thập thông tin, phân tích, xây dựng đề cương, lập kế hoạch và thực hiện",
+        "C": "Lập kế hoạch, phân tích, xây dựng đề cương, thu thập thông tin và thực hiện",
+        "D": "Thu thập thông tin, lập kế hoạch, xây dựng đề cương, phân tích và thực hiện"
+      },
+      "answer": "C",
+      "explanation": "Theo quy trình chuẩn khi thiết kế một bài thuyết trình: Bước 1: Lập kế hoạch -> Bước 2: Phân tích (mục tiêu, đối tượng người nghe) -> Bước 3: Xây dựng đề cương (dàn ý nội dung) -> Bước 4: Thu thập thông tin (tư liệu, hình ảnh, số liệu) -> Bước 5: Thực hiện (thiết kế slide)."
+    },
+    {
+      "id": "ca2_22",
+      "source": "Ca 2",
+      "num": 22,
+      "topic": "MS PowerPoint",
+      "question": "Hãy kể tên một số phần mềm trình chiếu thông dụng:",
+      "options": {
+        "A": "Impress, Prezi, Google Slides, Ms word và SlideRocket",
+        "B": "Impress, Google Presentation, Ms Word và SlideRocket",
+        "C": "Impress, Prezi, Google Slides và Ms Excel",
+        "D": "Impress, Prezi, Google Slides, Ms PowerPoint và SlideRocket"
+      },
+      "answer": "D",
+      "explanation": "Các phần mềm trình chiếu thông dụng hiện nay gồm: Microsoft PowerPoint, OpenOffice/LibreOffice Impress, Prezi, Google Slides (Google Presentation), Apple Keynote và SlideRocket. Các đáp án A, B, C sai vì có chứa MS Word hoặc MS Excel."
+    },
+    {
+      "id": "ca2_23",
+      "source": "Ca 2",
+      "num": 23,
+      "topic": "MS PowerPoint",
+      "question": "Bài thuyết trình (tập tin thuyết trình) được tạo ra từ Ms PowerPoint 2010 có phần mở rộng mặc định là gì?",
+      "options": {
+        "A": "xls",
+        "B": "ppt",
+        "C": "pptx",
+        "D": "docx"
+      },
+      "answer": "C",
+      "explanation": "Tập tin thuyết trình tạo từ MS PowerPoint 2007/2010 trở đi có phần mở rộng mặc định là .pptx (phiên bản PowerPoint 2003 trở về trước là .ppt)."
+    },
+    {
+      "id": "ca2_24",
+      "source": "Ca 2",
+      "num": 24,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint 2010, khi chọn Outline trong chế độ Normal ở cửa sổ bên trái có ý nghĩa gì?",
+      "options": {
+        "A": "Hiển thị nội dung của Slide trong bài thuyết trình",
+        "B": "Chỉ hiển thị các ghi chú trong các Slide",
+        "C": "Chỉ hiển thị các đoạn văn bản trong slide",
+        "D": "Hiển thị thông tin các Slide ở dạng thu nhỏ"
+      },
+      "answer": "C",
+      "explanation": "Ở khung điều hướng bên trái trong chế độ Normal của PowerPoint 2010 có 2 thẻ: Thẻ 'Slides' hiển thị hình ảnh các slide ở dạng thu nhỏ (thumbnail), còn thẻ 'Outline' (Dàn ý) chỉ hiển thị nội dung các đoạn văn bản (tiêu đề và nội dung chữ) có trong các slide."
+    },
+    {
+      "id": "ca2_25",
+      "source": "Ca 2",
+      "num": 25,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các lệnh trong thẻ lệnh Insert thực hiện chức năng gì?",
+      "options": {
+        "A": "Thực hiện các lệnh chèn, thêm các đối tượng",
+        "B": "Tạo ghi chú cho nội dung trong Slide",
+        "C": "Thực hiện các lệnh về định dạng cho nội dung trình chiếu",
+        "D": "Chuyển đổi qua lại giữa các chế độ hiển thị"
+      },
+      "answer": "A",
+      "explanation": "Thẻ Insert (Chèn) trên thanh công cụ Ribbon chứa các lệnh dùng để chèn, thêm các đối tượng vào Slide như bảng biểu (Table), hình ảnh (Picture), hình vẽ (Shapes), biểu đồ (Chart), SmartArt, WordArt, âm thanh (Audio), video..."
+    },
+    {
+      "id": "ca2_26",
+      "source": "Ca 2",
+      "num": 26,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các lệnh trong thẻ lệnh Review thực hiện chức năng gì?",
+      "options": {
+        "A": "Chuyển đổi qua lại giữa các chế độ hiển thị",
+        "B": "Thực hiện các lệnh chèn, thêm các đối tượng",
+        "C": "Tạo ghi chú cho nội dung trong Slide",
+        "D": "Thực hiện các lệnh về định dạng cho nội dung trình chiếu"
+      },
+      "answer": "C",
+      "explanation": "Thẻ Review (Xem lại) trong PowerPoint dùng để kiểm tra chính tả, dịch thuật, so sánh bài thuyết trình và đặc biệt là tạo, chỉnh sửa, quản lý các ghi chú/bình luận (Comments) cho nội dung trong Slide."
+    },
+    {
+      "id": "ca2_27",
+      "source": "Ca 2",
+      "num": 27,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các lệnh trong thẻ lệnh View thực hiện chức năng gì?",
+      "options": {
+        "A": "Tạo ghi chú cho nội dung trong Slide",
+        "B": "Chuyển đổi qua lại giữa các chế độ hiển thị",
+        "C": "Thực hiện các lệnh về định dạng cho nội dung trình chiếu",
+        "D": "Chuyển đổi qua lại giữa các chế độ hiển thị"
+      },
+      "answer": "B",
+      "explanation": "Thẻ View (Hiển thị) chứa các nhóm lệnh Presentation Views và Master Views giúp chuyển đổi qua lại giữa các chế độ hiển thị bài thuyết trình (Normal, Slide Sorter, Notes Page, Reading View, Slide Master...), bật/tắt thước (Ruler), lưới (Gridlines) và thu phóng (Zoom)."
+    },
+    {
+      "id": "ca2_28",
+      "source": "Ca 2",
+      "num": 28,
+      "topic": "MS PowerPoint",
+      "question": "Lựa chọn nào sau đây KHÔNG phải là tên của một phần mềm trình chiếu?",
+      "options": {
+        "A": "OpenOffice Impress",
+        "B": "Ms PowerPoint",
+        "C": "Apple Keynote",
+        "D": "Google Docs"
+      },
+      "answer": "D",
+      "explanation": "Google Docs là ứng dụng soạn thảo văn bản trực tuyến (tương tự MS Word). Phần mềm trình chiếu của Google là Google Slides (hay Google Presentations). Còn OpenOffice Impress, MS PowerPoint và Apple Keynote đều là các phần mềm trình chiếu."
+    },
+    {
+      "id": "ca2_29",
+      "source": "Ca 2",
+      "num": 29,
+      "topic": "MS PowerPoint",
+      "question": "Phần mở rộng mặc định của tập tin thuyết trình trong Ms PowerPoint 2010 là gì?",
+      "options": {
+        "A": "ppt",
+        "B": "potx",
+        "C": "ppts",
+        "D": "pptx"
+      },
+      "answer": "D",
+      "explanation": "Phần mở rộng mặc định của tập tin thuyết trình trong MS PowerPoint 2010 là .pptx (.ppt là của bản 2003 trở về trước, .potx là file mẫu PowerPoint Template)."
+    },
+    {
+      "id": "ca2_30",
+      "source": "Ca 2",
+      "num": 30,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, hướng (orientation) của trang chiếu được thiết lập mặc định là:",
+      "options": {
+        "A": "Landscape",
+        "B": "Portrait",
+        "C": "Horizontal",
+        "D": "Vertical"
+      },
+      "answer": "A",
+      "explanation": "Để phù hợp với màn hình máy tính và máy chiếu, hướng trang chiếu (Slide Orientation) mặc định trong PowerPoint là Landscape (khổ ngang). Ngược lại, trong MS Word hướng giấy mặc định là Portrait (khổ dọc)."
+    },
+    {
+      "id": "ca2_31",
+      "source": "Ca 2",
+      "num": 31,
+      "topic": "Kiến thức máy tính",
+      "question": "\"..... là các đoạn mạch có chức năng truyền dẫn thông tin giữa các thành phần\", Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Bộ số học luận lý (ALU)",
+        "B": "Thanh ghi (Register)",
+        "C": "Bộ điều khiển (CU)",
+        "D": "Đường truyền (BUS)"
+      },
+      "answer": "D",
+      "explanation": "Hệ thống BUS (Đường truyền) trong máy tính là tập hợp các đường dây dẫn/đoạn mạch điện tử có chức năng truyền dẫn dữ liệu, địa chỉ và tín hiệu điều khiển giữa CPU, bộ nhớ và các thiết bị ngoại vi."
+    },
+    {
+      "id": "ca2_32",
+      "source": "Ca 2",
+      "num": 32,
+      "topic": "Kiến thức máy tính",
+      "question": "Dưới góc độ địa lý, mạng máy tính có thể phân thành:",
+      "options": {
+        "A": "Mạng SNA, mạng ISO, mạng WAN",
+        "B": "Mạng LAN, mạng MAN, mạng WAN, mạng GAN",
+        "C": "Mạng TCP/IP, mạng ISO, mạng WAN",
+        "D": "Mạng TCP/IP, mạng NETBIOS, mạng LAN"
+      },
+      "answer": "B",
+      "explanation": "Xét theo phạm vi địa lý từ nhỏ đến lớn, mạng máy tính được chia thành: mạng cục bộ LAN (Local Area Network), mạng đô thị MAN (Metropolitan Area Network), mạng diện rộng WAN (Wide Area Network) và mạng toàn cầu GAN (Global Area Network)."
+    },
+    {
+      "id": "ca2_33",
+      "source": "Ca 2",
+      "num": 33,
+      "topic": "Kiến thức máy tính",
+      "question": "\"....là bộ phận thực hiện các phép toán số học như phép cộng, trừ và các phép toán luận lý như AND, OR, XOR\". Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Bộ nhớ truy xuất ngẫu nhiên",
+        "B": "Bộ nhớ chỉ đọc",
+        "C": "Bộ số học luận lý",
+        "D": "Bộ nhớ truy xuất nhanh"
+      },
+      "answer": "C",
+      "explanation": "ALU (Arithmetic Logic Unit - Bộ số học và luận lý) là một thành phần cốt lõi bên trong CPU, chịu trách nhiệm thực hiện mọi phép tính số học (cộng, trừ, nhân, chia) và các phép toán logic/so sánh (AND, OR, NOT, XOR)."
+    },
+    {
+      "id": "ca2_34",
+      "source": "Ca 2",
+      "num": 34,
+      "topic": "Kiến thức máy tính",
+      "question": "\"... là một tập hợp các câu lệnh được viết bằng một hoặc nhiều ngôn ngữ lập trình nhằm tự động giải quyết một số chức năng hoặc bài toán nào đó\". Hãy chọn phương án ĐÚNG điền vào chỗ trống:",
+      "options": {
+        "A": "Phần cứng",
+        "B": "Bộ nhớ ngoài",
+        "C": "Phần mềm",
+        "D": "Bộ nhớ trong"
+      },
+      "answer": "C",
+      "explanation": "Phần mềm máy tính (Software / Chương trình máy tính) là tập hợp các câu lệnh, chỉ thị được viết bằng một hoặc nhiều ngôn ngữ lập trình nhằm điều khiển phần cứng tự động thực hiện một chức năng hay giải quyết bài toán cụ thể."
+    },
+    {
+      "id": "ca2_35",
+      "source": "Ca 2",
+      "num": 35,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây không phải chức năng chính của Firewall?",
+      "options": {
+        "A": "Ngăn chặn sự truy nhập trái phép",
+        "B": "Kiểm soát người dùng và việc truy nhập của người dùng",
+        "C": "Kiểm soát nội dung thông tin lưu chuyển trên mạng",
+        "D": "Giúp cho việc truy nhập thông tin dễ dàng trên Internet"
+      },
+      "answer": "D",
+      "explanation": "Tường lửa (Firewall) là hệ thống an ninh mạng dùng để giám sát, kiểm soát luồng thông tin vào/ra và ngăn chặn các truy cập trái phép dựa trên các quy tắc bảo mật. Việc 'giúp truy nhập thông tin dễ dàng trên Internet' là vai trò của trình duyệt web / công cụ tìm kiếm, không phải chức năng của Firewall."
+    },
+    {
+      "id": "ca2_36",
+      "source": "Ca 2",
+      "num": 36,
+      "topic": "Kiến thức máy tính",
+      "question": "Các thiết bị nhớ sau đây, thiết bị nào có tốc độ truy cập dữ liệu nhanh nhất?",
+      "options": {
+        "A": "Bộ nhớ truy cập ngẫu nhiên (RAM)",
+        "B": "Đĩa cứng (Hard Disk)",
+        "C": "Thiết bị nhớ Flash (USB)",
+        "D": "Đĩa mềm"
+      },
+      "answer": "A",
+      "explanation": "Trong các thiết bị lưu trữ/bộ nhớ được liệt kê (RAM, đĩa cứng, USB, đĩa mềm), RAM là bộ nhớ trong làm việc trực tiếp với CPU thông qua mạch bán dẫn tốc độ cao nên có tốc độ truy cập dữ liệu nhanh nhất. (Đĩa mềm là chậm nhất)."
+    },
+    {
+      "id": "ca2_37",
+      "source": "Ca 2",
+      "num": 37,
+      "topic": "Kiến thức máy tính",
+      "question": "Trong hệ điều hành Windows, tài khoản người dùng nào đã có mặc định?",
+      "options": {
+        "A": "Computer",
+        "B": "Admin",
+        "C": "Guest",
+        "D": "PC"
+      },
+      "answer": "C",
+      "explanation": "Trong hệ điều hành Windows, hai tài khoản được hệ thống tạo sẵn mặc định (Built-in accounts) là 'Administrator' (không phải 'Admin') và 'Guest' (tài khoản khách). Do trong 4 đáp án không có chữ Administrator đầy đủ mà có 'Guest', nên đáp án đúng là Guest."
+    },
+    {
+      "id": "ca2_38",
+      "source": "Ca 2",
+      "num": 38,
+      "topic": "Kiến thức máy tính",
+      "question": "Hệ điều hành nào sao đây không phải là hệ điều hành đa nhiệm?",
+      "options": {
+        "A": "MAC OS",
+        "B": "UNIX",
+        "C": "WINDOWS",
+        "D": "MS DOS"
+      },
+      "answer": "D",
+      "explanation": "MS-DOS (Microsoft Disk Operating System) là hệ điều hành đơn nhiệm (single-tasking) giao diện dòng lệnh, tại một thời điểm chỉ chạy được một chương trình duy nhất. Còn Windows, macOS và UNIX/Linux đều là hệ điều hành đa nhiệm (multitasking)."
+    },
+    {
+      "id": "ca2_39",
+      "source": "Ca 2",
+      "num": 39,
+      "topic": "Kiến thức máy tính",
+      "question": "\"_______ là một chương trình xử lý văn bản\". Hãy chọn phương án ĐÚNG điền vào chỗ trống.",
+      "options": {
+        "A": "MS Powerpoint",
+        "B": "Oracle",
+        "C": "Notepad",
+        "D": "MS Excel"
+      },
+      "answer": "C",
+      "explanation": "Trong 4 phương án: MS PowerPoint là phần mềm trình chiếu, Oracle là hệ quản trị cơ sở dữ liệu, MS Excel là chương trình bảng tính. Chỉ có Notepad (hoặc WordPad, MS Word) là chương trình soạn thảo/xử lý văn bản."
+    },
+    {
+      "id": "ca2_40",
+      "source": "Ca 2",
+      "num": 40,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây không phải là đặc trưng của thương mại điện tử?",
+      "options": {
+        "A": "Mạng lưới thông tin chính là phương tiện để trao đổi dữ liệu",
+        "B": "Các bên tiến hành giao dịch không tiếp xúc trực tiếp với nhau và không đòi hỏi phải biết nhau từ trước",
+        "C": "Có sự tham gia của ít nhất ba chủ thể",
+        "D": "Thị trường thống nhất toàn cầu"
+      },
+      "answer": "A",
+      "explanation": "Theo đáp án chuẩn của bộ đề thi (mã câu 40 Ca 2 = A): Trong giáo trình Thương mại điện tử của trường, các đặc trưng cơ bản của TMĐT được nêu nguyên văn gồm: (1) Các bên tiến hành giao dịch không tiếp xúc trực tiếp với nhau và không đòi hỏi phải biết nhau từ trước; (2) Giao dịch thương mại truyền thống được thực hiện với sự tồn tại của khái niệm biên giới quốc gia, còn TMĐT được thực hiện trong một thị trường không có biên giới (thị trường thống nhất toàn cầu); (3) Trong hoạt động giao dịch TMĐT đều có sự tham gia của ít nhất ba chủ thể; (4) Mạng lưới thông tin chính là THỊ TRƯỜNG (chứ không chỉ đơn thuần là phương tiện để trao đổi dữ liệu). Do đó phát biểu A bị sửa chữ 'là thị trường' thành 'là phương tiện để trao đổi dữ liệu' nên A là đáp án được chọn."
+    },
+    {
+      "id": "ca3_01",
+      "source": "Ca 3",
+      "num": 1,
+      "topic": "Kiến thức máy tính",
+      "question": "Thành phần nào sau đây không thuộc bộ xử lý trung tâm (Central Processing Unit)?",
+      "options": {
+        "A": "Đường truyền (BUS)",
+        "B": "Đĩa mềm (Floppy Disk)",
+        "C": "Bộ điều khiển (Control Unit)",
+        "D": "Đồng hồ hay còn gọi là bộ tạo xung nhịp (Clock)"
+      },
+      "answer": "B",
+      "explanation": "Đĩa mềm (Floppy Disk) là thiết bị lưu trữ thuộc bộ nhớ ngoài, không nằm trong bộ xử lý trung tâm (CPU). Các thành phần CU, ALU, thanh ghi, Clock và Bus nội bộ đều thuộc CPU."
+    },
+    {
+      "id": "ca3_02",
+      "source": "Ca 3",
+      "num": 2,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI?",
+      "options": {
+        "A": "Virus máy tính lây lan qua các thiết bị nhớ di động",
+        "B": "Virus máy tính không lây lan qua các phần mềm có bản quyền",
+        "C": "Virus máy tính lây lan qua mạng, đặc biệt là thư điện tử",
+        "D": "Virus máy tính lây lan qua việc sao chép các tập tin đã nhiễm virus"
+      },
+      "answer": "B",
+      "explanation": "Phát biểu SAI là 'Virus máy tính không lây lan qua các phần mềm có bản quyền', vì nếu môi trường máy tính hoặc tệp cài đặt bị lây nhiễm từ nguồn khác thì virus vẫn có thể tấn công và lây lan."
+    },
+    {
+      "id": "ca3_03",
+      "source": "Ca 3",
+      "num": 3,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào dưới đây SAI:",
+      "options": {
+        "A": "Windows 7 là một phiên bản hệ điều hành mã nguồn mở của Windows",
+        "B": "BitLocker là phần mềm của Windows 7 có chức năng mã hóa dữ liệu trong USB flash",
+        "C": "Unikey, VietKey là những phần mềm hỗ trợ người dùng gõ dấu tiếng Việt",
+        "D": "Calculator là một ứng dụng cho phép thực hiện các phép tính số"
+      },
+      "answer": "A",
+      "explanation": "Windows 7 là hệ điều hành thương mại mã nguồn đóng (proprietary software) của Microsoft, không phải mã nguồn mở."
+    },
+    {
+      "id": "ca3_04",
+      "source": "Ca 3",
+      "num": 4,
+      "topic": "Kiến thức máy tính",
+      "question": "Việc nào sau đây KHÔNG nên làm khi bạn sử dụng máy vi tính thường xuyên?",
+      "options": {
+        "A": "Rời khỏi bàn làm việc sau mỗi giờ",
+        "B": "Để đèn chiếu ánh sáng trực tiếp vào màn hình",
+        "C": "Sử dụng kính chống lóa",
+        "D": "Lau bàn phím thường xuyên với dung dịch kháng khuẩn"
+      },
+      "answer": "B",
+      "explanation": "Để đèn chiếu ánh sáng trực tiếp vào màn hình sẽ gây lóa, phản chiếu ánh sáng mạnh vào mắt làm mỏi mắt và hại thị lực."
+    },
+    {
+      "id": "ca3_05",
+      "source": "Ca 3",
+      "num": 5,
+      "topic": "Kiến thức máy tính",
+      "question": "Phương án nào sau đây KHÔNG phải là một loại mã độc đối với máy tính?",
+      "options": {
+        "A": "BitLocker",
+        "B": "Virus",
+        "C": "Trojan horse",
+        "D": "Worm"
+      },
+      "answer": "A",
+      "explanation": "BitLocker là công cụ mã hóa bảo vệ dữ liệu ổ đĩa của Windows (BitLocker Drive Encryption), không phải mã độc. Virus, Worm, Trojan horse đều là mã độc."
+    },
+    {
+      "id": "ca3_06",
+      "source": "Ca 3",
+      "num": 6,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu SAI:",
+      "options": {
+        "A": "Sử dụng phần mềm có bản quyền thì máy tính không bao giờ bị nhiễm virus.",
+        "B": "Mất mát dữ liệu là một trong những tác hại mà virus có thể gây ra cho máy tính.",
+        "C": "Sao chép trái phép phần mềm có bản quyền là vi phạm bản quyền phần mềm.",
+        "D": "Mã hóa dữ liệu là một cách để bảo vệ dữ liệu trên máy tính người dùng."
+      },
+      "answer": "A",
+      "explanation": "Dù sử dụng phần mềm có bản quyền nhưng nếu người dùng cắm USB nhiễm virus, mở file đính kèm email độc hại hoặc truy cập web không an toàn thì máy tính vẫn có thể bị nhiễm virus."
+    },
+    {
+      "id": "ca3_07",
+      "source": "Ca 3",
+      "num": 7,
+      "topic": "Kiến thức máy tính",
+      "question": "Xét theo chức năng của các máy tính trong mạng, có thể phân mạng thành 3 mô hình chủ yếu. Hãy chọn phương án ĐÚNG:",
+      "options": {
+        "A": "Mô hình Peer-to-Peer, Client-Server và dựa trên nền Web",
+        "B": "Mô hình mạng di động, gia đình và cơ quan",
+        "C": "Mô hình mạng LAN, WLAN, WAN",
+        "D": "Mô hình Client-Server, LAN, WAN"
+      },
+      "answer": "A",
+      "explanation": "Xét theo chức năng của các máy tính trong mạng, có 3 mô hình chủ yếu: Mạng ngang hàng (Peer-to-Peer), mạng Khách - Chủ (Client-Server) và mạng dựa trên nền Web."
+    },
+    {
+      "id": "ca3_08",
+      "source": "Ca 3",
+      "num": 8,
+      "topic": "Kiến thức máy tính",
+      "question": "Hãy chọn phát biểu ĐÚNG:",
+      "options": {
+        "A": "Mạng LAN là một cách nói khác của Internet.",
+        "B": "Hai máy tính và một phần mềm ứng dụng chưa tạo thành một mạng máy tính.",
+        "C": "Máy chủ (Server) phải là máy tính có cấu hình mạnh nhất.",
+        "D": "Mạng LAN là mạng kết nối các máy tính ở cách nhau những khoảng cách lớn và thường bao gồm hai hay nhiều mạng WAN"
+      },
+      "answer": "B",
+      "explanation": "Hai máy tính và một phần mềm ứng dụng nếu không có môi trường truyền dẫn, thiết bị kết nối mạng và giao thức truyền thông để kết nối với nhau thì chưa tạo thành một mạng máy tính."
+    },
+    {
+      "id": "ca3_09",
+      "source": "Ca 3",
+      "num": 9,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây SAI khi nói về bộ nhớ truy xuất ngẫu nhiên (RAM):",
+      "options": {
+        "A": "Là nơi chương trình được đưa vào để thực hiện",
+        "B": "Là nơi lưu trữ dữ liệu đang được máy tính xử lý",
+        "C": "Là một thành phần quan trọng của bộ nhớ trong",
+        "D": "Là nơi dữ liệu không bị mất khi dòng điện bị gián đoạn"
+      },
+      "answer": "D",
+      "explanation": "RAM là bộ nhớ khả biến, mọi dữ liệu đang lưu tạm trong RAM sẽ bị xóa sạch khi mất điện hoặc tắt máy tính."
+    },
+    {
+      "id": "ca3_10",
+      "source": "Ca 3",
+      "num": 10,
+      "topic": "Kiến thức máy tính",
+      "question": "Phát biểu nào sau đây ĐÚNG?",
+      "options": {
+        "A": "Bộ nhớ ngoài có thể thay thế bộ nhớ trong trong trường hợp bộ nhớ trong bị hỏng.",
+        "B": "Dữ liệu lưu trên bộ nhớ ngoài vẫn còn tồn tại khi nguồn điện bị gián đoạn.",
+        "C": "Tốc độ truy xuất của bộ nhớ ngoài nhanh hơn rất nhiều so với bộ nhớ trong.",
+        "D": "Bộ nhớ ngoài của máy tính thường là đĩa cứng, USB, RAM, ROM, .."
+      },
+      "answer": "B",
+      "explanation": "Bộ nhớ ngoài (đĩa cứng, USB, đĩa quang...) dùng để lưu trữ dữ liệu lâu dài và không bị mất dữ liệu khi nguồn điện bị ngắt."
+    },
+    {
+      "id": "ca3_11",
+      "source": "Ca 3",
+      "num": 11,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, công thức dùng để tính toán các dữ liệu lưu trữ trên bảng tính được nhận dạng bắt đầu là dấu gì?",
+      "options": {
+        "A": "#",
+        "B": "\"",
+        "C": "=",
+        "D": "<>"
+      },
+      "answer": "C",
+      "explanation": "Trong MS Excel, các công thức tính toán luôn bắt đầu bằng dấu bằng (=)."
+    },
+    {
+      "id": "ca3_12",
+      "source": "Ca 3",
+      "num": 12,
+      "topic": "MS Excel",
+      "question": "Địa chỉ C$5 là loại địa chỉ nào trong số các địa chỉ dưới đây?",
+      "options": {
+        "A": "Địa chỉ tuyệt đối dòng",
+        "B": "Địa chỉ tham chiếu",
+        "C": "Địa chỉ tương đối",
+        "D": "Địa chỉ tuyệt đối cột"
+      },
+      "answer": "A",
+      "explanation": "Trong địa chỉ C$5, ký hiệu $ đặt ngay trước chỉ số dòng 5 giúp cố định dòng 5 khi sao chép công thức, còn cột C vẫn thay đổi -> gọi là địa chỉ tuyệt đối dòng (hay địa chỉ hỗn hợp cố định dòng)."
+    },
+    {
+      "id": "ca3_13",
+      "source": "Ca 3",
+      "num": 13,
+      "topic": "MS Excel",
+      "question": "Địa chỉ tương đối là gì?",
+      "options": {
+        "A": "Là địa chỉ sẽ thay đổi cả cột và dòng khi sao chép công thức",
+        "B": "Là địa chỉ mà cả cột và dòng đều không thay đổi khi sao chép công thức",
+        "C": "Là địa chỉ có cột không thay đổi nhưng dòng thay đổi khi sao chép công thức",
+        "D": "Là địa chỉ có dòng không thay đổi nhưng cột thay đổi khi sao chép công thức"
+      },
+      "answer": "A",
+      "explanation": "Địa chỉ tương đối (như A1, C5) là địa chỉ không có dấu $ cố định, sẽ tự động thay đổi cả chỉ số cột và dòng khi sao chép công thức sang ô khác."
+    },
+    {
+      "id": "ca3_14",
+      "source": "Ca 3",
+      "num": 14,
+      "topic": "MS Excel",
+      "question": "Trong Ms excel, đáp án nào sau đây là đúng thứ tự ưu tiên của các toán tử trong công thức?",
+      "options": {
+        "A": "Số âm, phần trăm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi, so sánh",
+        "B": "Lũy thừa, phần trăm, nối chuỗi, số âm, nhân và chia, cộng và trừ, so sánh",
+        "C": "Lũy thừa, số âm, nhân và chia, cộng và trừ, nối chuỗi, so sánh, phần trăm",
+        "D": "So sánh, phần trăm, số âm, lũy thừa, nhân và chia, cộng và trừ, nối chuỗi"
+      },
+      "answer": "A",
+      "explanation": "Thứ tự ưu tiên toán tử trong công thức Excel từ cao xuống thấp: Số âm (-) -> Phần trăm (%) -> Lũy thừa (^) -> Nhân và chia (*, /) -> Cộng và trừ (+, -) -> Nối chuỗi (&) -> So sánh (=, <, >, <=, >=, <>)."
+    },
+    {
+      "id": "ca3_15",
+      "source": "Ca 3",
+      "num": 15,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #NUM! có nghĩa là gì?",
+      "options": {
+        "A": "Lỗi kiểu dữ liệu",
+        "B": "Lỗi giá trị",
+        "C": "Sai tên hàm hay tham chiếu",
+        "D": "Lỗi vùng tham chiếu"
+      },
+      "answer": "B",
+      "explanation": "Lỗi #NUM! là lỗi giá trị số không hợp lệ trong công thức hoặc hàm toán học."
+    },
+    {
+      "id": "ca3_16",
+      "source": "Ca 3",
+      "num": 16,
+      "topic": "MS Excel",
+      "question": "Khi làm việc với công thức và hàm trong MS Excel, lỗi #N/A có nghĩa là gì?",
+      "options": {
+        "A": "Lỗi kiểu dữ liệu",
+        "B": "Lỗi giá trị",
+        "C": "Sai tên hàm hay tham chiếu",
+        "D": "Hàm dò tìm không có kết quả"
+      },
+      "answer": "D",
+      "explanation": "Lỗi #N/A (Not Available) xuất hiện khi hàm tìm kiếm / dò tìm (VLOOKUP, HLOOKUP, MATCH...) không tìm thấy giá trị khớp trong vùng tham chiếu."
+    },
+    {
+      "id": "ca3_17",
+      "source": "Ca 3",
+      "num": 17,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm WEEKNUM có chức năng gì?",
+      "options": {
+        "A": "Trả về một số thứ tự thể hiện ngày làm việc",
+        "B": "Trả về một số cho biết tuần thứ mấy trong năm",
+        "C": "Trả về một số cho biết tuần thứ mấy trong tháng",
+        "D": "Trả về một số cho biết thứ trong tuần"
+      },
+      "answer": "B",
+      "explanation": "Hàm WEEKNUM trả về một số nguyên cho biết ngày đang xét thuộc tuần thứ mấy trong năm."
+    },
+    {
+      "id": "ca3_18",
+      "source": "Ca 3",
+      "num": 18,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm PROPER có chức năng gì?",
+      "options": {
+        "A": "Chuyển ký tự đầu tiên trong chuỗi thành chữ in thường và chuyển các ký tự còn lại thành chữ in hoa",
+        "B": "Đổi tất cả các ký tự trong chuỗi thành chữ in hoa",
+        "C": "Chuyển ký tự đầu tiên trong một từ thành chữ in hoa và chuyển các ký tự còn lại thành chữ in thường",
+        "D": "Chuyển tất cả các ký tự trong một chuỗi thành chữ thường"
+      },
+      "answer": "C",
+      "explanation": "Hàm PROPER chuyển ký tự chữ cái đầu tiên của mỗi từ trong chuỗi thành chữ in hoa và các ký tự còn lại trong từ đó thành chữ in thường."
+    },
+    {
+      "id": "ca3_19",
+      "source": "Ca 3",
+      "num": 19,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, hàm AVERAGEA có chức năng gì?",
+      "options": {
+        "A": "Tính trung bình cộng của các giá trị trong một mảng theo nhiều điều kiện",
+        "B": "Tính trung bình cộng của các giá trị trong một mảng theo một điều kiện",
+        "C": "Tính trung bình cộng của các giá trị, bao gồm cả những giá trị logic",
+        "D": "Tính trung bình cộng các giá trị số, không bao gồm những giá trị logic"
+      },
+      "answer": "C",
+      "explanation": "Hàm AVERAGEA tính trung bình cộng của tất cả các đối số, bao gồm cả số, chuỗi văn bản (tính là 0) và các giá trị logic (TRUE tính là 1, FALSE tính là 0)."
+    },
+    {
+      "id": "ca3_20",
+      "source": "Ca 3",
+      "num": 20,
+      "topic": "MS Excel",
+      "question": "Trong Ms Excel, để trả ra kết quả chuỗi \"AY\" trong chuỗi \"XAYB\" dùng hàm nào sau đây?",
+      "options": {
+        "A": "Hàm LEFT",
+        "B": "Hàm MID",
+        "C": "Hàm RIGHT",
+        "D": "Hàm FIXED"
+      },
+      "answer": "B",
+      "explanation": "Dùng hàm MID(\"XAYB\", 2, 2) để trích xuất chuỗi con \"AY\" nằm ở giữa chuỗi \"XAYB\"."
+    },
+    {
+      "id": "ca3_21",
+      "source": "Ca 3",
+      "num": 21,
+      "topic": "MS Word",
+      "question": "Dạng tab (chữ T ngược có dấu chấm ở góc phải) như hình bên dưới được gọi là:",
+      "image": "/images/q/ca3_q21.png",
+      "options": {
+        "A": "Right Tab",
+        "B": "Decimal Tab",
+        "C": "Center Tab",
+        "D": "Left Tab"
+      },
+      "answer": "B",
+      "explanation": "Biểu tượng chữ T lộn ngược có kèm một dấu chấm nhỏ ở phía trên bên phải là Decimal Tab (Tab thập phân), dùng để căn thẳng hàng các con số theo vị trí dấu chấm thập phân. (Chữ L là Left Tab, chữ T ngược không chấm là Center Tab, chữ L ngược là Right Tab)."
+    },
+    {
+      "id": "ca3_22",
+      "source": "Ca 3",
+      "num": 22,
+      "topic": "MS Word",
+      "question": "Trong định dạng font, Lệnh nào sau đây định dạng ký tự chỉ số trên (ví dụ X²)?",
+      "image": "/images/q/ca3_q22.png",
+      "options": {
+        "A": "Superscript",
+        "B": "Double Strikethrough",
+        "C": "Strikethrough",
+        "D": "Subscript"
+      },
+      "answer": "A",
+      "explanation": "Trong hộp thoại Font (hoặc nhóm Font trên thẻ Home): Superscript (phím tắt Ctrl + Shift + =) dùng để tạo chỉ số trên (ví dụ: X²). Còn Subscript (Ctrl + =) tạo chỉ số dưới (ví dụ: H₂O), Strikethrough là gạch ngang giữa chữ."
+    },
+    {
+      "id": "ca3_23",
+      "source": "Ca 3",
+      "num": 23,
+      "topic": "MS Word",
+      "question": "Trong nhóm lệnh Paragraph, Chức năng Increase Indent thực hiện:",
+      "image": "/images/q/ca3_q23.png",
+      "options": {
+        "A": "Lùi vào dòng đầu tiên một khoảng cách cho trước.",
+        "B": "Canh lề phải của đoạn",
+        "C": "Đóng khung văn bản",
+        "D": "Lùi vào cả đoạn một khoảng cách cho trước."
+      },
+      "answer": "D",
+      "explanation": "Nút lệnh Increase Indent (Tăng thụt lề) trong nhóm Paragraph sẽ đẩy (lùi) toàn bộ các dòng của cả đoạn văn bản đang chọn sang bên phải một khoảng cách tab mặc định. Ngược lại, Decrease Indent kéo lùi đoạn văn về bên trái."
+    },
+    {
+      "id": "ca3_24",
+      "source": "Ca 3",
+      "num": 24,
+      "topic": "MS Word",
+      "question": "Chức năng Format Painter thực hiện:",
+      "options": {
+        "A": "Chỉ sao chép định dạng văn bản",
+        "B": "Sao chép định dạng một đối tượng đến các đối tượng khác",
+        "C": "Sao chép đối tượng",
+        "D": "Chỉ sao chép định dạng đối tượng đồ hoạ"
+      },
+      "answer": "B",
+      "explanation": "Công cụ Format Painter (biểu tượng cây chổi quét sơn trong nhóm Clipboard, phím tắt Ctrl + Shift + C / Ctrl + Shift + V) dùng để sao chép định dạng (màu sắc, kiểu chữ, đường viền, hiệu ứng...) từ một đoạn văn bản hoặc đối tượng đồ họa này sang các văn bản/đối tượng khác."
+    },
+    {
+      "id": "ca3_25",
+      "source": "Ca 3",
+      "num": 25,
+      "topic": "MS Word",
+      "question": "Một dòng văn bản không tạo bất kỳ tab nào, khi nhấn phím Tab thì:",
+      "options": {
+        "A": "Dấu nháy sẽ nhảy đến một vị trí bất kỳ trên dòng đó.",
+        "B": "Dấu nháy luôn nhảy đến một khoảng cách 1.27cm",
+        "C": "Dấu nháy nhảy đến vị trí tab mặc định được thiết lập",
+        "D": "Dấu nháy không di chuyển."
+      },
+      "answer": "C",
+      "explanation": "Khi một dòng/đoạn văn bản chưa được đặt bất kỳ điểm dừng Tab (Tab stop) tùy chỉnh nào trên thước Ruler, mỗi lần nhấn phím Tab thì con trỏ soạn thảo (dấu nháy) sẽ nhảy đến vị trí khoảng cách Tab mặc định (Default tab stops) đang được thiết lập trong hộp thoại Tabs (mặc định thường là 0.5 inch / 1.27 cm nhưng người dùng có thể thay đổi thông số Default tab stops này)."
+    },
+    {
+      "id": "ca3_26",
+      "source": "Ca 3",
+      "num": 26,
+      "topic": "MS Word",
+      "question": "Trong Word 2010, mặc định thanh công cụ định dạng Mini Toolbar chỉ xuất hiện khi:",
+      "options": {
+        "A": "Rê chuột vào đoạn văn bản",
+        "B": "Click chuột vào đoạn văn bản",
+        "C": "Gõ văn bản",
+        "D": "Chọn khối văn bản"
+      },
+      "answer": "D",
+      "explanation": "Trong MS Word 2010, thanh công cụ thu nhỏ mờ (Mini Toolbar) sẽ tự động hiện ra ngay cạnh con trỏ chuột khi người dùng bôi đen (chọn khối) một đoạn văn bản, giúp định dạng nhanh Font chữ, cỡ chữ, màu chữ, in đậm/nghiêng."
+    },
+    {
+      "id": "ca3_27",
+      "source": "Ca 3",
+      "num": 27,
+      "topic": "MS Word",
+      "question": "Click chuột vào cho dấu nháy nằm ở trong một đoạn văn bản, tạo một tab bất kỳ thì:",
+      "options": {
+        "A": "Tất cả các dòng trong đoạn này sẽ được tạo tab",
+        "B": "Không tạo được tab",
+        "C": "Từ dòng đầu tiên của đoạn đến dòng chứa dấu nháy sẽ được tạo tab",
+        "D": "Chỉ có dòng chứa dấu nháy được tạo tab"
+      },
+      "answer": "A",
+      "explanation": "Trong MS Word, thiết lập điểm dừng Tab (Tab stops) là thuộc tính định dạng cấp Đoạn văn (Paragraph-level formatting). Do đó khi đặt dấu nháy ở bất kỳ dòng nào trong một đoạn văn và đặt một Tab trên thanh thước Ruler, toàn bộ các dòng thuộc đoạn văn đó đều nhận vị trí Tab này."
+    },
+    {
+      "id": "ca3_28",
+      "source": "Ca 3",
+      "num": 28,
+      "topic": "MS Word",
+      "question": "Khi dấu nháy hiện hành nằm trong một đoạn văn bản, chọn lệnh canh giữa Center (Ctrl + E) thì:",
+      "options": {
+        "A": "Chỉ dòng chứa dấu nháy được canh giữa",
+        "B": "Toàn bộ trang chứa dấu nháy được canh giữa",
+        "C": "Chỉ có ký tự kế dấu nháy được canh giữa",
+        "D": "Cả đoạn chứa dấu nháy được canh giữa"
+      },
+      "answer": "D",
+      "explanation": "Canh lề văn bản (Left, Center, Right, Justify) là định dạng áp dụng cho từng đoạn văn (Paragraph). Vì vậy dù không bôi đen mà chỉ đặt dấu nháy trong đoạn rồi bấm Center (Ctrl + E), toàn bộ các dòng trong cả đoạn văn chứa dấu nháy sẽ được canh giữa."
+    },
+    {
+      "id": "ca3_29",
+      "source": "Ca 3",
+      "num": 29,
+      "topic": "MS Word",
+      "question": "Đoạn văn bản cuối nằm ở 2 trang, để chuyển tất cả đoạn này nằm ở trang sau, chọn chức năng:",
+      "image": "/images/q/ca3_q29.png",
+      "options": {
+        "A": "Widow/Orphan control",
+        "B": "Keep lines together",
+        "C": "Page break before",
+        "D": "Keep with next"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Paragraph -> thẻ Line and Page Breaks: Tùy chọn 'Keep lines together' có chức năng giữ tất cả các dòng của cùng một đoạn văn luôn nằm trên cùng một trang (không cho phép ngắt đoạn văn đó ra làm 2 trang, nếu không đủ chỗ ở cuối trang trước thì cả đoạn sẽ tự động chuyển sang trang sau)."
+    },
+    {
+      "id": "ca3_30",
+      "source": "Ca 3",
+      "num": 30,
+      "topic": "MS Word",
+      "question": "Chức năng Widow/Orphan control trong nhóm Paragraph thực hiện:",
+      "image": "/images/q/ca3_q30.png",
+      "options": {
+        "A": "Giữ cho hai từ luôn trên cùng một dòng",
+        "B": "Thực hiện ngắt trang",
+        "C": "Nếu đoạn cuối của trang qua trang sau thì có ít nhất 2 dòng ở trang sau.",
+        "D": "Giữ cho đoạn văn bản không qua trang sau."
+      },
+      "answer": "C",
+      "explanation": "Tính năng Widow/Orphan control (Kiểm soát dòng mồ côi) trong thẻ Line and Page Breaks ngăn không cho 1 dòng đơn lẻ cuối đoạn bị rơi sang đầu trang sau (Widow) hoặc 1 dòng đơn lẻ đầu đoạn bị bỏ lại ở cuối trang trước (Orphan). Nhờ đó nếu một đoạn văn bị tràn qua trang sau thì luôn có ít nhất 2 dòng ở mỗi trang."
+    },
+    {
+      "id": "ca3_31",
+      "source": "Ca 3",
+      "num": 31,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, các đối tượng được tạo sẵn trên slide có thể chứa văn bản có tên gọi là gì?",
+      "options": {
+        "A": "Object holders",
+        "B": "Text holders",
+        "C": "Placeholders",
+        "D": "Title slides"
+      },
+      "answer": "C",
+      "explanation": "Các khung nét đứt được bố trí sẵn trong các mẫu Layout của Slide (dùng để nhập tiêu đề, văn bản, bảng, biểu đồ, hình ảnh...) được gọi là Placeholders (Khung giữ chỗ)."
+    },
+    {
+      "id": "ca3_32",
+      "source": "Ca 3",
+      "num": 32,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, tính năng tự động giảm kích thước của văn bản (text) khi có quá nhiều ký tự đưa vào trong placeholder có tên là gì?",
+      "options": {
+        "A": "AutoFormat Text to Placeholder",
+        "B": "AutoLayout Text to Placeholder",
+        "C": "AutoFit Text to Placeholder",
+        "D": "AutoCorrect Text to Placeholder"
+      },
+      "answer": "C",
+      "explanation": "Tính năng AutoFit Text to Placeholder (Shrink text on overflow) trong PowerPoint sẽ tự động thu nhỏ cỡ chữ (font size) và khoảng cách dòng khi bạn nhập quá nhiều văn bản để chữ không bị tràn ra ngoài khung Placeholder."
+    },
+    {
+      "id": "ca3_33",
+      "source": "Ca 3",
+      "num": 33,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms PowerPoint, lệnh Change Chart Type trong phần biểu đồ thì có chức năng gì?",
+      "options": {
+        "A": "Thay đổi màu sắc trong biểu đồ",
+        "B": "Thay đổi dữ liệu trong biểu đồ",
+        "C": "Thay đổi kiểu hiển thị dữ liệu trong biểu đồ",
+        "D": "Thay đổi kiểu đồ thị"
+      },
+      "answer": "D",
+      "explanation": "Trong thẻ Chart Tools -> Design, nút lệnh Change Chart Type dùng để thay đổi kiểu/dạng đồ thị (ví dụ chuyển từ biểu đồ cột Column sang biểu đồ đường Line hoặc biểu đồ tròn Pie)."
+    },
+    {
+      "id": "ca3_34",
+      "source": "Ca 3",
+      "num": 34,
+      "topic": "MS PowerPoint",
+      "question": "Để tạo hiệu ứng dịch chuyển giữa các slide, chọn thẻ nào sau đây?",
+      "options": {
+        "A": "Design",
+        "B": "Transitions",
+        "C": "Slide Show",
+        "D": "Animations"
+      },
+      "answer": "B",
+      "explanation": "Trong PowerPoint 2010, thẻ Transitions dùng để tạo hiệu ứng chuyển tiếp giữa các trang chiếu (Slide). Còn thẻ Animations dùng để tạo hiệu ứng hoạt hình cho các đối tượng (chữ, hình ảnh) bên trong một Slide."
+    },
+    {
+      "id": "ca3_35",
+      "source": "Ca 3",
+      "num": 35,
+      "topic": "MS PowerPoint",
+      "question": "Trong Ms Powerpoint, chức năng nào sau đây cho phép đặt mật khẩu cho bài thuyết trình?",
+      "options": {
+        "A": "Check Compatibility",
+        "B": "Encrypt with Password",
+        "C": "Inspect Document",
+        "D": "Check Accessibility"
+      },
+      "answer": "B",
+      "explanation": "Tương tự Word và Excel, trong PowerPoint 2010 để đặt mật khẩu mã hóa bảo vệ tập tin thuyết trình, ta vào File -> Info -> Protect Presentation -> chọn Encrypt with Password."
+    },
+    {
+      "id": "ca3_36",
+      "source": "Ca 3",
+      "num": 36,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi vào Insert -> Illustrations -> SmartArt để chèn một sơ đồ, sơ đồ quy trình nối tiếp các bước thuộc nhóm nào?",
+      "options": {
+        "A": "Relationship",
+        "B": "Process",
+        "C": "List",
+        "D": "Cycle"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Choose a SmartArt Graphic, nhóm Process (Quy trình) chứa các mẫu sơ đồ biểu diễn các bước thực hiện theo trình tự thời gian hoặc quy trình công việc có mũi tên nối tiếp nhau."
+    },
+    {
+      "id": "ca3_37",
+      "source": "Ca 3",
+      "num": 37,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, chế độ xem nào sau đây không có:",
+      "options": {
+        "A": "Reading View",
+        "B": "Draft",
+        "C": "Normal",
+        "D": "Slide sorter"
+      },
+      "answer": "B",
+      "explanation": "PowerPoint 2010 có các chế độ xem Normal, Slide Sorter, Notes Page, Reading View. Chế độ Draft chỉ có trong MS Word, không có trong PowerPoint."
+    },
+    {
+      "id": "ca3_38",
+      "source": "Ca 3",
+      "num": 38,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, sau khi chọn 1 Slide và vào Home -> Section, khi chọn \"Add Section\" trong Menu Section thì có ý nghĩa là:",
+      "options": {
+        "A": "Tạo section mới bắt đầu từ Slide đã chọn, bao gồm các Slide không thuộc Section nào đã có",
+        "B": "Tạo section mới bao gồm tất cả các Slide đầu đến Slide cuối",
+        "C": "Tạo section mới chỉ bao gồm Slide đã chọn",
+        "D": "Tạo section mới bao gồm các Slide bắt đầu từ Slide đã chọn đến Slide cuối cùng"
+      },
+      "answer": "A",
+      "explanation": "Trong PowerPoint 2010, khi chọn một Slide và bấm Home -> Section -> Add Section, một phân nhóm (Section) mới mang tên 'Untitled Section' sẽ được chèn ngay trước Slide đã chọn, gom tất cả các Slide từ vị trí đó trở xuống cho tới khi gặp một Section tiếp theo đã có sẵn (tức là bao gồm các slide tiếp theo chưa thuộc Section nào bên dưới)."
+    },
+    {
+      "id": "ca3_39",
+      "source": "Ca 3",
+      "num": 39,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi chèn SmartArt vào slide, với hộp thoại \"Choose a SmartArt\" như trong hình vẽ, nhóm Process có ý nghĩa gì?",
+      "options": {
+        "A": "Các SmartArt hiển thị những phần có mối quan hệ",
+        "B": "Các SmartArt hiển thị biểu đồ tổ chức theo cấu trúc phân nhánh",
+        "C": "Các SmartArt hiển thị danh sách dữ liệu",
+        "D": "Các SmartArt hiển thị sơ đồ quá trình"
+      },
+      "answer": "D",
+      "explanation": "Trong các nhóm SmartArt của PowerPoint: Nhóm Process dùng để hiển thị sơ đồ quá trình / quy trình các bước nối tiếp nhau. (List là danh sách dữ liệu, Hierarchy là biểu đồ tổ chức phân nhánh, Relationship là các phần có mối quan hệ)."
+    },
+    {
+      "id": "ca3_40",
+      "source": "Ca 3",
+      "num": 40,
+      "topic": "MS PowerPoint",
+      "question": "Trong Microsoft Powerpoint 2010, khi chèn SmartArt vào slide, với hộp thoại \"Choose a SmartArt\" như trong hình vẽ, nhóm List có ý nghĩa gì?",
+      "options": {
+        "A": "Các SmartArt hiển thị những phần có mối quan hệ",
+        "B": "Các SmartArt hiển thị danh sách dữ liệu",
+        "C": "Các SmartArt hiển thị sơ đồ quá trình",
+        "D": "Các SmartArt hiển thị biểu đồ tổ chức theo cấu trúc phân nhánh"
+      },
+      "answer": "B",
+      "explanation": "Trong hộp thoại Choose a SmartArt Graphic, nhóm List (Danh sách) dùng để hiển thị các khối thông tin dạng danh sách dữ liệu không đòi hỏi thứ tự bước tuần tự."
+    }
+  ]
+}
